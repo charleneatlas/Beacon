@@ -14,7 +14,7 @@ let p3;
 let p4;
 
 let windowCenter;
-let soundWaveSpeed = 400; //TODO: Make this user controllable
+let soundWaveSpeed = 600; //TODO: Make this user controllable
 let resetX;
 let planetRadii = {};
 let currentStarSystem = 0;
@@ -287,18 +287,24 @@ function euclideanDistance(point1, point2) {
 }
 
 function calculatePlanets() {
-  //Possible TODO: Make the X placement consistent with 8 available "slots". The highest number of planets foundin a system is 8, and will be a good number musically.
+  // TODO: Make the X placement consistent with 8 available "slots". The highest number of planets foundin a system is 8, and will be a good number musically.
   // Right now there is a false rhythmic pattern happening depending on the diameters.
 
   previousCenter = sunX;
   previousRadius = sunDiameter / 2;
-  for (let i = 0; i < planetRadii.length; i++) {
-    centerX = previousCenter + previousRadius + spacing + planetRadii[i]; // CHATGPT suggestion: New center position for each planet = (previous planet’s center) + (previous planet’s radius) + (desired spacing) + (current planet’s radius)
-    planets[i] = new Planet(centerX, sunY, planetRadii[i] * 2);
-    print("make planet: " + planetRadii[i]);
 
-    previousCenter = centerX;
-    previousRadius = planetRadii[i];
+  // Previous method of spacing, based off of distance to previous planet
+  // for (let i = 0; i < planetRadii.length; i++) {
+  //   centerX = previousCenter + previousRadius + spacing + planetRadii[i]; // CHATGPT suggestion: New center position for each planet = (previous planet’s center) + (previous planet’s radius) + (desired spacing) + (current planet’s radius)
+  //   planets[i] = new Planet(centerX, sunY, planetRadii[i] * 2);
+  //   print("make planet: " + planetRadii[i]);
+
+  //   previousCenter = centerX;
+  //   previousRadius = planetRadii[i];
+  // }
+
+  for (let i = 0; i < planetRadii.length; i++) {
+    planets[i] = new Planet(150 * i + 250, sunY, planetRadii[i] * 2);
   }
 
   // Determine how far the sound wave front should go before resetting. Here using the X of the last planet and adding sun radius as a buffer.
@@ -393,50 +399,31 @@ class Planet {
     this.y = y;
     this.d = d;
 
-    // TODO: Make notes more meaningful
-
-    /*switch (true) {
-			case (d <= 10):
-				this.note = C5_NOTE;
-				break;
-			case (d <= 40):
-				this.note = G4_NOTE;
-				break;
-			case (d <= 80):
-				this.note = D4_NOTE;
-				break;
-			case (d <= 100):
-				this.note = B4_NOTE;
-				break;
-			case (d <= 140):
-				this.note = A4_NOTE;
-				break;
-			default:
-				this.note = C4_NOTE;
-				// Code if no cases match
-		}*/
-
     // TODO: Update to use the category constants and keep in mind they are storing in Earth radii but the circles are using diameter that is already taking Earth radii into account
     switch (true) {
       case d <= 10:
         this.note = C4_NOTE;
         break;
       case d <= 40:
-        this.note = G3_NOTE;
-        break;
-      case d <= 80:
-        this.note = D4_NOTE;
-        break;
-      case d <= 100:
         this.note = B3_NOTE;
         break;
-      case d <= 140:
+      case d <= 80:
         this.note = A3_NOTE;
+        break;
+      case d <= 100:
+        this.note = G3_NOTE;
+        break;
+      case d <= 140:
+        this.note = F3_NOTE;
+        break;
+      case d <= 180:
+        this.note = E3_NOTE;
         break;
       default:
         this.note = C4_NOTE;
-      // Code if no cases match
     }
+
+    print("Diameter" + d);
 
     this.played = false;
   }
