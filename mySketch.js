@@ -188,7 +188,7 @@ function setup() {
     TOI700_E_RADIUS_KM / 1000,
   ];
 
-  // TODO: Switch between star systems
+  // Star systems
   starSystems[0] = planetRadii_SolarSystem;
   starSystems[1] = planetRadii_HD110067;
   starSystems[2] = planetRadii_TOI700;
@@ -204,10 +204,29 @@ function draw() {
     fill(255, 222, 33); // nice yellow
 
     textAlign(CENTER, CENTER);
-    text("BEACON \nClick to start", width / 2, height / 2);
     textSize(32); // Set text size to 32 pixels
+    text("BEACON \nClick to start", width / 2, height / 2);
   } else {
     background(0);
+
+    textAlign(TOP, CENTER);
+
+    let starSystemLabel;
+
+    switch (currentStarSystem) {
+      case 0:
+        starSystemLabel = "SOLAR SYSTEM";
+        break;
+      case 1:
+        starSystemLabel = "HD110067";
+        break;
+      case 2:
+        starSystemLabel = "TOI-700";
+        break; // ... more cases
+      default:
+        starSystemLabel = "UNKNOWN";
+    }
+    text(starSystemLabel, width / 2, 30);
 
     push();
     // Star
