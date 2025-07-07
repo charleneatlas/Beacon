@@ -1,0 +1,3452 @@
+[
+  {
+    "HD 108236": {
+      "planets": [
+        {
+          "name": "HD 108236 b",
+          "radius": [
+            1.615
+          ],
+          "orbital_period": [
+            3.795963
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "HD 108236 c",
+          "radius": [
+            2.071
+          ],
+          "orbital_period": [
+            6.203449
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "HD 108236 d",
+          "radius": [
+            2.539
+          ],
+          "orbital_period": [
+            14.175685
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "HD 108236 e",
+          "radius": [
+            3.083
+          ],
+          "orbital_period": [
+            19.590025
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        },
+        {
+          "name": "HD 108236 f",
+          "radius": [
+            2.017
+          ],
+          "orbital_period": [
+            29.54115
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "HD 158259": {
+      "planets": [
+        {
+          "name": "HD 158259 b",
+          "radius": [
+            1.28228
+          ],
+          "orbital_period": [
+            2.178
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "HD 158259 c",
+          "radius": [
+            2.23
+          ],
+          "orbital_period": [
+            3.432
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "HD 158259 d",
+          "radius": [
+            2.18
+          ],
+          "orbital_period": [
+            5.1980814
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "HD 158259 e",
+          "radius": [
+            2.34
+          ],
+          "orbital_period": [
+            7.951
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        },
+        {
+          "name": "HD 158259 f",
+          "radius": [
+            2.35
+          ],
+          "orbital_period": [
+            12.028
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "HD 20781": {
+      "planets": [
+        {
+          "name": "HD 20781 b",
+          "radius": [
+            1.21
+          ],
+          "orbital_period": [
+            5.3135
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "HD 20781 c",
+          "radius": [
+            2.17
+          ],
+          "orbital_period": [
+            13.8905
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "HD 20781 d",
+          "radius": [
+            3.25
+          ],
+          "orbital_period": [
+            29.158
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "HD 20781 e",
+          "radius": [
+            3.83
+          ],
+          "orbital_period": [
+            85.5073
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "HD 20794": {
+      "planets": [
+        {
+          "name": "HD 20794 b",
+          "radius": [
+            1.45
+          ],
+          "orbital_period": [
+            18.314
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "HD 20794 d",
+          "radius": [
+            2.04
+          ],
+          "orbital_period": [
+            89.68
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "HD 20794 e",
+          "radius": [
+            2.03
+          ],
+          "orbital_period": [
+            147.02
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "HD 20794 f",
+          "radius": [
+            2.28
+          ],
+          "orbital_period": [
+            647.6
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "HD 215152": {
+      "planets": [
+        {
+          "name": "HD 215152 b",
+          "radius": [
+            1.19
+          ],
+          "orbital_period": [
+            5.75999
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "HD 215152 c",
+          "radius": [
+            1.17
+          ],
+          "orbital_period": [
+            7.28243
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "HD 215152 d",
+          "radius": [
+            1.48
+          ],
+          "orbital_period": [
+            10.86499
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "HD 215152 e",
+          "radius": [
+            1.51
+          ],
+          "orbital_period": [
+            25.1967
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "HD 3167": {
+      "planets": [
+        {
+          "name": "HD 3167 b",
+          "radius": [
+            1.67
+          ],
+          "orbital_period": [
+            0.959641
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "HD 3167 d",
+          "radius": [
+            1.92
+          ],
+          "orbital_period": [
+            8.4112
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "HD 3167 c",
+          "radius": [
+            3.0
+          ],
+          "orbital_period": [
+            29.8454
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "HD 3167 e",
+          "radius": [
+            2.83
+          ],
+          "orbital_period": [
+            96.63
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "HD 40307": {
+      "planets": [
+        {
+          "name": "HD 40307 b",
+          "radius": [
+            1.83
+          ],
+          "orbital_period": [
+            4.3123
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "HD 40307 c",
+          "radius": [
+            2.46
+          ],
+          "orbital_period": [
+            9.6184
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "HD 40307 d",
+          "radius": [
+            3.04
+          ],
+          "orbital_period": [
+            20.432
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "HD 40307 f",
+          "radius": [
+            2.13
+          ],
+          "orbital_period": [
+            51.76
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        },
+        {
+          "name": "HD 40307 g",
+          "radius": [
+            2.56
+          ],
+          "orbital_period": [
+            197.8
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "K2-133": {
+      "planets": [
+        {
+          "name": "K2-133 b",
+          "radius": [
+            1.34
+          ],
+          "orbital_period": [
+            3.07133
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "K2-133 c",
+          "radius": [
+            1.603
+          ],
+          "orbital_period": [
+            4.86784
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "K2-133 d",
+          "radius": [
+            2.003
+          ],
+          "orbital_period": [
+            11.02454
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "K2-133 e",
+          "radius": [
+            1.73
+          ],
+          "orbital_period": [
+            26.5841
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "K2-187": {
+      "planets": [
+        {
+          "name": "K2-187 b",
+          "radius": [
+            1.2
+          ],
+          "orbital_period": [
+            0.77401
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "K2-187 c",
+          "radius": [
+            1.4
+          ],
+          "orbital_period": [
+            2.871512
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "K2-187 d",
+          "radius": [
+            2.4
+          ],
+          "orbital_period": [
+            7.149584
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "K2-187 e",
+          "radius": [
+            1.9
+          ],
+          "orbital_period": [
+            13.606629
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "K2-268": {
+      "planets": [
+        {
+          "name": "K2-268 b",
+          "radius": [
+            1.5
+          ],
+          "orbital_period": [
+            2.151676
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "K2-268 d",
+          "radius": [
+            1.49
+          ],
+          "orbital_period": [
+            4.528598
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "K2-268 e",
+          "radius": [
+            1.33
+          ],
+          "orbital_period": [
+            6.131243
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "K2-268 c",
+          "radius": [
+            2.69
+          ],
+          "orbital_period": [
+            9.327527
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        },
+        {
+          "name": "K2-268 f",
+          "radius": [
+            2.23
+          ],
+          "orbital_period": [
+            26.27057
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-106": {
+      "planets": [
+        {
+          "name": "Kepler-106 b",
+          "radius": [
+            0.82
+          ],
+          "orbital_period": [
+            6.16486
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-106 c",
+          "radius": [
+            2.5
+          ],
+          "orbital_period": [
+            13.5708
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-106 d",
+          "radius": [
+            0.95
+          ],
+          "orbital_period": [
+            23.9802
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-106 e",
+          "radius": [
+            2.56
+          ],
+          "orbital_period": [
+            43.8445
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-1388": {
+      "planets": [
+        {
+          "name": "Kepler-1388 c",
+          "radius": [
+            2.26
+          ],
+          "orbital_period": [
+            5.53608151
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-1388 b",
+          "radius": [
+            2.59
+          ],
+          "orbital_period": [
+            12.2854603
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-1388 d",
+          "radius": [
+            2.86
+          ],
+          "orbital_period": [
+            20.9568158
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-1388 e",
+          "radius": [
+            2.46
+          ],
+          "orbital_period": [
+            37.6327084
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-154": {
+      "planets": [
+        {
+          "name": "Kepler-154 e",
+          "radius": [
+            1.5
+          ],
+          "orbital_period": [
+            3.93276465
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-154 f",
+          "radius": [
+            1.5
+          ],
+          "orbital_period": [
+            9.91935684
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-154 d",
+          "radius": [
+            3.84
+          ],
+          "orbital_period": [
+            20.54981883
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-154 b",
+          "radius": [
+            2.26
+          ],
+          "orbital_period": [
+            33.040532
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        },
+        {
+          "name": "Kepler-154 c",
+          "radius": [
+            2.95
+          ],
+          "orbital_period": [
+            62.303276
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-172": {
+      "planets": [
+        {
+          "name": "Kepler-172 b",
+          "radius": [
+            2.35
+          ],
+          "orbital_period": [
+            2.940309
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-172 c",
+          "radius": [
+            2.86
+          ],
+          "orbital_period": [
+            6.388996
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-172 d",
+          "radius": [
+            2.25
+          ],
+          "orbital_period": [
+            14.627119
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-172 e",
+          "radius": [
+            2.76
+          ],
+          "orbital_period": [
+            35.118736
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-176": {
+      "planets": [
+        {
+          "name": "Kepler-176 b",
+          "radius": [
+            1.43
+          ],
+          "orbital_period": [
+            5.433074
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-176 c",
+          "radius": [
+            2.6
+          ],
+          "orbital_period": [
+            12.759712
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-176 d",
+          "radius": [
+            2.51
+          ],
+          "orbital_period": [
+            25.751974
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-176 e",
+          "radius": [
+            1.45
+          ],
+          "orbital_period": [
+            51.16579
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-1987": {
+      "planets": [
+        {
+          "name": "Kepler-1987 b",
+          "radius": [
+            1.23
+          ],
+          "orbital_period": [
+            2.345863002
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-1987 c",
+          "radius": [
+            1.33
+          ],
+          "orbital_period": [
+            3.64830183
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-1987 d",
+          "radius": [
+            2.66
+          ],
+          "orbital_period": [
+            5.644914154
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-1987 e",
+          "radius": [
+            1.92
+          ],
+          "orbital_period": [
+            8.74292005
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-208": {
+      "planets": [
+        {
+          "name": "Kepler-208 b",
+          "radius": [
+            1.63
+          ],
+          "orbital_period": [
+            4.22864
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-208 c",
+          "radius": [
+            1.39
+          ],
+          "orbital_period": [
+            7.466623
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-208 d",
+          "radius": [
+            1.2
+          ],
+          "orbital_period": [
+            11.131786
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-208 e",
+          "radius": [
+            1.48
+          ],
+          "orbital_period": [
+            16.259458
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-215": {
+      "planets": [
+        {
+          "name": "Kepler-215 b",
+          "radius": [
+            1.62
+          ],
+          "orbital_period": [
+            9.360672
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-215 c",
+          "radius": [
+            1.77
+          ],
+          "orbital_period": [
+            14.667108
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-215 d",
+          "radius": [
+            2.39
+          ],
+          "orbital_period": [
+            30.864423
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-215 e",
+          "radius": [
+            1.75
+          ],
+          "orbital_period": [
+            68.16101
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-221": {
+      "planets": [
+        {
+          "name": "Kepler-221 b",
+          "radius": [
+            1.71
+          ],
+          "orbital_period": [
+            2.795906
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-221 c",
+          "radius": [
+            2.93
+          ],
+          "orbital_period": [
+            5.690586
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-221 d",
+          "radius": [
+            2.73
+          ],
+          "orbital_period": [
+            10.04156
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-221 e",
+          "radius": [
+            2.63
+          ],
+          "orbital_period": [
+            18.369917
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-224": {
+      "planets": [
+        {
+          "name": "Kepler-224 b",
+          "radius": [
+            1.39
+          ],
+          "orbital_period": [
+            3.132924
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-224 c",
+          "radius": [
+            3.12
+          ],
+          "orbital_period": [
+            5.925003
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-224 d",
+          "radius": [
+            2.3
+          ],
+          "orbital_period": [
+            11.349393
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-224 e",
+          "radius": [
+            1.97
+          ],
+          "orbital_period": [
+            18.643577
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-24": {
+      "planets": [
+        {
+          "name": "Kepler-24 d",
+          "radius": [
+            1.67
+          ],
+          "orbital_period": [
+            4.244384
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-24 b",
+          "radius": [
+            2.348
+          ],
+          "orbital_period": [
+            8.14
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-24 c",
+          "radius": [
+            2.514
+          ],
+          "orbital_period": [
+            12.33
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-24 e",
+          "radius": [
+            2.78
+          ],
+          "orbital_period": [
+            18.998355
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-245": {
+      "planets": [
+        {
+          "name": "Kepler-245 e",
+          "radius": [
+            1.75
+          ],
+          "orbital_period": [
+            3.219821056
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-245 b",
+          "radius": [
+            2.57
+          ],
+          "orbital_period": [
+            7.49019
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-245 c",
+          "radius": [
+            2.18
+          ],
+          "orbital_period": [
+            17.460812
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-245 d",
+          "radius": [
+            3.03
+          ],
+          "orbital_period": [
+            36.277108
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-251": {
+      "planets": [
+        {
+          "name": "Kepler-251 b",
+          "radius": [
+            1.33
+          ],
+          "orbital_period": [
+            4.790936
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-251 c",
+          "radius": [
+            2.77
+          ],
+          "orbital_period": [
+            16.514043
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-251 d",
+          "radius": [
+            2.77
+          ],
+          "orbital_period": [
+            30.133001
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-251 e",
+          "radius": [
+            2.77
+          ],
+          "orbital_period": [
+            99.640161
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-256": {
+      "planets": [
+        {
+          "name": "Kepler-256 b",
+          "radius": [
+            1.59
+          ],
+          "orbital_period": [
+            1.620493
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-256 c",
+          "radius": [
+            2.15
+          ],
+          "orbital_period": [
+            3.38802
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-256 d",
+          "radius": [
+            2.48
+          ],
+          "orbital_period": [
+            5.839172
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-256 e",
+          "radius": [
+            2.35
+          ],
+          "orbital_period": [
+            10.681572
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-26": {
+      "planets": [
+        {
+          "name": "Kepler-26 d",
+          "radius": [
+            1.07
+          ],
+          "orbital_period": [
+            3.543919
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-26 b",
+          "radius": [
+            2.78
+          ],
+          "orbital_period": [
+            12.28
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-26 c",
+          "radius": [
+            2.72
+          ],
+          "orbital_period": [
+            17.2559
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-26 e",
+          "radius": [
+            2.41
+          ],
+          "orbital_period": [
+            46.827915
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-265": {
+      "planets": [
+        {
+          "name": "Kepler-265 b",
+          "radius": [
+            1.86
+          ],
+          "orbital_period": [
+            6.846262
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-265 c",
+          "radius": [
+            2.63
+          ],
+          "orbital_period": [
+            17.028937
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-265 d",
+          "radius": [
+            2.49
+          ],
+          "orbital_period": [
+            43.130617
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-265 e",
+          "radius": [
+            2.59
+          ],
+          "orbital_period": [
+            67.831024
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-286": {
+      "planets": [
+        {
+          "name": "Kepler-286 b",
+          "radius": [
+            1.24
+          ],
+          "orbital_period": [
+            1.796302
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-286 c",
+          "radius": [
+            1.37
+          ],
+          "orbital_period": [
+            3.468095
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-286 d",
+          "radius": [
+            1.33
+          ],
+          "orbital_period": [
+            5.914323
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-286 e",
+          "radius": [
+            1.77
+          ],
+          "orbital_period": [
+            29.221289
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-289": {
+      "planets": [
+        {
+          "name": "Kepler-289 b",
+          "radius": [
+            2.49
+          ],
+          "orbital_period": [
+            34.5383
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-289 d",
+          "radius": [
+            3.03
+          ],
+          "orbital_period": [
+            66.0282
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-289 c",
+          "radius": [
+            11.23
+          ],
+          "orbital_period": [
+            125.8723
+          ],
+          "category": [
+            "Gas Giant"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-289 e",
+          "radius": [
+            2.94
+          ],
+          "orbital_period": [
+            330.0716
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-292": {
+      "planets": [
+        {
+          "name": "Kepler-292 b",
+          "radius": [
+            1.32
+          ],
+          "orbital_period": [
+            2.580827
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-292 c",
+          "radius": [
+            1.47
+          ],
+          "orbital_period": [
+            3.715335
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-292 d",
+          "radius": [
+            2.23
+          ],
+          "orbital_period": [
+            7.055679
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-292 e",
+          "radius": [
+            2.67
+          ],
+          "orbital_period": [
+            11.97901
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        },
+        {
+          "name": "Kepler-292 f",
+          "radius": [
+            2.35
+          ],
+          "orbital_period": [
+            20.834237
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-304": {
+      "planets": [
+        {
+          "name": "Kepler-304 e",
+          "radius": [
+            1.2
+          ],
+          "orbital_period": [
+            1.499146953
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-304 b",
+          "radius": [
+            2.86
+          ],
+          "orbital_period": [
+            3.295709
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-304 c",
+          "radius": [
+            2.17
+          ],
+          "orbital_period": [
+            5.315946
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-304 d",
+          "radius": [
+            2.75
+          ],
+          "orbital_period": [
+            9.653471
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-305": {
+      "planets": [
+        {
+          "name": "Kepler-305 e",
+          "radius": [
+            1.7938153
+          ],
+          "orbital_period": [
+            3.20538
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-305 b",
+          "radius": [
+            3.6
+          ],
+          "orbital_period": [
+            5.487
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-305 c",
+          "radius": [
+            3.3
+          ],
+          "orbital_period": [
+            8.291
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-305 d",
+          "radius": [
+            2.76
+          ],
+          "orbital_period": [
+            16.74
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-306": {
+      "planets": [
+        {
+          "name": "Kepler-306 b",
+          "radius": [
+            1.52
+          ],
+          "orbital_period": [
+            4.646186
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-306 c",
+          "radius": [
+            2.35
+          ],
+          "orbital_period": [
+            7.240193
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-306 d",
+          "radius": [
+            2.47
+          ],
+          "orbital_period": [
+            17.326644
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-306 e",
+          "radius": [
+            2.27
+          ],
+          "orbital_period": [
+            44.840975
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-324": {
+      "planets": [
+        {
+          "name": "Kepler-324 b",
+          "radius": [
+            1.14
+          ],
+          "orbital_period": [
+            4.385315
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-324 e",
+          "radius": [
+            2.03862444
+          ],
+          "orbital_period": [
+            13.97939968
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "KOI-1831 d",
+          "radius": [
+            1.13
+          ],
+          "orbital_period": [
+            34.169
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-324 c",
+          "radius": [
+            3.15
+          ],
+          "orbital_period": [
+            51.805612
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-33": {
+      "planets": [
+        {
+          "name": "Kepler-33 b",
+          "radius": [
+            1.74
+          ],
+          "orbital_period": [
+            5.66793
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-33 c",
+          "radius": [
+            3.2
+          ],
+          "orbital_period": [
+            13.17562
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-33 d",
+          "radius": [
+            5.35
+          ],
+          "orbital_period": [
+            21.77596
+          ],
+          "category": [
+            "Neptune-Like"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-33 e",
+          "radius": [
+            4.02
+          ],
+          "orbital_period": [
+            31.7844
+          ],
+          "category": [
+            "Neptune-Like"
+          ],
+          "order": [
+            4
+          ]
+        },
+        {
+          "name": "Kepler-33 f",
+          "radius": [
+            4.46
+          ],
+          "orbital_period": [
+            41.02902
+          ],
+          "category": [
+            "Neptune-Like"
+          ],
+          "order": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-338": {
+      "planets": [
+        {
+          "name": "Kepler-338 e",
+          "radius": [
+            1.56
+          ],
+          "orbital_period": [
+            9.341
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-338 b",
+          "radius": [
+            2.44
+          ],
+          "orbital_period": [
+            13.726976
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-338 c",
+          "radius": [
+            2.34
+          ],
+          "orbital_period": [
+            24.310856
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-338 d",
+          "radius": [
+            3.0
+          ],
+          "orbital_period": [
+            44.431014
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-341": {
+      "planets": [
+        {
+          "name": "Kepler-341 b",
+          "radius": [
+            1.18
+          ],
+          "orbital_period": [
+            5.195528
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-341 c",
+          "radius": [
+            1.7
+          ],
+          "orbital_period": [
+            8.01041
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-341 d",
+          "radius": [
+            1.85
+          ],
+          "orbital_period": [
+            27.666313
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-341 e",
+          "radius": [
+            1.99
+          ],
+          "orbital_period": [
+            42.473269
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-402": {
+      "planets": [
+        {
+          "name": "Kepler-402 b",
+          "radius": [
+            1.22
+          ],
+          "orbital_period": [
+            4.028751
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-402 c",
+          "radius": [
+            1.56
+          ],
+          "orbital_period": [
+            6.124821
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-402 d",
+          "radius": [
+            1.38
+          ],
+          "orbital_period": [
+            8.921099
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-402 e",
+          "radius": [
+            1.46
+          ],
+          "orbital_period": [
+            11.242861
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-49": {
+      "planets": [
+        {
+          "name": "Kepler-49 d",
+          "radius": [
+            1.6
+          ],
+          "orbital_period": [
+            2.576549
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-49 b",
+          "radius": [
+            2.579
+          ],
+          "orbital_period": [
+            7.2
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-49 c",
+          "radius": [
+            2.444
+          ],
+          "orbital_period": [
+            10.91
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-49 e",
+          "radius": [
+            1.56
+          ],
+          "orbital_period": [
+            18.596108
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-55": {
+      "planets": [
+        {
+          "name": "Kepler-55 d",
+          "radius": [
+            1.59
+          ],
+          "orbital_period": [
+            2.211099
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-55 e",
+          "radius": [
+            1.55
+          ],
+          "orbital_period": [
+            4.617534
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-55 f",
+          "radius": [
+            1.59
+          ],
+          "orbital_period": [
+            10.198545
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-55 b",
+          "radius": [
+            2.43
+          ],
+          "orbital_period": [
+            27.9481449
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        },
+        {
+          "name": "Kepler-55 c",
+          "radius": [
+            2.21
+          ],
+          "orbital_period": [
+            42.1516418
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-58": {
+      "planets": [
+        {
+          "name": "Kepler-58 e",
+          "radius": [
+            1.61
+          ],
+          "orbital_period": [
+            4.45814897
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-58 b",
+          "radius": [
+            2.78
+          ],
+          "orbital_period": [
+            10.2184954
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-58 c",
+          "radius": [
+            2.86
+          ],
+          "orbital_period": [
+            15.5741568
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-58 d",
+          "radius": [
+            2.94
+          ],
+          "orbital_period": [
+            40.101371
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-758": {
+      "planets": [
+        {
+          "name": "Kepler-758 c",
+          "radius": [
+            1.69
+          ],
+          "orbital_period": [
+            4.75793986
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-758 e",
+          "radius": [
+            1.53
+          ],
+          "orbital_period": [
+            8.1934719
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-758 b",
+          "radius": [
+            2.48
+          ],
+          "orbital_period": [
+            12.1097104
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-758 d",
+          "radius": [
+            2.12
+          ],
+          "orbital_period": [
+            20.4966197
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-79": {
+      "planets": [
+        {
+          "name": "Kepler-79 b",
+          "radius": [
+            3.47
+          ],
+          "orbital_period": [
+            13.4845
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-79 c",
+          "radius": [
+            3.72
+          ],
+          "orbital_period": [
+            27.4029
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-79 d",
+          "radius": [
+            7.16
+          ],
+          "orbital_period": [
+            52.0902
+          ],
+          "category": [
+            "Gas Giant"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-79 e",
+          "radius": [
+            3.49
+          ],
+          "orbital_period": [
+            81.0659
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-82": {
+      "planets": [
+        {
+          "name": "Kepler-82 d",
+          "radius": [
+            1.77
+          ],
+          "orbital_period": [
+            2.382961
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-82 e",
+          "radius": [
+            2.47
+          ],
+          "orbital_period": [
+            5.902206
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-82 b",
+          "radius": [
+            4.07
+          ],
+          "orbital_period": [
+            26.44
+          ],
+          "category": [
+            "Neptune-Like"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-82 c",
+          "radius": [
+            5.34
+          ],
+          "orbital_period": [
+            51.54
+          ],
+          "category": [
+            "Neptune-Like"
+          ],
+          "order": [
+            4
+          ]
+        },
+        {
+          "name": "Kepler-82 f",
+          "radius": [
+            4.84
+          ],
+          "orbital_period": [
+            75.732
+          ],
+          "category": [
+            "Neptune-Like"
+          ],
+          "order": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-84": {
+      "planets": [
+        {
+          "name": "Kepler-84 d",
+          "radius": [
+            1.38
+          ],
+          "orbital_period": [
+            4.224537
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-84 b",
+          "radius": [
+            2.23
+          ],
+          "orbital_period": [
+            8.726
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-84 c",
+          "radius": [
+            2.36
+          ],
+          "orbital_period": [
+            12.883
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-84 e",
+          "radius": [
+            2.6
+          ],
+          "orbital_period": [
+            27.434389
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        },
+        {
+          "name": "Kepler-84 f",
+          "radius": [
+            2.2
+          ],
+          "orbital_period": [
+            44.552169
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            5
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "Kepler-85": {
+      "planets": [
+        {
+          "name": "Kepler-85 b",
+          "radius": [
+            1.778
+          ],
+          "orbital_period": [
+            8.3
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "Kepler-85 c",
+          "radius": [
+            1.978
+          ],
+          "orbital_period": [
+            12.51
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "Kepler-85 d",
+          "radius": [
+            1.2
+          ],
+          "orbital_period": [
+            17.91323
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "Kepler-85 e",
+          "radius": [
+            1.27
+          ],
+          "orbital_period": [
+            25.216751
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "L 98-59": {
+      "planets": [
+        {
+          "name": "L 98-59 b",
+          "radius": [
+            0.85
+          ],
+          "orbital_period": [
+            2.2531136
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "L 98-59 c",
+          "radius": [
+            1.385
+          ],
+          "orbital_period": [
+            3.6906777
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "L 98-59 d",
+          "radius": [
+            1.521
+          ],
+          "orbital_period": [
+            7.4507245
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "L 98-59 e",
+          "radius": [
+            1.56
+          ],
+          "orbital_period": [
+            12.796
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "TOI-1246": {
+      "planets": [
+        {
+          "name": "TOI-1246 b",
+          "radius": [
+            3.01
+          ],
+          "orbital_period": [
+            4.30744
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "TOI-1246 c",
+          "radius": [
+            2.45109846
+          ],
+          "orbital_period": [
+            5.904137
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "TOI-1246 d",
+          "radius": [
+            3.43139739
+          ],
+          "orbital_period": [
+            18.654874
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "TOI-1246 e",
+          "radius": [
+            3.5141875
+          ],
+          "orbital_period": [
+            37.92548
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "TOI-2076": {
+      "planets": [
+        {
+          "name": "TOI-2076 e",
+          "radius": [
+            1.355
+          ],
+          "orbital_period": [
+            3.0223445
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "TOI-2076 b",
+          "radius": [
+            2.39
+          ],
+          "orbital_period": [
+            10.355235
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "TOI-2076 c",
+          "radius": [
+            3.69441587
+          ],
+          "orbital_period": [
+            21.015327
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "TOI-2076 d",
+          "radius": [
+            3.43087751
+          ],
+          "orbital_period": [
+            35.125686
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "TOI-561": {
+      "planets": [
+        {
+          "name": "TOI-561 b",
+          "radius": [
+            1.397
+          ],
+          "orbital_period": [
+            0.4465697
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "TOI-561 c",
+          "radius": [
+            2.865
+          ],
+          "orbital_period": [
+            10.778838
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "TOI-561 d",
+          "radius": [
+            2.615
+          ],
+          "orbital_period": [
+            25.71268
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "TOI-561 e",
+          "radius": [
+            2.517
+          ],
+          "orbital_period": [
+            77.144
+          ],
+          "category": [
+            "Mini-Neptune"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tau Cet": {
+      "planets": [
+        {
+          "name": "tau Cet g",
+          "radius": [
+            1.18
+          ],
+          "orbital_period": [
+            20.0
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            1
+          ]
+        },
+        {
+          "name": "tau Cet h",
+          "radius": [
+            1.19
+          ],
+          "orbital_period": [
+            49.41
+          ],
+          "category": [
+            "Terran"
+          ],
+          "order": [
+            2
+          ]
+        },
+        {
+          "name": "tau Cet e",
+          "radius": [
+            1.81
+          ],
+          "orbital_period": [
+            162.87
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            3
+          ]
+        },
+        {
+          "name": "tau Cet f",
+          "radius": [
+            1.81
+          ],
+          "orbital_period": [
+            636.13
+          ],
+          "category": [
+            "Super-Earth"
+          ],
+          "order": [
+            4
+          ]
+        }
+      ]
+    }
+  }
+]
