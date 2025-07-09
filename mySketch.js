@@ -18,11 +18,16 @@ let soundWaveSpeed = 600; //TODO: Make this user controllable
 let resetX;
 let planetRadii = {};
 let currentStarSystem = 0;
+let currentPattern = 0;
+let patternLabel;
 
 let sunX;
 let sunY;
 let sunDiameter;
 let spacing;
+
+let patternData;
+let starSysData;
 
 let aspectRatio = 16 / 9;
 
@@ -36,6 +41,8 @@ const E3_NOTE = "E3";
 
 const starSystems = [];
 const planets = [];
+const patterns = [];
+
 // Make planet radii to scale, but not distances.
 
 // SOLAR SYSTEM - Source: https://www.britannica.com/science/solar-system
@@ -132,6 +139,23 @@ const SuperJupiter = {
   note: E3_NOTE,
 };
 
+// Grab the data
+function preload() {
+  //https://www.geeksforgeeks.org/javascript/p5-js-loadjson-function/
+  loadJSON("PatternData_NexSci.json", onPatternFileLoad);
+  loadJSON("StarSystemData_NexSci.json", onStarSysFileLoad);
+}
+
+function onPatternFileLoad(data) {
+  patternData = data;
+  print("Pattern file loaded.");
+}
+
+function onStarSysFileLoad(data) {
+  starSysData = data;
+  print("Star system file loaded.");
+}
+
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight / 3);
   canvas.parent("projects");
@@ -195,13 +219,27 @@ function setup() {
 
   planetRadii = starSystems[currentStarSystem];
   calculatePlanets();
+
+  /*for (const ptn in patternData)
+  {
+
+  }*/
+
+  // Patterns
+  //var x = Object.keys(patternData);
+  print(patternData[0]);
+  print(patternData[0]["pattern_1"]);
+  var testDict = patternData[0]["pattern_1"];
+  print(testDict.hostname_count);
+  //print("TEST");
 }
 
 function draw() {
   if (!started) {
     // Start screen
     background(0);
-    fill(255, 222, 33); // nice yellow
+    //fill(255, 222, 33); // nice yellow
+    fill(255, 255, 255); // white
 
     textAlign(CENTER, CENTER);
     textSize(32); // Set text size to 32 pixels
@@ -210,6 +248,7 @@ function draw() {
     background(0);
 
     textAlign(TOP, CENTER);
+    textSize(32); // Set text size to 32 pixels
 
     let starSystemLabel;
 
@@ -226,7 +265,18 @@ function draw() {
       default:
         starSystemLabel = "UNKNOWN";
     }
-    text(starSystemLabel, width / 2, 30);
+
+    patternLabel =
+      patternData[currentPattern]["pattern_" + (currentPattern + 1)].name;
+    text(patternLabel, width / 2, 30);
+    textSize(18);
+
+    text(
+      patternData[currentPattern]["pattern_" + (currentPattern + 1)]
+        .hostnames[0],
+      width / 2,
+      60
+    );
 
     push();
     // Star
@@ -368,12 +418,17 @@ function keyPressed() {
     // Reset sound wave
     resetSoundwave();
     // Change star system index
-    currentStarSystem = (currentStarSystem + 1) % starSystems.length;
+    //currentStarSystem = (currentStarSystem + 1) % starSystems.length;
     // Get the planet info for new star system
     planetRadii = starSystems[currentStarSystem];
     // Figure out placement of new planets to be drawn
     calculatePlanets();
-    print("CLICK: " + currentStarSystem);
+    //print("CLICK: " + currentStarSystem);
+
+    // CHANGE TO NEXT PATTERN
+    currentPattern = (currentPattern + 1) % patternData.length;
+    print(currentPattern);
+
     return false; // prevent default browser behavior, which may scroll page on press of spacebar
   }
 }
