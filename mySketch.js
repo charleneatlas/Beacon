@@ -32,7 +32,12 @@ let patternData;
 let starSysData;
 
 let aspectRatio = 16 / 9;
-
+/*
+const B5_NOTE = "B5";
+const A5_NOTE = "A5";
+const G5_NOTE = "G5";
+const F5_NOTE = "F5";
+const E5_NOTE = "E5";
 const D5_NOTE = "D5";
 const C5_NOTE = "C5";
 const B4_NOTE = "B4";
@@ -49,6 +54,17 @@ const F3_NOTE = "F3";
 const E3_NOTE = "E3";
 const D3_NOTE = "D3";
 const C3_NOTE = "C3";
+*/
+
+// The strings for note names in the sound library seem to be wrong so defining own notes names here with frequencies.
+const notes = {
+  C5: 523.25,
+  A4: 440.0,
+  F4: 349.23,
+  D4: 293.66,
+  B3: 246.94,
+  G3: 196.0,
+};
 
 const starSystems = [];
 const planets = [];
@@ -456,25 +472,28 @@ class Planet {
 
     switch (this.type) {
       case "Terrestrial":
-        this.note = D5_NOTE;
+        this.note = notes.C5;
         break;
       case "Super-Earth":
-        this.note = C5_NOTE;
+        this.note = notes.A4;
         break;
-      case "Mini-Neptune":
-        this.note = B4_NOTE;
+      case "sub-Neptune":
+        this.note = notes.F4;
+        break;
+      case "Low mass sub-Neptune":
+        this.note = notes.F4;
         break;
       case "Neptune-like":
-        this.note = A4_NOTE;
+        this.note = notes.D4;
         break;
       case "Gas Giant":
-        this.note = G4_NOTE;
+        this.note = notes.B3;
         break;
       case "Brown Dwarf":
-        this.note = F4_NOTE;
+        this.note = notes.G3;
         break;
       default:
-        this.note = D5_NOTE;
+        this.note = notes.C5;
         console.log("DEFAULT hit. Got:", this.type);
     }
 

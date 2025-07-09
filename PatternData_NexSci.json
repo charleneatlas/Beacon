@@ -3,65 +3,15 @@
     "pattern_1": {
       "name": "Pattern #1",
       "pattern": [
-        "Super-Earth,Super-Earth,Super-Earth,Super-Earth"
+        "Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune"
       ],
       "hostnames": [
         "HD 20794",
-        "K2-133",
-        "Kepler-1388",
-        "Kepler-172",
-        "Kepler-1987",
-        "Kepler-221",
-        "Kepler-223",
-        "Kepler-224",
-        "Kepler-235",
         "Kepler-251",
         "Kepler-256",
         "Kepler-265",
-        "Kepler-286",
-        "Kepler-299",
         "Kepler-306",
-        "Kepler-51",
-        "Kepler-758"
-      ],
-      "hostname_count": [
-        17
-      ]
-    }
-  },
-  {
-    "pattern_2": {
-      "name": "Pattern #2",
-      "pattern": [
-        "Super-Earth,Super-Earth,Super-Earth,Super-Earth,Super-Earth"
-      ],
-      "hostnames": [
-        "GJ 667 C",
-        "HD 108236",
-        "HD 158259",
-        "HD 40307",
-        "K2-268",
-        "Kepler-292",
-        "Kepler-296"
-      ],
-      "hostname_count": [
-        7
-      ]
-    }
-  },
-  {
-    "pattern_3": {
-      "name": "Pattern #3",
-      "pattern": [
-        "Terrestrial,Super-Earth,Super-Earth,Super-Earth"
-      ],
-      "hostnames": [
-        "K2-187",
-        "Kepler-26",
-        "Kepler-304",
-        "Kepler-341",
-        "Kepler-342",
-        "Kepler-402"
+        "TOI-561"
       ],
       "hostname_count": [
         6
@@ -69,19 +19,50 @@
     }
   },
   {
-    "pattern_4": {
-      "name": "Pattern #4",
+    "pattern_2": {
+      "name": "Pattern #2",
       "pattern": [
-        "Super-Earth,Super-Earth,Super-Earth,Mini-Neptune"
+        "Super-Earth,Super-Earth,sub-Neptune,sub-Neptune"
       ],
       "hostnames": [
-        "DMPP-1",
-        "Kepler-100",
-        "Kepler-164",
-        "TOI-1246"
+        "Kepler-1987",
+        "Kepler-221",
+        "Kepler-224",
+        "Kepler-758"
       ],
       "hostname_count": [
         4
+      ]
+    }
+  },
+  {
+    "pattern_3": {
+      "name": "Pattern #3",
+      "pattern": [
+        "Terrestrial,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-26",
+        "Kepler-304",
+        "Kepler-342"
+      ],
+      "hostname_count": [
+        3
+      ]
+    }
+  },
+  {
+    "pattern_4": {
+      "name": "Pattern #4",
+      "pattern": [
+        "Terrestrial,sub-Neptune,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "HD 20781",
+        "TOI-500"
+      ],
+      "hostname_count": [
+        2
       ]
     }
   },
@@ -89,114 +70,20 @@
     "pattern_5": {
       "name": "Pattern #5",
       "pattern": [
-        "Super-Earth,Mini-Neptune,Super-Earth,Mini-Neptune"
+        "Terrestrial,Terrestrial,Super-Earth,Super-Earth"
       ],
       "hostnames": [
-        "GJ 3293",
-        "K2-285",
-        "Kepler-106",
-        "Kepler-107"
+        "HD 215152",
+        "tau Cet"
       ],
       "hostname_count": [
-        4
+        2
       ]
     }
   },
   {
     "pattern_6": {
       "name": "Pattern #6",
-      "pattern": [
-        "Terrestrial,Terrestrial,Super-Earth,Super-Earth,Super-Earth"
-      ],
-      "hostnames": [
-        "K2-384",
-        "Kepler-102",
-        "Kepler-169"
-      ],
-      "hostname_count": [
-        3
-      ]
-    }
-  },
-  {
-    "pattern_7": {
-      "name": "Pattern #7",
-      "pattern": [
-        "Terrestrial,Terrestrial,Super-Earth,Super-Earth"
-      ],
-      "hostnames": [
-        "HD 215152",
-        "Kepler-37",
-        "tau Cet"
-      ],
-      "hostname_count": [
-        3
-      ]
-    }
-  },
-  {
-    "pattern_8": {
-      "name": "Pattern #8",
-      "pattern": [
-        "Terrestrial,Super-Earth,Terrestrial,Terrestrial"
-      ],
-      "hostnames": [
-        "Kepler-197",
-        "TOI-700"
-      ],
-      "hostname_count": [
-        2
-      ]
-    }
-  },
-  {
-    "pattern_9": {
-      "name": "Pattern #9",
-      "pattern": [
-        "Super-Earth,Mini-Neptune,Super-Earth,Super-Earth"
-      ],
-      "hostnames": [
-        "K2-32",
-        "Kepler-305"
-      ],
-      "hostname_count": [
-        2
-      ]
-    }
-  },
-  {
-    "pattern_10": {
-      "name": "Pattern #10",
-      "pattern": [
-        "Super-Earth,Super-Earth,Mini-Neptune,Super-Earth"
-      ],
-      "hostnames": [
-        "HD 3167",
-        "Kepler-215"
-      ],
-      "hostname_count": [
-        2
-      ]
-    }
-  },
-  {
-    "pattern_11": {
-      "name": "Pattern #11",
-      "pattern": [
-        "Terrestrial,Super-Earth,Super-Earth,Terrestrial"
-      ],
-      "hostnames": [
-        "Kepler-132",
-        "Kepler-138"
-      ],
-      "hostname_count": [
-        2
-      ]
-    }
-  },
-  {
-    "pattern_12": {
-      "name": "Pattern #12",
       "pattern": [
         "Terrestrial,Terrestrial,Terrestrial,Terrestrial"
       ],
@@ -210,14 +97,14 @@
     }
   },
   {
-    "pattern_13": {
-      "name": "Pattern #13",
+    "pattern_7": {
+      "name": "Pattern #7",
       "pattern": [
-        "Super-Earth,Super-Earth,Super-Earth,Super-Earth,Super-Earth,Super-Earth"
+        "Gas Giant,sub-Neptune,sub-Neptune,Terrestrial"
       ],
       "hostnames": [
-        "HD 110067",
-        "TOI-1136"
+        "Kepler-176",
+        "Kepler-49"
       ],
       "hostname_count": [
         2
@@ -225,14 +112,89 @@
     }
   },
   {
-    "pattern_14": {
-      "name": "Pattern #14",
+    "pattern_8": {
+      "name": "Pattern #8",
+      "pattern": [
+        "Terrestrial,Super-Earth,Super-Earth,Terrestrial"
+      ],
+      "hostnames": [
+        "Kepler-132",
+        "Kepler-138"
+      ],
+      "hostname_count": [
+        2
+      ]
+    }
+  },
+  {
+    "pattern_9": {
+      "name": "Pattern #9",
+      "pattern": [
+        "Super-Earth,Super-Earth,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-223",
+        "Kepler-286"
+      ],
+      "hostname_count": [
+        2
+      ]
+    }
+  },
+  {
+    "pattern_10": {
+      "name": "Pattern #10",
       "pattern": [
         "Terrestrial,Super-Earth,Terrestrial,Super-Earth"
       ],
       "hostnames": [
         "Kepler-220",
         "L 98-59"
+      ],
+      "hostname_count": [
+        2
+      ]
+    }
+  },
+  {
+    "pattern_11": {
+      "name": "Pattern #11",
+      "pattern": [
+        "sub-Neptune,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-1388",
+        "Kepler-172"
+      ],
+      "hostname_count": [
+        2
+      ]
+    }
+  },
+  {
+    "pattern_12": {
+      "name": "Pattern #12",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Super-Earth,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-100",
+        "TOI-1246"
+      ],
+      "hostname_count": [
+        2
+      ]
+    }
+  },
+  {
+    "pattern_13": {
+      "name": "Pattern #13",
+      "pattern": [
+        "Super-Earth,Super-Earth,sub-Neptune,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "HD 134606",
+        "Kepler-62"
       ],
       "hostname_count": [
         2
