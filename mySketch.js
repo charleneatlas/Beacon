@@ -33,6 +33,13 @@ let starSysData;
 
 let aspectRatio = 16 / 9;
 
+const D5_NOTE = "D5";
+const C5_NOTE = "C5";
+const B4_NOTE = "B4";
+const A4_NOTE = "A4";
+const G4_NOTE = "G4";
+const F4_NOTE = "F4";
+const E4_NOTE = "E4";
 const D4_NOTE = "D4";
 const C4_NOTE = "C4";
 const B3_NOTE = "B3";
@@ -40,6 +47,8 @@ const A3_NOTE = "A3";
 const G3_NOTE = "G3";
 const F3_NOTE = "F3";
 const E3_NOTE = "E3";
+const D3_NOTE = "D3";
+const C3_NOTE = "C3";
 
 const starSystems = [];
 const planets = [];
@@ -447,25 +456,25 @@ class Planet {
 
     switch (this.type) {
       case "Terrestrial":
-        this.note = C4_NOTE;
+        this.note = D5_NOTE;
         break;
       case "Super-Earth":
-        this.note = B3_NOTE;
+        this.note = C5_NOTE;
         break;
       case "Mini-Neptune":
-        this.note = A3_NOTE;
+        this.note = B4_NOTE;
         break;
       case "Neptune-like":
-        this.note = G3_NOTE;
+        this.note = A4_NOTE;
         break;
       case "Gas Giant":
-        this.note = F3_NOTE;
+        this.note = G4_NOTE;
         break;
       case "Brown Dwarf":
-        this.note = E3_NOTE;
+        this.note = F4_NOTE;
         break;
       default:
-        this.note = C4_NOTE;
+        this.note = D5_NOTE;
         console.log("DEFAULT hit. Got:", this.type);
     }
 
