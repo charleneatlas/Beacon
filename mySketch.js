@@ -17,6 +17,7 @@ let windowCenter;
 let soundWaveSpeed = 600; //TODO: Make this user controllable
 let resetX;
 let planetRadii = [];
+let planetTypes = [];
 let currentStarSystem = 0;
 let currentPattern = 0;
 let patternLabel;
@@ -188,6 +189,7 @@ function setup() {
 
   for (pl of currentPatternSystems[0]) {
     planetRadii.push(pl.radius);
+    planetTypes.push(pl.category); // TODO: Instead of separate arrays for all the planet attributes, create planet objects and pass them its properties in a constructor.
   }
 
   //planetRadii = starSystems[currentStarSystem];
@@ -322,8 +324,11 @@ function calculatePlanets() {
     planets[i] = new Planet(
       150 * i + 250,
       sunY,
-      (planetRadii[i] * EARTH_RADIUS_KM * 2) / ScaleFactor
+      (planetRadii[i] * EARTH_RADIUS_KM * 2) / ScaleFactor,
+      planetTypes[i]
     );
+    //print(typeof planets[i].type);
+    //print("HELLLLLO");
   }
 
   // Determine how far the sound wave front should go before resetting. Here using the X of the last planet and adding sun radius as a buffer.
@@ -385,6 +390,7 @@ function keyPressed() {
     // Clear planets
     planets.length = 0;
     planetRadii.length = 0;
+    planetTypes.length = 0;
     currentPatternSystems.length = 0;
     // Reset sound wave
     resetSoundwave();
@@ -407,6 +413,7 @@ function keyPressed() {
     // Get the planet info for new star system
     for (pl of currentPatternSystems[0]) {
       planetRadii.push(pl.radius);
+      planetTypes.push(pl.category); // TODO: Instead of separate arrays for all the planet attributes, create planet objects and pass them its properties in a constructor.
     }
     // Figure out placement of new planets to be drawn
     calculatePlanets();
@@ -432,40 +439,40 @@ function windowResized() {
 }
 
 class Planet {
-  constructor(x, y, d) {
+  constructor(x, y, d, type) {
     this.x = x;
     this.y = y;
     this.d = d;
+    this.type = String(type);
 
-    // TODO: Update to use the category constants and keep in mind they are storing in Earth radii but the circles are using diameter that is already taking Earth radii into account
-    switch (true) {
-      case d <= 10:
+    switch (this.type) {
+      case "Terrestrial":
         this.note = C4_NOTE;
         break;
-      case d <= 40:
+      case "Super-Earth":
         this.note = B3_NOTE;
         break;
-      case d <= 80:
+      case "Mini-Neptune":
         this.note = A3_NOTE;
         break;
-      case d <= 100:
+      case "Neptune-like":
         this.note = G3_NOTE;
         break;
-      case d <= 140:
+      case "Gas Giant":
         this.note = F3_NOTE;
         break;
-      case d <= 180:
+      case "Brown Dwarf":
         this.note = E3_NOTE;
         break;
       default:
         this.note = C4_NOTE;
+        console.log("DEFAULT hit. Got:", this.type);
     }
-
-    //print("Diameter" + d);
 
     this.played = false;
   }
   show() {
     circle(this.x, this.y, this.d);
+    text(this.type, this.x, this.y + 100);
   }
 }
