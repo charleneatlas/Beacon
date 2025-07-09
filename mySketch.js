@@ -410,7 +410,7 @@ function mouseClicked() {
 }
 
 function keyPressed() {
-  if (key === " ") {
+  if (keyCode === RIGHT_ARROW) {
     // CHANGE TO NEW STAR SYSTEM
     // Clear planets
     planets.length = 0;
@@ -444,7 +444,43 @@ function keyPressed() {
     calculatePlanets();
     //print("CLICK: " + currentStarSystem);
 
-    return false; // prevent default browser behavior, which may scroll page on press of spacebar
+    return false; // prevent default browser behavior, which may scroll page on press of arrow
+  } else if (keyCode === LEFT_ARROW) {
+    // CHANGE TO NEW STAR SYSTEM
+    // Clear planets
+    planets.length = 0;
+    planetRadii.length = 0;
+    planetTypes.length = 0;
+    currentPatternSystems.length = 0;
+    // Reset sound wave
+    resetSoundwave();
+
+    // Change star system index
+    //currentStarSystem = (currentStarSystem + 1) % starSystems.length;
+
+    // CHANGE TO NEXT PATTERN
+    currentPattern =
+      (currentPattern - 1 + patternData.length) % patternData.length;
+    print(currentPattern);
+
+    for (host of patternData[currentPattern]["pattern_" + (currentPattern + 1)]
+      .hostnames) {
+      print(host);
+
+      // For each host listed in a pattern, add their list of planet dictionaries to an array
+      currentPatternSystems.push(starSysData[host]["planets"]);
+    }
+
+    // Get the planet info for new star system
+    for (pl of currentPatternSystems[0]) {
+      planetRadii.push(pl.radius);
+      planetTypes.push(pl.category); // TODO: Instead of separate arrays for all the planet attributes, create planet objects and pass them its properties in a constructor.
+    }
+    // Figure out placement of new planets to be drawn
+    calculatePlanets();
+    //print("CLICK: " + currentStarSystem);
+
+    return false; // prevent default browser behavior, which may scroll page on press of arrow
   }
 }
 
