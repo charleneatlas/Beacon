@@ -16,10 +16,11 @@ let p4;
 let windowCenter;
 let soundWaveSpeed = 600; //TODO: Make this user controllable
 let resetX;
-let planetRadii = {};
+let planetRadii = [];
 let currentStarSystem = 0;
 let currentPattern = 0;
 let patternLabel;
+let currentPatternSystems = []; // Star system data for current pattern
 
 let sunX;
 let sunY;
@@ -88,56 +89,6 @@ const TOI700_E_RADIUS_KM = 0.931 * EARTH_RADIUS_KM;
 // Super-Jupiter| E3
 
 // Ranges are non-inclusive...sometimes.
-// Let's go ahead and use ROYGBIV for color order
-
-const Subterran = {
-  minRadius: 0,
-  maxRadius: 0.8,
-  uiColor: "red",
-  note: D4_NOTE,
-};
-
-const Terran = {
-  minRadius: 0.8,
-  maxRadius: 1.25,
-  uiColor: "orange",
-  note: C4_NOTE,
-};
-
-const SuperEarth = {
-  minRadius: 1.25,
-  maxRadius: 2,
-  uiColor: "yellow",
-  note: B3_NOTE,
-};
-
-const MiniNeptune = {
-  minRadius: 2,
-  maxRadius: 4,
-  uiColor: "green",
-  note: A3_NOTE,
-};
-
-const NeptuneLike = {
-  minRadius: 4,
-  maxRadius: 6,
-  uiColor: "blue",
-  note: G3_NOTE,
-};
-
-const GasGiant = {
-  minRadius: 6,
-  maxRadius: 13,
-  uiColor: "indigo",
-  note: F3_NOTE,
-};
-
-const SuperJupiter = {
-  minRadius: 13,
-  maxRadius: 1000,
-  uiColor: "violet",
-  note: E3_NOTE,
-};
 
 // Grab the data
 function preload() {
@@ -217,21 +168,32 @@ function setup() {
   starSystems[1] = planetRadii_HD110067;
   starSystems[2] = planetRadii_TOI700;
 
-  planetRadii = starSystems[currentStarSystem];
+  //print(starSysData[0][p]["planets"]["name"]);
+  //var index = 0;
+
+  for (host of patternData[currentPattern]["pattern_" + (currentPattern + 1)]
+    .hostnames) {
+    print(host);
+
+    // For each host listed in a pattern, add their list of planet dictionaries to an array
+    //currentPatternSystems[index] = starSysData[host]["planets"];
+    currentPatternSystems.push(starSysData[host]["planets"]);
+    //print(starSysData[host]["planets"]);
+    //print(currentPatternSystems[host]);
+    //index = index + 1;
+  }
+
+  for (pl of currentPatternSystems[0]) {
+    planetRadii.push(pl.radius);
+  }
+
+  //planetRadii = starSystems[currentStarSystem];
   calculatePlanets();
 
-  /*for (const ptn in patternData)
-  {
-
-  }*/
-
-  // Patterns
-  //var x = Object.keys(patternData);
   print(patternData[0]);
   print(patternData[0]["pattern_1"]);
   var testDict = patternData[0]["pattern_1"];
   print(testDict.hostname_count);
-  //print("TEST");
 }
 
 function draw() {
@@ -415,19 +377,33 @@ function keyPressed() {
     // CHANGE TO NEW STAR SYSTEM
     // Clear planets
     planets.length = 0;
+    planetRadii.length = 0;
+    currentPatternSystems.length = 0;
     // Reset sound wave
     resetSoundwave();
+
     // Change star system index
     //currentStarSystem = (currentStarSystem + 1) % starSystems.length;
-    // Get the planet info for new star system
-    planetRadii = starSystems[currentStarSystem];
-    // Figure out placement of new planets to be drawn
-    calculatePlanets();
-    //print("CLICK: " + currentStarSystem);
 
     // CHANGE TO NEXT PATTERN
     currentPattern = (currentPattern + 1) % patternData.length;
     print(currentPattern);
+
+    for (host of patternData[currentPattern]["pattern_" + (currentPattern + 1)]
+      .hostnames) {
+      print(host);
+
+      // For each host listed in a pattern, add their list of planet dictionaries to an array
+      currentPatternSystems.push(starSysData[host]["planets"]);
+    }
+
+    // Get the planet info for new star system
+    for (pl of currentPatternSystems[0]) {
+      planetRadii.push(pl.radius);
+    }
+    // Figure out placement of new planets to be drawn
+    calculatePlanets();
+    //print("CLICK: " + currentStarSystem);
 
     return false; // prevent default browser behavior, which may scroll page on press of spacebar
   }
@@ -478,7 +454,7 @@ class Planet {
         this.note = C4_NOTE;
     }
 
-    print("Diameter" + d);
+    //print("Diameter" + d);
 
     this.played = false;
   }

@@ -1,4778 +1,4662 @@
-[
-  {
-    "Barnard's star": {
-      "planets": [
-        {
-          "name": "Barnard d",
-          "radius": [
-            0.694
-          ],
-          "mass": [
-            0.263
-          ],
-          "orbital_period": [
-            2.3402
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Barnard b",
-          "radius": [
-            0.72
-          ],
-          "mass": [
-            0.299
-          ],
-          "orbital_period": [
-            3.1542
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Barnard c",
-          "radius": [
-            0.743
-          ],
-          "mass": [
-            0.335
-          ],
-          "orbital_period": [
-            4.1244
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Barnard e",
-          "radius": [
-            0.637
-          ],
-          "mass": [
-            0.193
-          ],
-          "orbital_period": [
-            6.7392
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+{
+  "Barnard's star": {
+    "planets": [
+      {
+        "name": "Barnard d",
+        "radius": [
+          0.694
+        ],
+        "mass": [
+          0.263
+        ],
+        "orbital_period": [
+          2.3402
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Barnard b",
+        "radius": [
+          0.72
+        ],
+        "mass": [
+          0.299
+        ],
+        "orbital_period": [
+          3.1542
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Barnard c",
+        "radius": [
+          0.743
+        ],
+        "mass": [
+          0.335
+        ],
+        "orbital_period": [
+          4.1244
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Barnard e",
+        "radius": [
+          0.637
+        ],
+        "mass": [
+          0.193
+        ],
+        "orbital_period": [
+          6.7392
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "DMPP-1": {
-      "planets": [
-        {
-          "name": "DMPP-1 d",
-          "radius": [
-            1.65
-          ],
-          "mass": [
-            3.35
-          ],
-          "orbital_period": [
-            2.882
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "DMPP-1 e",
-          "radius": [
-            1.86
-          ],
-          "mass": [
-            4.13
-          ],
-          "orbital_period": [
-            5.516
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "DMPP-1 c",
-          "radius": [
-            3.06
-          ],
-          "mass": [
-            9.6
-          ],
-          "orbital_period": [
-            6.584
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "DMPP-1 b",
-          "radius": [
-            5.29
-          ],
-          "mass": [
-            24.27
-          ],
-          "orbital_period": [
-            18.57
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "DMPP-1": {
+    "planets": [
+      {
+        "name": "DMPP-1 d",
+        "radius": [
+          1.65
+        ],
+        "mass": [
+          3.35
+        ],
+        "orbital_period": [
+          2.882
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "DMPP-1 e",
+        "radius": [
+          1.86
+        ],
+        "mass": [
+          4.13
+        ],
+        "orbital_period": [
+          5.516
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "DMPP-1 c",
+        "radius": [
+          3.06
+        ],
+        "mass": [
+          9.6
+        ],
+        "orbital_period": [
+          6.584
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "DMPP-1 b",
+        "radius": [
+          5.29
+        ],
+        "mass": [
+          24.27
+        ],
+        "orbital_period": [
+          18.57
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "GJ 3293": {
-      "planets": [
-        {
-          "name": "GJ 3293 e",
-          "radius": [
-            1.63
-          ],
-          "mass": [
-            3.28
-          ],
-          "orbital_period": [
-            13.2543
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "GJ 3293 b",
-          "radius": [
-            5.19
-          ],
-          "mass": [
-            23.54
-          ],
-          "orbital_period": [
-            30.5987
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "GJ 3293 d",
-          "radius": [
-            2.67
-          ],
-          "mass": [
-            7.6
-          ],
-          "orbital_period": [
-            48.1345
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "GJ 3293 c",
-          "radius": [
-            4.87
-          ],
-          "mass": [
-            21.09
-          ],
-          "orbital_period": [
-            122.6196
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "GJ 3293": {
+    "planets": [
+      {
+        "name": "GJ 3293 e",
+        "radius": [
+          1.63
+        ],
+        "mass": [
+          3.28
+        ],
+        "orbital_period": [
+          13.2543
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "GJ 3293 b",
+        "radius": [
+          5.19
+        ],
+        "mass": [
+          23.54
+        ],
+        "orbital_period": [
+          30.5987
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "GJ 3293 d",
+        "radius": [
+          2.67
+        ],
+        "mass": [
+          7.6
+        ],
+        "orbital_period": [
+          48.1345
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "GJ 3293 c",
+        "radius": [
+          4.87
+        ],
+        "mass": [
+          21.09
+        ],
+        "orbital_period": [
+          122.6196
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "GJ 667 C": {
-      "planets": [
-        {
-          "name": "GJ 667 C b",
-          "radius": [
-            2.25
-          ],
-          "mass": [
-            5.68
-          ],
-          "orbital_period": [
-            7.203
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "GJ 667 C c",
-          "radius": [
-            1.77
-          ],
-          "mass": [
-            3.8
-          ],
-          "orbital_period": [
-            28.14
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "GJ 667 C f",
-          "radius": [
-            1.45
-          ],
-          "mass": [
-            2.7
-          ],
-          "orbital_period": [
-            39.026
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "GJ 667 C e",
-          "radius": [
-            1.45
-          ],
-          "mass": [
-            2.7
-          ],
-          "orbital_period": [
-            62.24
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "GJ 667 C g",
-          "radius": [
-            1.99
-          ],
-          "mass": [
-            4.6
-          ],
-          "orbital_period": [
-            256.2
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        }
-      ]
-    }
+  "GJ 667 C": {
+    "planets": [
+      {
+        "name": "GJ 667 C b",
+        "radius": [
+          2.25
+        ],
+        "mass": [
+          5.68
+        ],
+        "orbital_period": [
+          7.203
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "GJ 667 C c",
+        "radius": [
+          1.77
+        ],
+        "mass": [
+          3.8
+        ],
+        "orbital_period": [
+          28.14
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "GJ 667 C f",
+        "radius": [
+          1.45
+        ],
+        "mass": [
+          2.7
+        ],
+        "orbital_period": [
+          39.026
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "GJ 667 C e",
+        "radius": [
+          1.45
+        ],
+        "mass": [
+          2.7
+        ],
+        "orbital_period": [
+          62.24
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "GJ 667 C g",
+        "radius": [
+          1.99
+        ],
+        "mass": [
+          4.6
+        ],
+        "orbital_period": [
+          256.2
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
   },
-  {
-    "HD 108236": {
-      "planets": [
-        {
-          "name": "HD 108236 b",
-          "radius": [
-            1.615
-          ],
-          "mass": [
-            3.24
-          ],
-          "orbital_period": [
-            3.795963
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "HD 108236 c",
-          "radius": [
-            2.071
-          ],
-          "mass": [
-            4.94
-          ],
-          "orbital_period": [
-            6.203449
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "HD 108236 d",
-          "radius": [
-            2.539
-          ],
-          "mass": [
-            6.98
-          ],
-          "orbital_period": [
-            14.175685
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "HD 108236 e",
-          "radius": [
-            3.083
-          ],
-          "mass": [
-            9.71
-          ],
-          "orbital_period": [
-            19.590025
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "HD 108236 f",
-          "radius": [
-            2.017
-          ],
-          "mass": [
-            4.72
-          ],
-          "orbital_period": [
-            29.54115
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        }
-      ]
-    }
+  "HD 108236": {
+    "planets": [
+      {
+        "name": "HD 108236 b",
+        "radius": [
+          1.615
+        ],
+        "mass": [
+          3.24
+        ],
+        "orbital_period": [
+          3.795963
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 108236 c",
+        "radius": [
+          2.071
+        ],
+        "mass": [
+          4.94
+        ],
+        "orbital_period": [
+          6.203449
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 108236 d",
+        "radius": [
+          2.539
+        ],
+        "mass": [
+          6.98
+        ],
+        "orbital_period": [
+          14.175685
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 108236 e",
+        "radius": [
+          3.083
+        ],
+        "mass": [
+          9.71
+        ],
+        "orbital_period": [
+          19.590025
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 108236 f",
+        "radius": [
+          2.017
+        ],
+        "mass": [
+          4.72
+        ],
+        "orbital_period": [
+          29.54115
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
   },
-  {
-    "HD 110067": {
-      "planets": [
-        {
-          "name": "HD 110067 b",
-          "radius": [
-            2.2
-          ],
-          "mass": [
-            5.69
-          ],
-          "orbital_period": [
-            9.113678
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "HD 110067 c",
-          "radius": [
-            2.388
-          ],
-          "mass": [
-            6.3
-          ],
-          "orbital_period": [
-            13.673694
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "HD 110067 d",
-          "radius": [
-            2.852
-          ],
-          "mass": [
-            8.52
-          ],
-          "orbital_period": [
-            20.519617
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "HD 110067 e",
-          "radius": [
-            1.94
-          ],
-          "mass": [
-            3.9
-          ],
-          "orbital_period": [
-            30.793091
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "HD 110067 f",
-          "radius": [
-            2.601
-          ],
-          "mass": [
-            5.04
-          ],
-          "orbital_period": [
-            41.05854
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        },
-        {
-          "name": "HD 110067 g",
-          "radius": [
-            2.607
-          ],
-          "mass": [
-            8.4
-          ],
-          "orbital_period": [
-            54.76992
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            6
-          ]
-        }
-      ]
-    }
+  "HD 110067": {
+    "planets": [
+      {
+        "name": "HD 110067 b",
+        "radius": [
+          2.2
+        ],
+        "mass": [
+          5.69
+        ],
+        "orbital_period": [
+          9.113678
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 110067 c",
+        "radius": [
+          2.388
+        ],
+        "mass": [
+          6.3
+        ],
+        "orbital_period": [
+          13.673694
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 110067 d",
+        "radius": [
+          2.852
+        ],
+        "mass": [
+          8.52
+        ],
+        "orbital_period": [
+          20.519617
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 110067 e",
+        "radius": [
+          1.94
+        ],
+        "mass": [
+          3.9
+        ],
+        "orbital_period": [
+          30.793091
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 110067 f",
+        "radius": [
+          2.601
+        ],
+        "mass": [
+          5.04
+        ],
+        "orbital_period": [
+          41.05854
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "HD 110067 g",
+        "radius": [
+          2.607
+        ],
+        "mass": [
+          8.4
+        ],
+        "orbital_period": [
+          54.76992
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
   },
-  {
-    "HD 158259": {
-      "planets": [
-        {
-          "name": "HD 158259 b",
-          "radius": [
-            1.28228
-          ],
-          "mass": [
-            2.22
-          ],
-          "orbital_period": [
-            2.178
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "HD 158259 c",
-          "radius": [
-            2.23
-          ],
-          "mass": [
-            5.6
-          ],
-          "orbital_period": [
-            3.432
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "HD 158259 d",
-          "radius": [
-            2.18
-          ],
-          "mass": [
-            5.41
-          ],
-          "orbital_period": [
-            5.1980814
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "HD 158259 e",
-          "radius": [
-            2.34
-          ],
-          "mass": [
-            6.08
-          ],
-          "orbital_period": [
-            7.951
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "HD 158259 f",
-          "radius": [
-            2.35
-          ],
-          "mass": [
-            6.14
-          ],
-          "orbital_period": [
-            12.028
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        }
-      ]
-    }
+  "HD 158259": {
+    "planets": [
+      {
+        "name": "HD 158259 b",
+        "radius": [
+          1.28228
+        ],
+        "mass": [
+          2.22
+        ],
+        "orbital_period": [
+          2.178
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 158259 c",
+        "radius": [
+          2.23
+        ],
+        "mass": [
+          5.6
+        ],
+        "orbital_period": [
+          3.432
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 158259 d",
+        "radius": [
+          2.18
+        ],
+        "mass": [
+          5.41
+        ],
+        "orbital_period": [
+          5.1980814
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 158259 e",
+        "radius": [
+          2.34
+        ],
+        "mass": [
+          6.08
+        ],
+        "orbital_period": [
+          7.951
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 158259 f",
+        "radius": [
+          2.35
+        ],
+        "mass": [
+          6.14
+        ],
+        "orbital_period": [
+          12.028
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
   },
-  {
-    "HD 20794": {
-      "planets": [
-        {
-          "name": "HD 20794 b",
-          "radius": [
-            1.45
-          ],
-          "mass": [
-            2.7
-          ],
-          "orbital_period": [
-            18.314
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "HD 20794 d",
-          "radius": [
-            2.04
-          ],
-          "mass": [
-            4.8
-          ],
-          "orbital_period": [
-            89.68
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "HD 20794 e",
-          "radius": [
-            2.03
-          ],
-          "mass": [
-            4.77
-          ],
-          "orbital_period": [
-            147.02
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "HD 20794 f",
-          "radius": [
-            2.28
-          ],
-          "mass": [
-            5.82
-          ],
-          "orbital_period": [
-            647.6
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "HD 20794": {
+    "planets": [
+      {
+        "name": "HD 20794 b",
+        "radius": [
+          1.45
+        ],
+        "mass": [
+          2.7
+        ],
+        "orbital_period": [
+          18.314
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 20794 d",
+        "radius": [
+          2.04
+        ],
+        "mass": [
+          4.8
+        ],
+        "orbital_period": [
+          89.68
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 20794 e",
+        "radius": [
+          2.03
+        ],
+        "mass": [
+          4.77
+        ],
+        "orbital_period": [
+          147.02
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 20794 f",
+        "radius": [
+          2.28
+        ],
+        "mass": [
+          5.82
+        ],
+        "orbital_period": [
+          647.6
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "HD 215152": {
-      "planets": [
-        {
-          "name": "HD 215152 b",
-          "radius": [
-            1.19
-          ],
-          "mass": [
-            1.819
-          ],
-          "orbital_period": [
-            5.75999
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "HD 215152 c",
-          "radius": [
-            1.17
-          ],
-          "mass": [
-            1.72
-          ],
-          "orbital_period": [
-            7.28243
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "HD 215152 d",
-          "radius": [
-            1.48
-          ],
-          "mass": [
-            2.801
-          ],
-          "orbital_period": [
-            10.86499
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "HD 215152 e",
-          "radius": [
-            1.51
-          ],
-          "mass": [
-            2.877
-          ],
-          "orbital_period": [
-            25.1967
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "HD 215152": {
+    "planets": [
+      {
+        "name": "HD 215152 b",
+        "radius": [
+          1.19
+        ],
+        "mass": [
+          1.819
+        ],
+        "orbital_period": [
+          5.75999
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 215152 c",
+        "radius": [
+          1.17
+        ],
+        "mass": [
+          1.72
+        ],
+        "orbital_period": [
+          7.28243
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 215152 d",
+        "radius": [
+          1.48
+        ],
+        "mass": [
+          2.801
+        ],
+        "orbital_period": [
+          10.86499
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 215152 e",
+        "radius": [
+          1.51
+        ],
+        "mass": [
+          2.877
+        ],
+        "orbital_period": [
+          25.1967
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "HD 3167": {
-      "planets": [
-        {
-          "name": "HD 3167 b",
-          "radius": [
-            1.67
-          ],
-          "mass": [
-            4.97
-          ],
-          "orbital_period": [
-            0.959641
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "HD 3167 d",
-          "radius": [
-            1.92
-          ],
-          "mass": [
-            4.33
-          ],
-          "orbital_period": [
-            8.4112
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "HD 3167 c",
-          "radius": [
-            3.0
-          ],
-          "mass": [
-            11.13
-          ],
-          "orbital_period": [
-            29.8454
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "HD 3167 e",
-          "radius": [
-            2.83
-          ],
-          "mass": [
-            8.41
-          ],
-          "orbital_period": [
-            96.63
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "HD 3167": {
+    "planets": [
+      {
+        "name": "HD 3167 b",
+        "radius": [
+          1.67
+        ],
+        "mass": [
+          4.97
+        ],
+        "orbital_period": [
+          0.959641
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 3167 d",
+        "radius": [
+          1.92
+        ],
+        "mass": [
+          4.33
+        ],
+        "orbital_period": [
+          8.4112
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 3167 c",
+        "radius": [
+          3.0
+        ],
+        "mass": [
+          11.13
+        ],
+        "orbital_period": [
+          29.8454
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 3167 e",
+        "radius": [
+          2.83
+        ],
+        "mass": [
+          8.41
+        ],
+        "orbital_period": [
+          96.63
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "HD 40307": {
-      "planets": [
-        {
-          "name": "HD 40307 b",
-          "radius": [
-            1.83
-          ],
-          "mass": [
-            4.0
-          ],
-          "orbital_period": [
-            4.3123
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "HD 40307 c",
-          "radius": [
-            2.46
-          ],
-          "mass": [
-            6.6
-          ],
-          "orbital_period": [
-            9.6184
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "HD 40307 d",
-          "radius": [
-            3.04
-          ],
-          "mass": [
-            9.5
-          ],
-          "orbital_period": [
-            20.432
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "HD 40307 f",
-          "radius": [
-            2.13
-          ],
-          "mass": [
-            5.2
-          ],
-          "orbital_period": [
-            51.76
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "HD 40307 g",
-          "radius": [
-            2.56
-          ],
-          "mass": [
-            7.1
-          ],
-          "orbital_period": [
-            197.8
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        }
-      ]
-    }
+  "HD 40307": {
+    "planets": [
+      {
+        "name": "HD 40307 b",
+        "radius": [
+          1.83
+        ],
+        "mass": [
+          4.0
+        ],
+        "orbital_period": [
+          4.3123
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 40307 c",
+        "radius": [
+          2.46
+        ],
+        "mass": [
+          6.6
+        ],
+        "orbital_period": [
+          9.6184
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 40307 d",
+        "radius": [
+          3.04
+        ],
+        "mass": [
+          9.5
+        ],
+        "orbital_period": [
+          20.432
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 40307 f",
+        "radius": [
+          2.13
+        ],
+        "mass": [
+          5.2
+        ],
+        "orbital_period": [
+          51.76
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 40307 g",
+        "radius": [
+          2.56
+        ],
+        "mass": [
+          7.1
+        ],
+        "orbital_period": [
+          197.8
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
   },
-  {
-    "K2-133": {
-      "planets": [
-        {
-          "name": "K2-133 b",
-          "radius": [
-            1.34
-          ],
-          "mass": [
-            2.36
-          ],
-          "orbital_period": [
-            3.07133
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "K2-133 c",
-          "radius": [
-            1.603
-          ],
-          "mass": [
-            3.2
-          ],
-          "orbital_period": [
-            4.86784
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "K2-133 d",
-          "radius": [
-            2.003
-          ],
-          "mass": [
-            4.67
-          ],
-          "orbital_period": [
-            11.02454
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "K2-133 e",
-          "radius": [
-            1.73
-          ],
-          "mass": [
-            3.64
-          ],
-          "orbital_period": [
-            26.5841
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "K2-133": {
+    "planets": [
+      {
+        "name": "K2-133 b",
+        "radius": [
+          1.34
+        ],
+        "mass": [
+          2.36
+        ],
+        "orbital_period": [
+          3.07133
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-133 c",
+        "radius": [
+          1.603
+        ],
+        "mass": [
+          3.2
+        ],
+        "orbital_period": [
+          4.86784
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-133 d",
+        "radius": [
+          2.003
+        ],
+        "mass": [
+          4.67
+        ],
+        "orbital_period": [
+          11.02454
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-133 e",
+        "radius": [
+          1.73
+        ],
+        "mass": [
+          3.64
+        ],
+        "orbital_period": [
+          26.5841
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "K2-187": {
-      "planets": [
-        {
-          "name": "K2-187 b",
-          "radius": [
-            1.2
-          ],
-          "mass": [
-            1.87
-          ],
-          "orbital_period": [
-            0.77401
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "K2-187 c",
-          "radius": [
-            1.4
-          ],
-          "mass": [
-            2.54
-          ],
-          "orbital_period": [
-            2.871512
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "K2-187 d",
-          "radius": [
-            2.4
-          ],
-          "mass": [
-            6.35
-          ],
-          "orbital_period": [
-            7.149584
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "K2-187 e",
-          "radius": [
-            1.9
-          ],
-          "mass": [
-            4.27
-          ],
-          "orbital_period": [
-            13.606629
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "K2-187": {
+    "planets": [
+      {
+        "name": "K2-187 b",
+        "radius": [
+          1.2
+        ],
+        "mass": [
+          1.87
+        ],
+        "orbital_period": [
+          0.77401
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-187 c",
+        "radius": [
+          1.4
+        ],
+        "mass": [
+          2.54
+        ],
+        "orbital_period": [
+          2.871512
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-187 d",
+        "radius": [
+          2.4
+        ],
+        "mass": [
+          6.35
+        ],
+        "orbital_period": [
+          7.149584
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-187 e",
+        "radius": [
+          1.9
+        ],
+        "mass": [
+          4.27
+        ],
+        "orbital_period": [
+          13.606629
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "K2-268": {
-      "planets": [
-        {
-          "name": "K2-268 b",
-          "radius": [
-            1.5
-          ],
-          "mass": [
-            2.86
-          ],
-          "orbital_period": [
-            2.151676
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "K2-268 d",
-          "radius": [
-            1.49
-          ],
-          "mass": [
-            2.83
-          ],
-          "orbital_period": [
-            4.528598
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "K2-268 e",
-          "radius": [
-            1.33
-          ],
-          "mass": [
-            2.33
-          ],
-          "orbital_period": [
-            6.131243
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "K2-268 c",
-          "radius": [
-            2.69
-          ],
-          "mass": [
-            7.7
-          ],
-          "orbital_period": [
-            9.327527
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "K2-268 f",
-          "radius": [
-            2.23
-          ],
-          "mass": [
-            5.6
-          ],
-          "orbital_period": [
-            26.27057
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        }
-      ]
-    }
+  "K2-268": {
+    "planets": [
+      {
+        "name": "K2-268 b",
+        "radius": [
+          1.5
+        ],
+        "mass": [
+          2.86
+        ],
+        "orbital_period": [
+          2.151676
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-268 d",
+        "radius": [
+          1.49
+        ],
+        "mass": [
+          2.83
+        ],
+        "orbital_period": [
+          4.528598
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-268 e",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.33
+        ],
+        "orbital_period": [
+          6.131243
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-268 c",
+        "radius": [
+          2.69
+        ],
+        "mass": [
+          7.7
+        ],
+        "orbital_period": [
+          9.327527
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "K2-268 f",
+        "radius": [
+          2.23
+        ],
+        "mass": [
+          5.6
+        ],
+        "orbital_period": [
+          26.27057
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
   },
-  {
-    "K2-285": {
-      "planets": [
-        {
-          "name": "K2-285 b",
-          "radius": [
-            2.59
-          ],
-          "mass": [
-            9.68
-          ],
-          "orbital_period": [
-            3.471745
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "K2-285 c",
-          "radius": [
-            3.53
-          ],
-          "mass": [
-            15.68
-          ],
-          "orbital_period": [
-            7.138048
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "K2-285 d",
-          "radius": [
-            2.48
-          ],
-          "mass": [
-            6.5
-          ],
-          "orbital_period": [
-            10.45582
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "K2-285 e",
-          "radius": [
-            1.95
-          ],
-          "mass": [
-            10.7
-          ],
-          "orbital_period": [
-            14.76289
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "K2-285": {
+    "planets": [
+      {
+        "name": "K2-285 b",
+        "radius": [
+          2.59
+        ],
+        "mass": [
+          9.68
+        ],
+        "orbital_period": [
+          3.471745
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-285 c",
+        "radius": [
+          3.53
+        ],
+        "mass": [
+          15.68
+        ],
+        "orbital_period": [
+          7.138048
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-285 d",
+        "radius": [
+          2.48
+        ],
+        "mass": [
+          6.5
+        ],
+        "orbital_period": [
+          10.45582
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-285 e",
+        "radius": [
+          1.95
+        ],
+        "mass": [
+          10.7
+        ],
+        "orbital_period": [
+          14.76289
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "K2-32": {
-      "planets": [
-        {
-          "name": "K2-32 e",
-          "radius": [
-            1.212
-          ],
-          "mass": [
-            2.1
-          ],
-          "orbital_period": [
-            4.34934
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "K2-32 b",
-          "radius": [
-            5.299
-          ],
-          "mass": [
-            15.0
-          ],
-          "orbital_period": [
-            8.992
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "K2-32 c",
-          "radius": [
-            3.134
-          ],
-          "mass": [
-            8.1
-          ],
-          "orbital_period": [
-            20.66093
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "K2-32 d",
-          "radius": [
-            3.484
-          ],
-          "mass": [
-            6.7
-          ],
-          "orbital_period": [
-            31.71701
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "K2-32": {
+    "planets": [
+      {
+        "name": "K2-32 e",
+        "radius": [
+          1.212
+        ],
+        "mass": [
+          2.1
+        ],
+        "orbital_period": [
+          4.34934
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-32 b",
+        "radius": [
+          5.299
+        ],
+        "mass": [
+          15.0
+        ],
+        "orbital_period": [
+          8.992
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-32 c",
+        "radius": [
+          3.134
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          20.66093
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-32 d",
+        "radius": [
+          3.484
+        ],
+        "mass": [
+          6.7
+        ],
+        "orbital_period": [
+          31.71701
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "K2-384": {
-      "planets": [
-        {
-          "name": "K2-384 b",
-          "radius": [
-            1.076
-          ],
-          "mass": [
-            1.26
-          ],
-          "orbital_period": [
-            2.231527
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "K2-384 c",
-          "radius": [
-            1.191
-          ],
-          "mass": [
-            1.82
-          ],
-          "orbital_period": [
-            4.194766
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "K2-384 d",
-          "radius": [
-            1.392
-          ],
-          "mass": [
-            2.52
-          ],
-          "orbital_period": [
-            6.679582
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "K2-384 e",
-          "radius": [
-            1.345
-          ],
-          "mass": [
-            2.37
-          ],
-          "orbital_period": [
-            9.715043
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "K2-384 f",
-          "radius": [
-            2.222
-          ],
-          "mass": [
-            5.57
-          ],
-          "orbital_period": [
-            13.62749
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        }
-      ]
-    }
+  "K2-384": {
+    "planets": [
+      {
+        "name": "K2-384 b",
+        "radius": [
+          1.076
+        ],
+        "mass": [
+          1.26
+        ],
+        "orbital_period": [
+          2.231527
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-384 c",
+        "radius": [
+          1.191
+        ],
+        "mass": [
+          1.82
+        ],
+        "orbital_period": [
+          4.194766
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-384 d",
+        "radius": [
+          1.392
+        ],
+        "mass": [
+          2.52
+        ],
+        "orbital_period": [
+          6.679582
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-384 e",
+        "radius": [
+          1.345
+        ],
+        "mass": [
+          2.37
+        ],
+        "orbital_period": [
+          9.715043
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "K2-384 f",
+        "radius": [
+          2.222
+        ],
+        "mass": [
+          5.57
+        ],
+        "orbital_period": [
+          13.62749
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-100": {
-      "planets": [
-        {
-          "name": "Kepler-100 b",
-          "radius": [
-            1.32
-          ],
-          "mass": [
-            7.34
-          ],
-          "orbital_period": [
-            6.88705
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-100 c",
-          "radius": [
-            2.2
-          ],
-          "mass": [
-            7.05
-          ],
-          "orbital_period": [
-            12.8159
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-100 d",
-          "radius": [
-            1.61
-          ],
-          "mass": [
-            3.0
-          ],
-          "orbital_period": [
-            35.3331
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-100 e",
-          "radius": [
-            5.27
-          ],
-          "mass": [
-            24.14271827
-          ],
-          "orbital_period": [
-            60.888588
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-100": {
+    "planets": [
+      {
+        "name": "Kepler-100 b",
+        "radius": [
+          1.32
+        ],
+        "mass": [
+          7.34
+        ],
+        "orbital_period": [
+          6.88705
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-100 c",
+        "radius": [
+          2.2
+        ],
+        "mass": [
+          7.05
+        ],
+        "orbital_period": [
+          12.8159
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-100 d",
+        "radius": [
+          1.61
+        ],
+        "mass": [
+          3.0
+        ],
+        "orbital_period": [
+          35.3331
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-100 e",
+        "radius": [
+          5.27
+        ],
+        "mass": [
+          24.14271827
+        ],
+        "orbital_period": [
+          60.888588
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-102": {
-      "planets": [
-        {
-          "name": "Kepler-102 b",
-          "radius": [
-            0.46
-          ],
-          "mass": [
-            1.1
-          ],
-          "orbital_period": [
-            5.286965
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-102 c",
-          "radius": [
-            0.567
-          ],
-          "mass": [
-            1.7
-          ],
-          "orbital_period": [
-            7.071392
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-102 d",
-          "radius": [
-            1.154
-          ],
-          "mass": [
-            3.0
-          ],
-          "orbital_period": [
-            10.311767
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-102 e",
-          "radius": [
-            2.17
-          ],
-          "mass": [
-            4.7
-          ],
-          "orbital_period": [
-            16.1456994
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "Kepler-102 f",
-          "radius": [
-            0.861
-          ],
-          "mass": [
-            4.3
-          ],
-          "orbital_period": [
-            27.453592
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        }
-      ]
-    }
+  "Kepler-102": {
+    "planets": [
+      {
+        "name": "Kepler-102 b",
+        "radius": [
+          0.46
+        ],
+        "mass": [
+          1.1
+        ],
+        "orbital_period": [
+          5.286965
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-102 c",
+        "radius": [
+          0.567
+        ],
+        "mass": [
+          1.7
+        ],
+        "orbital_period": [
+          7.071392
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-102 d",
+        "radius": [
+          1.154
+        ],
+        "mass": [
+          3.0
+        ],
+        "orbital_period": [
+          10.311767
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-102 e",
+        "radius": [
+          2.17
+        ],
+        "mass": [
+          4.7
+        ],
+        "orbital_period": [
+          16.1456994
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-102 f",
+        "radius": [
+          0.861
+        ],
+        "mass": [
+          4.3
+        ],
+        "orbital_period": [
+          27.453592
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-106": {
-      "planets": [
-        {
-          "name": "Kepler-106 b",
-          "radius": [
-            0.82
-          ],
-          "mass": [
-            5.3
-          ],
-          "orbital_period": [
-            6.16486
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-106 c",
-          "radius": [
-            2.5
-          ],
-          "mass": [
-            10.44
-          ],
-          "orbital_period": [
-            13.5708
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-106 d",
-          "radius": [
-            0.95
-          ],
-          "mass": [
-            8.1
-          ],
-          "orbital_period": [
-            23.9802
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-106 e",
-          "radius": [
-            2.56
-          ],
-          "mass": [
-            11.17
-          ],
-          "orbital_period": [
-            43.8445
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-106": {
+    "planets": [
+      {
+        "name": "Kepler-106 b",
+        "radius": [
+          0.82
+        ],
+        "mass": [
+          5.3
+        ],
+        "orbital_period": [
+          6.16486
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-106 c",
+        "radius": [
+          2.5
+        ],
+        "mass": [
+          10.44
+        ],
+        "orbital_period": [
+          13.5708
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-106 d",
+        "radius": [
+          0.95
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          23.9802
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-106 e",
+        "radius": [
+          2.56
+        ],
+        "mass": [
+          11.17
+        ],
+        "orbital_period": [
+          43.8445
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-107": {
-      "planets": [
-        {
-          "name": "Kepler-107 b",
-          "radius": [
-            1.536
-          ],
-          "mass": [
-            3.8
-          ],
-          "orbital_period": [
-            3.1800218
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-107 c",
-          "radius": [
-            1.597
-          ],
-          "mass": [
-            10.0
-          ],
-          "orbital_period": [
-            4.901452
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-107 d",
-          "radius": [
-            0.86
-          ],
-          "mass": [
-            7.7
-          ],
-          "orbital_period": [
-            7.95839
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-107 e",
-          "radius": [
-            2.903
-          ],
-          "mass": [
-            14.1
-          ],
-          "orbital_period": [
-            14.749143
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-107": {
+    "planets": [
+      {
+        "name": "Kepler-107 b",
+        "radius": [
+          1.536
+        ],
+        "mass": [
+          3.8
+        ],
+        "orbital_period": [
+          3.1800218
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-107 c",
+        "radius": [
+          1.597
+        ],
+        "mass": [
+          10.0
+        ],
+        "orbital_period": [
+          4.901452
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-107 d",
+        "radius": [
+          0.86
+        ],
+        "mass": [
+          7.7
+        ],
+        "orbital_period": [
+          7.95839
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-107 e",
+        "radius": [
+          2.903
+        ],
+        "mass": [
+          14.1
+        ],
+        "orbital_period": [
+          14.749143
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-132": {
-      "planets": [
-        {
-          "name": "Kepler-132 b",
-          "radius": [
-            1.21
-          ],
-          "mass": [
-            1.92
-          ],
-          "orbital_period": [
-            6.178196
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-132 c",
-          "radius": [
-            1.28
-          ],
-          "mass": [
-            2.18
-          ],
-          "orbital_period": [
-            6.414914
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-132 d",
-          "radius": [
-            1.55
-          ],
-          "mass": [
-            3.02
-          ],
-          "orbital_period": [
-            18.010199
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-132 e",
-          "radius": [
-            1.18
-          ],
-          "mass": [
-            1.76
-          ],
-          "orbital_period": [
-            110.2869374
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-132": {
+    "planets": [
+      {
+        "name": "Kepler-132 b",
+        "radius": [
+          1.21
+        ],
+        "mass": [
+          1.92
+        ],
+        "orbital_period": [
+          6.178196
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-132 c",
+        "radius": [
+          1.28
+        ],
+        "mass": [
+          2.18
+        ],
+        "orbital_period": [
+          6.414914
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-132 d",
+        "radius": [
+          1.55
+        ],
+        "mass": [
+          3.02
+        ],
+        "orbital_period": [
+          18.010199
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-132 e",
+        "radius": [
+          1.18
+        ],
+        "mass": [
+          1.76
+        ],
+        "orbital_period": [
+          110.2869374
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-138": {
-      "planets": [
-        {
-          "name": "Kepler-138 b",
-          "radius": [
-            0.64
-          ],
-          "mass": [
-            0.07
-          ],
-          "orbital_period": [
-            10.3134
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-138 c",
-          "radius": [
-            1.51
-          ],
-          "mass": [
-            2.3
-          ],
-          "orbital_period": [
-            13.7815
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-138 d",
-          "radius": [
-            1.51
-          ],
-          "mass": [
-            2.1
-          ],
-          "orbital_period": [
-            23.0923
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-138 e",
-          "radius": [
-            0.797
-          ],
-          "mass": [
-            0.43
-          ],
-          "orbital_period": [
-            38.23
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-138": {
+    "planets": [
+      {
+        "name": "Kepler-138 b",
+        "radius": [
+          0.64
+        ],
+        "mass": [
+          0.07
+        ],
+        "orbital_period": [
+          10.3134
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-138 c",
+        "radius": [
+          1.51
+        ],
+        "mass": [
+          2.3
+        ],
+        "orbital_period": [
+          13.7815
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-138 d",
+        "radius": [
+          1.51
+        ],
+        "mass": [
+          2.1
+        ],
+        "orbital_period": [
+          23.0923
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-138 e",
+        "radius": [
+          0.797
+        ],
+        "mass": [
+          0.43
+        ],
+        "orbital_period": [
+          38.23
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-1388": {
-      "planets": [
-        {
-          "name": "Kepler-1388 c",
-          "radius": [
-            2.26
-          ],
-          "mass": [
-            5.73
-          ],
-          "orbital_period": [
-            5.53608151
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-1388 b",
-          "radius": [
-            2.59
-          ],
-          "mass": [
-            7.22
-          ],
-          "orbital_period": [
-            12.2854603
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-1388 d",
-          "radius": [
-            2.86
-          ],
-          "mass": [
-            8.55
-          ],
-          "orbital_period": [
-            20.9568158
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-1388 e",
-          "radius": [
-            2.46
-          ],
-          "mass": [
-            6.62
-          ],
-          "orbital_period": [
-            37.6327084
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-1388": {
+    "planets": [
+      {
+        "name": "Kepler-1388 c",
+        "radius": [
+          2.26
+        ],
+        "mass": [
+          5.73
+        ],
+        "orbital_period": [
+          5.53608151
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-1388 b",
+        "radius": [
+          2.59
+        ],
+        "mass": [
+          7.22
+        ],
+        "orbital_period": [
+          12.2854603
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-1388 d",
+        "radius": [
+          2.86
+        ],
+        "mass": [
+          8.55
+        ],
+        "orbital_period": [
+          20.9568158
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-1388 e",
+        "radius": [
+          2.46
+        ],
+        "mass": [
+          6.62
+        ],
+        "orbital_period": [
+          37.6327084
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-1542": {
-      "planets": [
-        {
-          "name": "Kepler-1542 c",
-          "radius": [
-            0.65
-          ],
-          "mass": [
-            0.208
-          ],
-          "orbital_period": [
-            2.89223021
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-1542 b",
-          "radius": [
-            0.76
-          ],
-          "mass": [
-            0.363
-          ],
-          "orbital_period": [
-            3.95116882
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-1542 e",
-          "radius": [
-            0.76
-          ],
-          "mass": [
-            0.363
-          ],
-          "orbital_period": [
-            5.10115756
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-1542 d",
-          "radius": [
-            0.87
-          ],
-          "mass": [
-            0.59
-          ],
-          "orbital_period": [
-            5.99273738
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-1542": {
+    "planets": [
+      {
+        "name": "Kepler-1542 c",
+        "radius": [
+          0.65
+        ],
+        "mass": [
+          0.208
+        ],
+        "orbital_period": [
+          2.89223021
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-1542 b",
+        "radius": [
+          0.76
+        ],
+        "mass": [
+          0.363
+        ],
+        "orbital_period": [
+          3.95116882
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-1542 e",
+        "radius": [
+          0.76
+        ],
+        "mass": [
+          0.363
+        ],
+        "orbital_period": [
+          5.10115756
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-1542 d",
+        "radius": [
+          0.87
+        ],
+        "mass": [
+          0.59
+        ],
+        "orbital_period": [
+          5.99273738
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-164": {
-      "planets": [
-        {
-          "name": "Kepler-164 b",
-          "radius": [
-            1.41
-          ],
-          "mass": [
-            2.57
-          ],
-          "orbital_period": [
-            5.03503
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-164 c",
-          "radius": [
-            2.73
-          ],
-          "mass": [
-            7.9
-          ],
-          "orbital_period": [
-            10.945723
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-164 d",
-          "radius": [
-            2.45
-          ],
-          "mass": [
-            6.57
-          ],
-          "orbital_period": [
-            28.986769
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-164 e",
-          "radius": [
-            4.24
-          ],
-          "mass": [
-            16.7
-          ],
-          "orbital_period": [
-            94.886902
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-164": {
+    "planets": [
+      {
+        "name": "Kepler-164 b",
+        "radius": [
+          1.41
+        ],
+        "mass": [
+          2.57
+        ],
+        "orbital_period": [
+          5.03503
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-164 c",
+        "radius": [
+          2.73
+        ],
+        "mass": [
+          7.9
+        ],
+        "orbital_period": [
+          10.945723
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-164 d",
+        "radius": [
+          2.45
+        ],
+        "mass": [
+          6.57
+        ],
+        "orbital_period": [
+          28.986769
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-164 e",
+        "radius": [
+          4.24
+        ],
+        "mass": [
+          16.7
+        ],
+        "orbital_period": [
+          94.886902
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-169": {
-      "planets": [
-        {
-          "name": "Kepler-169 b",
-          "radius": [
-            1.13
-          ],
-          "mass": [
-            1.51
-          ],
-          "orbital_period": [
-            3.250619
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-169 c",
-          "radius": [
-            1.21
-          ],
-          "mass": [
-            1.92
-          ],
-          "orbital_period": [
-            6.195469
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-169 d",
-          "radius": [
-            1.25
-          ],
-          "mass": [
-            2.1
-          ],
-          "orbital_period": [
-            8.348125
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-169 e",
-          "radius": [
-            2.2
-          ],
-          "mass": [
-            5.48
-          ],
-          "orbital_period": [
-            13.767102
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "Kepler-169 f",
-          "radius": [
-            2.58
-          ],
-          "mass": [
-            7.18
-          ],
-          "orbital_period": [
-            87.090195
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        }
-      ]
-    }
+  "Kepler-169": {
+    "planets": [
+      {
+        "name": "Kepler-169 b",
+        "radius": [
+          1.13
+        ],
+        "mass": [
+          1.51
+        ],
+        "orbital_period": [
+          3.250619
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-169 c",
+        "radius": [
+          1.21
+        ],
+        "mass": [
+          1.92
+        ],
+        "orbital_period": [
+          6.195469
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-169 d",
+        "radius": [
+          1.25
+        ],
+        "mass": [
+          2.1
+        ],
+        "orbital_period": [
+          8.348125
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-169 e",
+        "radius": [
+          2.2
+        ],
+        "mass": [
+          5.48
+        ],
+        "orbital_period": [
+          13.767102
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-169 f",
+        "radius": [
+          2.58
+        ],
+        "mass": [
+          7.18
+        ],
+        "orbital_period": [
+          87.090195
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-172": {
-      "planets": [
-        {
-          "name": "Kepler-172 b",
-          "radius": [
-            2.35
-          ],
-          "mass": [
-            6.12
-          ],
-          "orbital_period": [
-            2.940309
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-172 c",
-          "radius": [
-            2.86
-          ],
-          "mass": [
-            8.55
-          ],
-          "orbital_period": [
-            6.388996
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-172 d",
-          "radius": [
-            2.25
-          ],
-          "mass": [
-            5.69
-          ],
-          "orbital_period": [
-            14.627119
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-172 e",
-          "radius": [
-            2.76
-          ],
-          "mass": [
-            8.05
-          ],
-          "orbital_period": [
-            35.118736
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-172": {
+    "planets": [
+      {
+        "name": "Kepler-172 b",
+        "radius": [
+          2.35
+        ],
+        "mass": [
+          6.12
+        ],
+        "orbital_period": [
+          2.940309
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-172 c",
+        "radius": [
+          2.86
+        ],
+        "mass": [
+          8.55
+        ],
+        "orbital_period": [
+          6.388996
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-172 d",
+        "radius": [
+          2.25
+        ],
+        "mass": [
+          5.69
+        ],
+        "orbital_period": [
+          14.627119
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-172 e",
+        "radius": [
+          2.76
+        ],
+        "mass": [
+          8.05
+        ],
+        "orbital_period": [
+          35.118736
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-197": {
-      "planets": [
-        {
-          "name": "Kepler-197 b",
-          "radius": [
-            1.02
-          ],
-          "mass": [
-            1.04
-          ],
-          "orbital_period": [
-            5.599308
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-197 c",
-          "radius": [
-            1.23
-          ],
-          "mass": [
-            5.3
-          ],
-          "orbital_period": [
-            10.349695
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-197 d",
-          "radius": [
-            1.22
-          ],
-          "mass": [
-            1.98
-          ],
-          "orbital_period": [
-            15.677563
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-197 e",
-          "radius": [
-            0.91
-          ],
-          "mass": [
-            0.693
-          ],
-          "orbital_period": [
-            25.209715
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-197": {
+    "planets": [
+      {
+        "name": "Kepler-197 b",
+        "radius": [
+          1.02
+        ],
+        "mass": [
+          1.04
+        ],
+        "orbital_period": [
+          5.599308
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-197 c",
+        "radius": [
+          1.23
+        ],
+        "mass": [
+          5.3
+        ],
+        "orbital_period": [
+          10.349695
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-197 d",
+        "radius": [
+          1.22
+        ],
+        "mass": [
+          1.98
+        ],
+        "orbital_period": [
+          15.677563
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-197 e",
+        "radius": [
+          0.91
+        ],
+        "mass": [
+          0.693
+        ],
+        "orbital_period": [
+          25.209715
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-1987": {
-      "planets": [
-        {
-          "name": "Kepler-1987 b",
-          "radius": [
-            1.23
-          ],
-          "mass": [
-            2.04
-          ],
-          "orbital_period": [
-            2.345863002
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-1987 c",
-          "radius": [
-            1.33
-          ],
-          "mass": [
-            2.33
-          ],
-          "orbital_period": [
-            3.64830183
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-1987 d",
-          "radius": [
-            2.66
-          ],
-          "mass": [
-            7.56
-          ],
-          "orbital_period": [
-            5.644914154
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-1987 e",
-          "radius": [
-            1.92
-          ],
-          "mass": [
-            4.35
-          ],
-          "orbital_period": [
-            8.74292005
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-1987": {
+    "planets": [
+      {
+        "name": "Kepler-1987 b",
+        "radius": [
+          1.23
+        ],
+        "mass": [
+          2.04
+        ],
+        "orbital_period": [
+          2.345863002
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-1987 c",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.33
+        ],
+        "orbital_period": [
+          3.64830183
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-1987 d",
+        "radius": [
+          2.66
+        ],
+        "mass": [
+          7.56
+        ],
+        "orbital_period": [
+          5.644914154
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-1987 e",
+        "radius": [
+          1.92
+        ],
+        "mass": [
+          4.35
+        ],
+        "orbital_period": [
+          8.74292005
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-215": {
-      "planets": [
-        {
-          "name": "Kepler-215 b",
-          "radius": [
-            1.62
-          ],
-          "mass": [
-            3.26
-          ],
-          "orbital_period": [
-            9.360672
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-215 c",
-          "radius": [
-            1.77
-          ],
-          "mass": [
-            3.78
-          ],
-          "orbital_period": [
-            14.667108
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-215 d",
-          "radius": [
-            2.39
-          ],
-          "mass": [
-            23.6
-          ],
-          "orbital_period": [
-            30.864423
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-215 e",
-          "radius": [
-            1.75
-          ],
-          "mass": [
-            3.71
-          ],
-          "orbital_period": [
-            68.16101
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-215": {
+    "planets": [
+      {
+        "name": "Kepler-215 b",
+        "radius": [
+          1.62
+        ],
+        "mass": [
+          3.26
+        ],
+        "orbital_period": [
+          9.360672
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-215 c",
+        "radius": [
+          1.77
+        ],
+        "mass": [
+          3.78
+        ],
+        "orbital_period": [
+          14.667108
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-215 d",
+        "radius": [
+          2.39
+        ],
+        "mass": [
+          23.6
+        ],
+        "orbital_period": [
+          30.864423
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-215 e",
+        "radius": [
+          1.75
+        ],
+        "mass": [
+          3.71
+        ],
+        "orbital_period": [
+          68.16101
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-220": {
-      "planets": [
-        {
-          "name": "Kepler-220 b",
-          "radius": [
-            0.81
-          ],
-          "mass": [
-            0.457
-          ],
-          "orbital_period": [
-            4.159807
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-220 c",
-          "radius": [
-            1.57
-          ],
-          "mass": [
-            3.09
-          ],
-          "orbital_period": [
-            9.034199
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-220 d",
-          "radius": [
-            0.98
-          ],
-          "mass": [
-            0.904
-          ],
-          "orbital_period": [
-            28.122397
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-220 e",
-          "radius": [
-            1.33
-          ],
-          "mass": [
-            2.33
-          ],
-          "orbital_period": [
-            45.902733
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-220": {
+    "planets": [
+      {
+        "name": "Kepler-220 b",
+        "radius": [
+          0.81
+        ],
+        "mass": [
+          0.457
+        ],
+        "orbital_period": [
+          4.159807
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-220 c",
+        "radius": [
+          1.57
+        ],
+        "mass": [
+          3.09
+        ],
+        "orbital_period": [
+          9.034199
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-220 d",
+        "radius": [
+          0.98
+        ],
+        "mass": [
+          0.904
+        ],
+        "orbital_period": [
+          28.122397
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-220 e",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.33
+        ],
+        "orbital_period": [
+          45.902733
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-221": {
-      "planets": [
-        {
-          "name": "Kepler-221 b",
-          "radius": [
-            1.71
-          ],
-          "mass": [
-            5.95575
-          ],
-          "orbital_period": [
-            2.795906
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-221 c",
-          "radius": [
-            2.93
-          ],
-          "mass": [
-            9.3
-          ],
-          "orbital_period": [
-            5.690586
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-221 d",
-          "radius": [
-            2.73
-          ],
-          "mass": [
-            3.61
-          ],
-          "orbital_period": [
-            10.04156
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-221 e",
-          "radius": [
-            2.63
-          ],
-          "mass": [
-            7.86706
-          ],
-          "orbital_period": [
-            18.369917
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-221": {
+    "planets": [
+      {
+        "name": "Kepler-221 b",
+        "radius": [
+          1.71
+        ],
+        "mass": [
+          5.95575
+        ],
+        "orbital_period": [
+          2.795906
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-221 c",
+        "radius": [
+          2.93
+        ],
+        "mass": [
+          9.3
+        ],
+        "orbital_period": [
+          5.690586
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-221 d",
+        "radius": [
+          2.73
+        ],
+        "mass": [
+          3.61
+        ],
+        "orbital_period": [
+          10.04156
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-221 e",
+        "radius": [
+          2.63
+        ],
+        "mass": [
+          7.86706
+        ],
+        "orbital_period": [
+          18.369917
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-223": {
-      "planets": [
-        {
-          "name": "Kepler-223 b",
-          "radius": [
-            2.99
-          ],
-          "mass": [
-            7.4
-          ],
-          "orbital_period": [
-            7.38449
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-223 c",
-          "radius": [
-            3.44
-          ],
-          "mass": [
-            5.1
-          ],
-          "orbital_period": [
-            9.84564
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-223 d",
-          "radius": [
-            5.24
-          ],
-          "mass": [
-            8.0
-          ],
-          "orbital_period": [
-            14.78869
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-223 e",
-          "radius": [
-            4.6
-          ],
-          "mass": [
-            4.8
-          ],
-          "orbital_period": [
-            19.72567
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-223": {
+    "planets": [
+      {
+        "name": "Kepler-223 b",
+        "radius": [
+          2.99
+        ],
+        "mass": [
+          7.4
+        ],
+        "orbital_period": [
+          7.38449
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-223 c",
+        "radius": [
+          3.44
+        ],
+        "mass": [
+          5.1
+        ],
+        "orbital_period": [
+          9.84564
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-223 d",
+        "radius": [
+          5.24
+        ],
+        "mass": [
+          8.0
+        ],
+        "orbital_period": [
+          14.78869
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-223 e",
+        "radius": [
+          4.6
+        ],
+        "mass": [
+          4.8
+        ],
+        "orbital_period": [
+          19.72567
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-224": {
-      "planets": [
-        {
-          "name": "Kepler-224 b",
-          "radius": [
-            1.39
-          ],
-          "mass": [
-            2.51
-          ],
-          "orbital_period": [
-            3.132924
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-224 c",
-          "radius": [
-            3.12
-          ],
-          "mass": [
-            9.91
-          ],
-          "orbital_period": [
-            5.925003
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-224 d",
-          "radius": [
-            2.3
-          ],
-          "mass": [
-            5.9
-          ],
-          "orbital_period": [
-            11.349393
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-224 e",
-          "radius": [
-            1.97
-          ],
-          "mass": [
-            4.54
-          ],
-          "orbital_period": [
-            18.643577
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-224": {
+    "planets": [
+      {
+        "name": "Kepler-224 b",
+        "radius": [
+          1.39
+        ],
+        "mass": [
+          2.51
+        ],
+        "orbital_period": [
+          3.132924
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-224 c",
+        "radius": [
+          3.12
+        ],
+        "mass": [
+          9.91
+        ],
+        "orbital_period": [
+          5.925003
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-224 d",
+        "radius": [
+          2.3
+        ],
+        "mass": [
+          5.9
+        ],
+        "orbital_period": [
+          11.349393
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-224 e",
+        "radius": [
+          1.97
+        ],
+        "mass": [
+          4.54
+        ],
+        "orbital_period": [
+          18.643577
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-235": {
-      "planets": [
-        {
-          "name": "Kepler-235 b",
-          "radius": [
-            2.23
-          ],
-          "mass": [
-            5.6
-          ],
-          "orbital_period": [
-            3.340222
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-235 c",
-          "radius": [
-            1.28
-          ],
-          "mass": [
-            2.18
-          ],
-          "orbital_period": [
-            7.824904
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-235 d",
-          "radius": [
-            2.05
-          ],
-          "mass": [
-            4.86
-          ],
-          "orbital_period": [
-            20.060548
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-235 e",
-          "radius": [
-            2.22
-          ],
-          "mass": [
-            5.56
-          ],
-          "orbital_period": [
-            46.183669
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-235": {
+    "planets": [
+      {
+        "name": "Kepler-235 b",
+        "radius": [
+          2.23
+        ],
+        "mass": [
+          5.6
+        ],
+        "orbital_period": [
+          3.340222
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-235 c",
+        "radius": [
+          1.28
+        ],
+        "mass": [
+          2.18
+        ],
+        "orbital_period": [
+          7.824904
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-235 d",
+        "radius": [
+          2.05
+        ],
+        "mass": [
+          4.86
+        ],
+        "orbital_period": [
+          20.060548
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-235 e",
+        "radius": [
+          2.22
+        ],
+        "mass": [
+          5.56
+        ],
+        "orbital_period": [
+          46.183669
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-251": {
-      "planets": [
-        {
-          "name": "Kepler-251 b",
-          "radius": [
-            1.33
-          ],
-          "mass": [
-            2.33
-          ],
-          "orbital_period": [
-            4.790936
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-251 c",
-          "radius": [
-            2.77
-          ],
-          "mass": [
-            8.1
-          ],
-          "orbital_period": [
-            16.514043
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-251 d",
-          "radius": [
-            2.77
-          ],
-          "mass": [
-            8.1
-          ],
-          "orbital_period": [
-            30.133001
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-251 e",
-          "radius": [
-            2.77
-          ],
-          "mass": [
-            8.1
-          ],
-          "orbital_period": [
-            99.640161
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-251": {
+    "planets": [
+      {
+        "name": "Kepler-251 b",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.33
+        ],
+        "orbital_period": [
+          4.790936
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-251 c",
+        "radius": [
+          2.77
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          16.514043
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-251 d",
+        "radius": [
+          2.77
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          30.133001
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-251 e",
+        "radius": [
+          2.77
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          99.640161
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-256": {
-      "planets": [
-        {
-          "name": "Kepler-256 b",
-          "radius": [
-            1.59
-          ],
-          "mass": [
-            3.15
-          ],
-          "orbital_period": [
-            1.620493
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-256 c",
-          "radius": [
-            2.15
-          ],
-          "mass": [
-            5.27
-          ],
-          "orbital_period": [
-            3.38802
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-256 d",
-          "radius": [
-            2.48
-          ],
-          "mass": [
-            6.71
-          ],
-          "orbital_period": [
-            5.839172
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-256 e",
-          "radius": [
-            2.35
-          ],
-          "mass": [
-            6.12
-          ],
-          "orbital_period": [
-            10.681572
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-256": {
+    "planets": [
+      {
+        "name": "Kepler-256 b",
+        "radius": [
+          1.59
+        ],
+        "mass": [
+          3.15
+        ],
+        "orbital_period": [
+          1.620493
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-256 c",
+        "radius": [
+          2.15
+        ],
+        "mass": [
+          5.27
+        ],
+        "orbital_period": [
+          3.38802
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-256 d",
+        "radius": [
+          2.48
+        ],
+        "mass": [
+          6.71
+        ],
+        "orbital_period": [
+          5.839172
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-256 e",
+        "radius": [
+          2.35
+        ],
+        "mass": [
+          6.12
+        ],
+        "orbital_period": [
+          10.681572
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-26": {
-      "planets": [
-        {
-          "name": "Kepler-26 d",
-          "radius": [
-            1.07
-          ],
-          "mass": [
-            1.24
-          ],
-          "orbital_period": [
-            3.543919
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-26 b",
-          "radius": [
-            2.78
-          ],
-          "mass": [
-            5.12
-          ],
-          "orbital_period": [
-            12.28
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-26 c",
-          "radius": [
-            2.72
-          ],
-          "mass": [
-            6.2
-          ],
-          "orbital_period": [
-            17.2559
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-26 e",
-          "radius": [
-            2.41
-          ],
-          "mass": [
-            6.39
-          ],
-          "orbital_period": [
-            46.827915
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-26": {
+    "planets": [
+      {
+        "name": "Kepler-26 d",
+        "radius": [
+          1.07
+        ],
+        "mass": [
+          1.24
+        ],
+        "orbital_period": [
+          3.543919
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-26 b",
+        "radius": [
+          2.78
+        ],
+        "mass": [
+          5.12
+        ],
+        "orbital_period": [
+          12.28
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-26 c",
+        "radius": [
+          2.72
+        ],
+        "mass": [
+          6.2
+        ],
+        "orbital_period": [
+          17.2559
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-26 e",
+        "radius": [
+          2.41
+        ],
+        "mass": [
+          6.39
+        ],
+        "orbital_period": [
+          46.827915
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-265": {
-      "planets": [
-        {
-          "name": "Kepler-265 b",
-          "radius": [
-            1.86
-          ],
-          "mass": [
-            4.12
-          ],
-          "orbital_period": [
-            6.846262
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-265 c",
-          "radius": [
-            2.63
-          ],
-          "mass": [
-            7.41
-          ],
-          "orbital_period": [
-            17.028937
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-265 d",
-          "radius": [
-            2.49
-          ],
-          "mass": [
-            6.76
-          ],
-          "orbital_period": [
-            43.130617
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-265 e",
-          "radius": [
-            2.59
-          ],
-          "mass": [
-            7.22
-          ],
-          "orbital_period": [
-            67.831024
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-265": {
+    "planets": [
+      {
+        "name": "Kepler-265 b",
+        "radius": [
+          1.86
+        ],
+        "mass": [
+          4.12
+        ],
+        "orbital_period": [
+          6.846262
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-265 c",
+        "radius": [
+          2.63
+        ],
+        "mass": [
+          7.41
+        ],
+        "orbital_period": [
+          17.028937
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-265 d",
+        "radius": [
+          2.49
+        ],
+        "mass": [
+          6.76
+        ],
+        "orbital_period": [
+          43.130617
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-265 e",
+        "radius": [
+          2.59
+        ],
+        "mass": [
+          7.22
+        ],
+        "orbital_period": [
+          67.831024
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-286": {
-      "planets": [
-        {
-          "name": "Kepler-286 b",
-          "radius": [
-            1.24
-          ],
-          "mass": [
-            2.07
-          ],
-          "orbital_period": [
-            1.796302
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-286 c",
-          "radius": [
-            1.37
-          ],
-          "mass": [
-            2.45
-          ],
-          "orbital_period": [
-            3.468095
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-286 d",
-          "radius": [
-            1.33
-          ],
-          "mass": [
-            2.33
-          ],
-          "orbital_period": [
-            5.914323
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-286 e",
-          "radius": [
-            1.77
-          ],
-          "mass": [
-            3.78
-          ],
-          "orbital_period": [
-            29.221289
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-286": {
+    "planets": [
+      {
+        "name": "Kepler-286 b",
+        "radius": [
+          1.24
+        ],
+        "mass": [
+          2.07
+        ],
+        "orbital_period": [
+          1.796302
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-286 c",
+        "radius": [
+          1.37
+        ],
+        "mass": [
+          2.45
+        ],
+        "orbital_period": [
+          3.468095
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-286 d",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.33
+        ],
+        "orbital_period": [
+          5.914323
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-286 e",
+        "radius": [
+          1.77
+        ],
+        "mass": [
+          3.78
+        ],
+        "orbital_period": [
+          29.221289
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-292": {
-      "planets": [
-        {
-          "name": "Kepler-292 b",
-          "radius": [
-            1.32
-          ],
-          "mass": [
-            2.3
-          ],
-          "orbital_period": [
-            2.580827
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-292 c",
-          "radius": [
-            1.47
-          ],
-          "mass": [
-            2.76
-          ],
-          "orbital_period": [
-            3.715335
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-292 d",
-          "radius": [
-            2.23
-          ],
-          "mass": [
-            5.6
-          ],
-          "orbital_period": [
-            7.055679
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-292 e",
-          "radius": [
-            2.67
-          ],
-          "mass": [
-            7.61
-          ],
-          "orbital_period": [
-            11.97901
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "Kepler-292 f",
-          "radius": [
-            2.35
-          ],
-          "mass": [
-            6.12
-          ],
-          "orbital_period": [
-            20.834237
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        }
-      ]
-    }
+  "Kepler-292": {
+    "planets": [
+      {
+        "name": "Kepler-292 b",
+        "radius": [
+          1.32
+        ],
+        "mass": [
+          2.3
+        ],
+        "orbital_period": [
+          2.580827
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-292 c",
+        "radius": [
+          1.47
+        ],
+        "mass": [
+          2.76
+        ],
+        "orbital_period": [
+          3.715335
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-292 d",
+        "radius": [
+          2.23
+        ],
+        "mass": [
+          5.6
+        ],
+        "orbital_period": [
+          7.055679
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-292 e",
+        "radius": [
+          2.67
+        ],
+        "mass": [
+          7.61
+        ],
+        "orbital_period": [
+          11.97901
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-292 f",
+        "radius": [
+          2.35
+        ],
+        "mass": [
+          6.12
+        ],
+        "orbital_period": [
+          20.834237
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-296": {
-      "planets": [
-        {
-          "name": "Kepler-296 c",
-          "radius": [
-            2.0
-          ],
-          "mass": [
-            4.66
-          ],
-          "orbital_period": [
-            5.8416366
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-296 b",
-          "radius": [
-            1.61
-          ],
-          "mass": [
-            3.22
-          ],
-          "orbital_period": [
-            10.864384
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-296 d",
-          "radius": [
-            2.09
-          ],
-          "mass": [
-            5.02
-          ],
-          "orbital_period": [
-            19.850291
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-296 e",
-          "radius": [
-            1.53
-          ],
-          "mass": [
-            2.96
-          ],
-          "orbital_period": [
-            34.14211
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "Kepler-296 f",
-          "radius": [
-            1.8
-          ],
-          "mass": [
-            3.89
-          ],
-          "orbital_period": [
-            63.33627
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        }
-      ]
-    }
+  "Kepler-296": {
+    "planets": [
+      {
+        "name": "Kepler-296 c",
+        "radius": [
+          2.0
+        ],
+        "mass": [
+          4.66
+        ],
+        "orbital_period": [
+          5.8416366
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-296 b",
+        "radius": [
+          1.61
+        ],
+        "mass": [
+          3.22
+        ],
+        "orbital_period": [
+          10.864384
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-296 d",
+        "radius": [
+          2.09
+        ],
+        "mass": [
+          5.02
+        ],
+        "orbital_period": [
+          19.850291
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-296 e",
+        "radius": [
+          1.53
+        ],
+        "mass": [
+          2.96
+        ],
+        "orbital_period": [
+          34.14211
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-296 f",
+        "radius": [
+          1.8
+        ],
+        "mass": [
+          3.89
+        ],
+        "orbital_period": [
+          63.33627
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-299": {
-      "planets": [
-        {
-          "name": "Kepler-299 b",
-          "radius": [
-            1.32
-          ],
-          "mass": [
-            2.3
-          ],
-          "orbital_period": [
-            2.927128
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-299 c",
-          "radius": [
-            2.65
-          ],
-          "mass": [
-            7.51
-          ],
-          "orbital_period": [
-            6.885875
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-299 d",
-          "radius": [
-            1.86
-          ],
-          "mass": [
-            4.12
-          ],
-          "orbital_period": [
-            15.054786
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-299 e",
-          "radius": [
-            1.87
-          ],
-          "mass": [
-            4.16
-          ],
-          "orbital_period": [
-            38.285489
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-299": {
+    "planets": [
+      {
+        "name": "Kepler-299 b",
+        "radius": [
+          1.32
+        ],
+        "mass": [
+          2.3
+        ],
+        "orbital_period": [
+          2.927128
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-299 c",
+        "radius": [
+          2.65
+        ],
+        "mass": [
+          7.51
+        ],
+        "orbital_period": [
+          6.885875
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-299 d",
+        "radius": [
+          1.86
+        ],
+        "mass": [
+          4.12
+        ],
+        "orbital_period": [
+          15.054786
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-299 e",
+        "radius": [
+          1.87
+        ],
+        "mass": [
+          4.16
+        ],
+        "orbital_period": [
+          38.285489
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-304": {
-      "planets": [
-        {
-          "name": "Kepler-304 e",
-          "radius": [
-            1.2
-          ],
-          "mass": [
-            1.87
-          ],
-          "orbital_period": [
-            1.499146953
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-304 b",
-          "radius": [
-            2.86
-          ],
-          "mass": [
-            8.55
-          ],
-          "orbital_period": [
-            3.295709
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-304 c",
-          "radius": [
-            2.17
-          ],
-          "mass": [
-            5.35
-          ],
-          "orbital_period": [
-            5.315946
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-304 d",
-          "radius": [
-            2.75
-          ],
-          "mass": [
-            8.0
-          ],
-          "orbital_period": [
-            9.653471
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-304": {
+    "planets": [
+      {
+        "name": "Kepler-304 e",
+        "radius": [
+          1.2
+        ],
+        "mass": [
+          1.87
+        ],
+        "orbital_period": [
+          1.499146953
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-304 b",
+        "radius": [
+          2.86
+        ],
+        "mass": [
+          8.55
+        ],
+        "orbital_period": [
+          3.295709
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-304 c",
+        "radius": [
+          2.17
+        ],
+        "mass": [
+          5.35
+        ],
+        "orbital_period": [
+          5.315946
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-304 d",
+        "radius": [
+          2.75
+        ],
+        "mass": [
+          8.0
+        ],
+        "orbital_period": [
+          9.653471
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-305": {
-      "planets": [
-        {
-          "name": "Kepler-305 e",
-          "radius": [
-            1.7938153
-          ],
-          "mass": [
-            3.87
-          ],
-          "orbital_period": [
-            3.20538
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-305 b",
-          "radius": [
-            3.6
-          ],
-          "mass": [
-            10.5
-          ],
-          "orbital_period": [
-            5.487
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-305 c",
-          "radius": [
-            3.3
-          ],
-          "mass": [
-            6.0
-          ],
-          "orbital_period": [
-            8.291
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-305 d",
-          "radius": [
-            2.76
-          ],
-          "mass": [
-            6.2
-          ],
-          "orbital_period": [
-            16.74
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-305": {
+    "planets": [
+      {
+        "name": "Kepler-305 e",
+        "radius": [
+          1.7938153
+        ],
+        "mass": [
+          3.87
+        ],
+        "orbital_period": [
+          3.20538
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-305 b",
+        "radius": [
+          3.6
+        ],
+        "mass": [
+          10.5
+        ],
+        "orbital_period": [
+          5.487
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-305 c",
+        "radius": [
+          3.3
+        ],
+        "mass": [
+          6.0
+        ],
+        "orbital_period": [
+          8.291
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-305 d",
+        "radius": [
+          2.76
+        ],
+        "mass": [
+          6.2
+        ],
+        "orbital_period": [
+          16.74
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-306": {
-      "planets": [
-        {
-          "name": "Kepler-306 b",
-          "radius": [
-            1.52
-          ],
-          "mass": [
-            2.92
-          ],
-          "orbital_period": [
-            4.646186
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-306 c",
-          "radius": [
-            2.35
-          ],
-          "mass": [
-            6.12
-          ],
-          "orbital_period": [
-            7.240193
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-306 d",
-          "radius": [
-            2.47
-          ],
-          "mass": [
-            6.66
-          ],
-          "orbital_period": [
-            17.326644
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-306 e",
-          "radius": [
-            2.27
-          ],
-          "mass": [
-            5.77
-          ],
-          "orbital_period": [
-            44.840975
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-306": {
+    "planets": [
+      {
+        "name": "Kepler-306 b",
+        "radius": [
+          1.52
+        ],
+        "mass": [
+          2.92
+        ],
+        "orbital_period": [
+          4.646186
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-306 c",
+        "radius": [
+          2.35
+        ],
+        "mass": [
+          6.12
+        ],
+        "orbital_period": [
+          7.240193
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-306 d",
+        "radius": [
+          2.47
+        ],
+        "mass": [
+          6.66
+        ],
+        "orbital_period": [
+          17.326644
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-306 e",
+        "radius": [
+          2.27
+        ],
+        "mass": [
+          5.77
+        ],
+        "orbital_period": [
+          44.840975
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-341": {
-      "planets": [
-        {
-          "name": "Kepler-341 b",
-          "radius": [
-            1.18
-          ],
-          "mass": [
-            1.76
-          ],
-          "orbital_period": [
-            5.195528
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-341 c",
-          "radius": [
-            1.7
-          ],
-          "mass": [
-            3.53
-          ],
-          "orbital_period": [
-            8.01041
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-341 d",
-          "radius": [
-            1.85
-          ],
-          "mass": [
-            4.08
-          ],
-          "orbital_period": [
-            27.666313
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-341 e",
-          "radius": [
-            1.99
-          ],
-          "mass": [
-            4.62
-          ],
-          "orbital_period": [
-            42.473269
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-341": {
+    "planets": [
+      {
+        "name": "Kepler-341 b",
+        "radius": [
+          1.18
+        ],
+        "mass": [
+          1.76
+        ],
+        "orbital_period": [
+          5.195528
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-341 c",
+        "radius": [
+          1.7
+        ],
+        "mass": [
+          3.53
+        ],
+        "orbital_period": [
+          8.01041
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-341 d",
+        "radius": [
+          1.85
+        ],
+        "mass": [
+          4.08
+        ],
+        "orbital_period": [
+          27.666313
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-341 e",
+        "radius": [
+          1.99
+        ],
+        "mass": [
+          4.62
+        ],
+        "orbital_period": [
+          42.473269
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-342": {
-      "planets": [
-        {
-          "name": "Kepler-342 e",
-          "radius": [
-            0.88
-          ],
-          "mass": [
-            0.615
-          ],
-          "orbital_period": [
-            1.644224613
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-342 b",
-          "radius": [
-            2.25
-          ],
-          "mass": [
-            5.69
-          ],
-          "orbital_period": [
-            15.170318
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-342 c",
-          "radius": [
-            1.96
-          ],
-          "mass": [
-            4.5
-          ],
-          "orbital_period": [
-            26.234138
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-342 d",
-          "radius": [
-            2.49
-          ],
-          "mass": [
-            6.76
-          ],
-          "orbital_period": [
-            39.459357
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-342": {
+    "planets": [
+      {
+        "name": "Kepler-342 e",
+        "radius": [
+          0.88
+        ],
+        "mass": [
+          0.615
+        ],
+        "orbital_period": [
+          1.644224613
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-342 b",
+        "radius": [
+          2.25
+        ],
+        "mass": [
+          5.69
+        ],
+        "orbital_period": [
+          15.170318
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-342 c",
+        "radius": [
+          1.96
+        ],
+        "mass": [
+          4.5
+        ],
+        "orbital_period": [
+          26.234138
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-342 d",
+        "radius": [
+          2.49
+        ],
+        "mass": [
+          6.76
+        ],
+        "orbital_period": [
+          39.459357
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-37": {
-      "planets": [
-        {
-          "name": "Kepler-37 b",
-          "radius": [
-            0.3098
-          ],
-          "mass": [
-            0.79
-          ],
-          "orbital_period": [
-            13.36702
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-37 c",
-          "radius": [
-            0.755
-          ],
-          "mass": [
-            1.3
-          ],
-          "orbital_period": [
-            21.301848
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-37 d",
-          "radius": [
-            2.03
-          ],
-          "mass": [
-            2.0
-          ],
-          "orbital_period": [
-            39.7922622
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-37 e",
-          "radius": [
-            0.37
-          ],
-          "mass": [
-            8.1
-          ],
-          "orbital_period": [
-            51.196
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-37": {
+    "planets": [
+      {
+        "name": "Kepler-37 b",
+        "radius": [
+          0.3098
+        ],
+        "mass": [
+          0.79
+        ],
+        "orbital_period": [
+          13.36702
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-37 c",
+        "radius": [
+          0.755
+        ],
+        "mass": [
+          1.3
+        ],
+        "orbital_period": [
+          21.301848
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-37 d",
+        "radius": [
+          2.03
+        ],
+        "mass": [
+          2.0
+        ],
+        "orbital_period": [
+          39.7922622
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-37 e",
+        "radius": [
+          0.37
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          51.196
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-402": {
-      "planets": [
-        {
-          "name": "Kepler-402 b",
-          "radius": [
-            1.22
-          ],
-          "mass": [
-            1.98
-          ],
-          "orbital_period": [
-            4.028751
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-402 c",
-          "radius": [
-            1.56
-          ],
-          "mass": [
-            3.05
-          ],
-          "orbital_period": [
-            6.124821
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-402 d",
-          "radius": [
-            1.38
-          ],
-          "mass": [
-            2.48
-          ],
-          "orbital_period": [
-            8.921099
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-402 e",
-          "radius": [
-            1.46
-          ],
-          "mass": [
-            2.73
-          ],
-          "orbital_period": [
-            11.242861
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-402": {
+    "planets": [
+      {
+        "name": "Kepler-402 b",
+        "radius": [
+          1.22
+        ],
+        "mass": [
+          1.98
+        ],
+        "orbital_period": [
+          4.028751
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-402 c",
+        "radius": [
+          1.56
+        ],
+        "mass": [
+          3.05
+        ],
+        "orbital_period": [
+          6.124821
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-402 d",
+        "radius": [
+          1.38
+        ],
+        "mass": [
+          2.48
+        ],
+        "orbital_period": [
+          8.921099
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-402 e",
+        "radius": [
+          1.46
+        ],
+        "mass": [
+          2.73
+        ],
+        "orbital_period": [
+          11.242861
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-51": {
-      "planets": [
-        {
-          "name": "Kepler-51 b",
-          "radius": [
-            7.1
-          ],
-          "mass": [
-            2.1
-          ],
-          "orbital_period": [
-            45.154
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-51 c",
-          "radius": [
-            9.0
-          ],
-          "mass": [
-            4.0
-          ],
-          "orbital_period": [
-            85.312
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-51 d",
-          "radius": [
-            9.7
-          ],
-          "mass": [
-            7.6
-          ],
-          "orbital_period": [
-            130.194
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-51 e",
-          "radius": [
-            2.18
-          ],
-          "mass": [
-            5.4
-          ],
-          "orbital_period": [
-            264.284
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-51": {
+    "planets": [
+      {
+        "name": "Kepler-51 b",
+        "radius": [
+          7.1
+        ],
+        "mass": [
+          2.1
+        ],
+        "orbital_period": [
+          45.154
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-51 c",
+        "radius": [
+          9.0
+        ],
+        "mass": [
+          4.0
+        ],
+        "orbital_period": [
+          85.312
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-51 d",
+        "radius": [
+          9.7
+        ],
+        "mass": [
+          7.6
+        ],
+        "orbital_period": [
+          130.194
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-51 e",
+        "radius": [
+          2.18
+        ],
+        "mass": [
+          5.4
+        ],
+        "orbital_period": [
+          264.284
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "Kepler-758": {
-      "planets": [
-        {
-          "name": "Kepler-758 c",
-          "radius": [
-            1.69
-          ],
-          "mass": [
-            3.5
-          ],
-          "orbital_period": [
-            4.75793986
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "Kepler-758 e",
-          "radius": [
-            1.53
-          ],
-          "mass": [
-            2.96
-          ],
-          "orbital_period": [
-            8.1934719
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "Kepler-758 b",
-          "radius": [
-            2.48
-          ],
-          "mass": [
-            6.71
-          ],
-          "orbital_period": [
-            12.1097104
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "Kepler-758 d",
-          "radius": [
-            2.12
-          ],
-          "mass": [
-            5.14
-          ],
-          "orbital_period": [
-            20.4966197
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "Kepler-758": {
+    "planets": [
+      {
+        "name": "Kepler-758 c",
+        "radius": [
+          1.69
+        ],
+        "mass": [
+          3.5
+        ],
+        "orbital_period": [
+          4.75793986
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-758 e",
+        "radius": [
+          1.53
+        ],
+        "mass": [
+          2.96
+        ],
+        "orbital_period": [
+          8.1934719
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-758 b",
+        "radius": [
+          2.48
+        ],
+        "mass": [
+          6.71
+        ],
+        "orbital_period": [
+          12.1097104
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-758 d",
+        "radius": [
+          2.12
+        ],
+        "mass": [
+          5.14
+        ],
+        "orbital_period": [
+          20.4966197
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "L 98-59": {
-      "planets": [
-        {
-          "name": "L 98-59 b",
-          "radius": [
-            0.85
-          ],
-          "mass": [
-            0.4
-          ],
-          "orbital_period": [
-            2.2531136
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "L 98-59 c",
-          "radius": [
-            1.385
-          ],
-          "mass": [
-            2.22
-          ],
-          "orbital_period": [
-            3.6906777
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "L 98-59 d",
-          "radius": [
-            1.521
-          ],
-          "mass": [
-            1.94
-          ],
-          "orbital_period": [
-            7.4507245
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "L 98-59 e",
-          "radius": [
-            1.56
-          ],
-          "mass": [
-            3.06
-          ],
-          "orbital_period": [
-            12.796
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "L 98-59": {
+    "planets": [
+      {
+        "name": "L 98-59 b",
+        "radius": [
+          0.85
+        ],
+        "mass": [
+          0.4
+        ],
+        "orbital_period": [
+          2.2531136
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "L 98-59 c",
+        "radius": [
+          1.385
+        ],
+        "mass": [
+          2.22
+        ],
+        "orbital_period": [
+          3.6906777
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "L 98-59 d",
+        "radius": [
+          1.521
+        ],
+        "mass": [
+          1.94
+        ],
+        "orbital_period": [
+          7.4507245
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "L 98-59 e",
+        "radius": [
+          1.56
+        ],
+        "mass": [
+          3.06
+        ],
+        "orbital_period": [
+          12.796
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "TOI-1136": {
-      "planets": [
-        {
-          "name": "TOI-1136 b",
-          "radius": [
-            1.9
-          ],
-          "mass": [
-            3.5
-          ],
-          "orbital_period": [
-            4.1727
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "TOI-1136 c",
-          "radius": [
-            2.879
-          ],
-          "mass": [
-            6.32
-          ],
-          "orbital_period": [
-            6.2574
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "TOI-1136 d",
-          "radius": [
-            4.627
-          ],
-          "mass": [
-            8.35
-          ],
-          "orbital_period": [
-            12.5199
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "TOI-1136 e",
-          "radius": [
-            2.639
-          ],
-          "mass": [
-            6.07
-          ],
-          "orbital_period": [
-            18.801
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        },
-        {
-          "name": "TOI-1136 f",
-          "radius": [
-            3.73591482
-          ],
-          "mass": [
-            9.7
-          ],
-          "orbital_period": [
-            26.321
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            5
-          ]
-        },
-        {
-          "name": "TOI-1136 g",
-          "radius": [
-            2.53
-          ],
-          "mass": [
-            5.6
-          ],
-          "orbital_period": [
-            39.545
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            6
-          ]
-        }
-      ]
-    }
+  "TOI-1136": {
+    "planets": [
+      {
+        "name": "TOI-1136 b",
+        "radius": [
+          1.9
+        ],
+        "mass": [
+          3.5
+        ],
+        "orbital_period": [
+          4.1727
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-1136 c",
+        "radius": [
+          2.879
+        ],
+        "mass": [
+          6.32
+        ],
+        "orbital_period": [
+          6.2574
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-1136 d",
+        "radius": [
+          4.627
+        ],
+        "mass": [
+          8.35
+        ],
+        "orbital_period": [
+          12.5199
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-1136 e",
+        "radius": [
+          2.639
+        ],
+        "mass": [
+          6.07
+        ],
+        "orbital_period": [
+          18.801
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "TOI-1136 f",
+        "radius": [
+          3.73591482
+        ],
+        "mass": [
+          9.7
+        ],
+        "orbital_period": [
+          26.321
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "TOI-1136 g",
+        "radius": [
+          2.53
+        ],
+        "mass": [
+          5.6
+        ],
+        "orbital_period": [
+          39.545
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
   },
-  {
-    "TOI-1246": {
-      "planets": [
-        {
-          "name": "TOI-1246 b",
-          "radius": [
-            3.01
-          ],
-          "mass": [
-            8.1
-          ],
-          "orbital_period": [
-            4.30744
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "TOI-1246 c",
-          "radius": [
-            2.45109846
-          ],
-          "mass": [
-            9.1
-          ],
-          "orbital_period": [
-            5.904137
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "TOI-1246 d",
-          "radius": [
-            3.43139739
-          ],
-          "mass": [
-            5.4
-          ],
-          "orbital_period": [
-            18.654874
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "TOI-1246 e",
-          "radius": [
-            3.5141875
-          ],
-          "mass": [
-            14.5
-          ],
-          "orbital_period": [
-            37.92548
-          ],
-          "category": [
-            "Mini-Neptune"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "TOI-1246": {
+    "planets": [
+      {
+        "name": "TOI-1246 b",
+        "radius": [
+          3.01
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          4.30744
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-1246 c",
+        "radius": [
+          2.45109846
+        ],
+        "mass": [
+          9.1
+        ],
+        "orbital_period": [
+          5.904137
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-1246 d",
+        "radius": [
+          3.43139739
+        ],
+        "mass": [
+          5.4
+        ],
+        "orbital_period": [
+          18.654874
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-1246 e",
+        "radius": [
+          3.5141875
+        ],
+        "mass": [
+          14.5
+        ],
+        "orbital_period": [
+          37.92548
+        ],
+        "category": [
+          "Mini-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "TOI-700": {
-      "planets": [
-        {
-          "name": "TOI-700 b",
-          "radius": [
-            0.914
-          ],
-          "mass": [
-            0.704
-          ],
-          "orbital_period": [
-            9.977219
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "TOI-700 c",
-          "radius": [
-            2.6
-          ],
-          "mass": [
-            7.27
-          ],
-          "orbital_period": [
-            16.051137
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "TOI-700 e",
-          "radius": [
-            0.953
-          ],
-          "mass": [
-            0.818
-          ],
-          "orbital_period": [
-            27.80978
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "TOI-700 d",
-          "radius": [
-            1.073
-          ],
-          "mass": [
-            1.25
-          ],
-          "orbital_period": [
-            37.42396
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "TOI-700": {
+    "planets": [
+      {
+        "name": "TOI-700 b",
+        "radius": [
+          0.914
+        ],
+        "mass": [
+          0.704
+        ],
+        "orbital_period": [
+          9.977219
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-700 c",
+        "radius": [
+          2.6
+        ],
+        "mass": [
+          7.27
+        ],
+        "orbital_period": [
+          16.051137
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-700 e",
+        "radius": [
+          0.953
+        ],
+        "mass": [
+          0.818
+        ],
+        "orbital_period": [
+          27.80978
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-700 d",
+        "radius": [
+          1.073
+        ],
+        "mass": [
+          1.25
+        ],
+        "orbital_period": [
+          37.42396
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   },
-  {
-    "tau Cet": {
-      "planets": [
-        {
-          "name": "tau Cet g",
-          "radius": [
-            1.18
-          ],
-          "mass": [
-            1.75
-          ],
-          "orbital_period": [
-            20.0
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            1
-          ]
-        },
-        {
-          "name": "tau Cet h",
-          "radius": [
-            1.19
-          ],
-          "mass": [
-            1.83
-          ],
-          "orbital_period": [
-            49.41
-          ],
-          "category": [
-            "Terrestrial"
-          ],
-          "order": [
-            2
-          ]
-        },
-        {
-          "name": "tau Cet e",
-          "radius": [
-            1.81
-          ],
-          "mass": [
-            3.93
-          ],
-          "orbital_period": [
-            162.87
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            3
-          ]
-        },
-        {
-          "name": "tau Cet f",
-          "radius": [
-            1.81
-          ],
-          "mass": [
-            3.93
-          ],
-          "orbital_period": [
-            636.13
-          ],
-          "category": [
-            "Super-Earth"
-          ],
-          "order": [
-            4
-          ]
-        }
-      ]
-    }
+  "tau Cet": {
+    "planets": [
+      {
+        "name": "tau Cet g",
+        "radius": [
+          1.18
+        ],
+        "mass": [
+          1.75
+        ],
+        "orbital_period": [
+          20.0
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "tau Cet h",
+        "radius": [
+          1.19
+        ],
+        "mass": [
+          1.83
+        ],
+        "orbital_period": [
+          49.41
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "tau Cet e",
+        "radius": [
+          1.81
+        ],
+        "mass": [
+          3.93
+        ],
+        "orbital_period": [
+          162.87
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "tau Cet f",
+        "radius": [
+          1.81
+        ],
+        "mass": [
+          3.93
+        ],
+        "orbital_period": [
+          636.13
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
   }
-]
+}
