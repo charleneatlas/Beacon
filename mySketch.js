@@ -44,12 +44,15 @@ const starSystems = [];
 const planets = [];
 const patterns = [];
 
+const ScaleFactor = 500; // A way to scale down planets to fit in app window
+const EARTH_RADIUS_KM = 6371; // Source: https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html
+
 // Make planet radii to scale, but not distances.
 
 // SOLAR SYSTEM - Source: https://www.britannica.com/science/solar-system
 const MERCURY_RADIUS_KM = 4900 / 2;
 const VENUS_RADIUS_KM = 12100 / 2;
-const EARTH_RADIUS_KM = 12760 / 2;
+
 const MARS_RADIUS_KM = 6800 / 2;
 const JUPITER_RADIUS_KM = 143000 / 2;
 const SATURN_RADIUS_KM = 120600 / 2;
@@ -316,7 +319,11 @@ function calculatePlanets() {
   // }
 
   for (let i = 0; i < planetRadii.length; i++) {
-    planets[i] = new Planet(150 * i + 250, sunY, planetRadii[i] * 2);
+    planets[i] = new Planet(
+      150 * i + 250,
+      sunY,
+      (planetRadii[i] * EARTH_RADIUS_KM * 2) / ScaleFactor
+    );
   }
 
   // Determine how far the sound wave front should go before resetting. Here using the X of the last planet and adding sun radius as a buffer.
