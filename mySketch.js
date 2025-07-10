@@ -32,29 +32,6 @@ let patternData;
 let starSysData;
 
 let aspectRatio = 16 / 9;
-/*
-const B5_NOTE = "B5";
-const A5_NOTE = "A5";
-const G5_NOTE = "G5";
-const F5_NOTE = "F5";
-const E5_NOTE = "E5";
-const D5_NOTE = "D5";
-const C5_NOTE = "C5";
-const B4_NOTE = "B4";
-const A4_NOTE = "A4";
-const G4_NOTE = "G4";
-const F4_NOTE = "F4";
-const E4_NOTE = "E4";
-const D4_NOTE = "D4";
-const C4_NOTE = "C4";
-const B3_NOTE = "B3";
-const A3_NOTE = "A3";
-const G3_NOTE = "G3";
-const F3_NOTE = "F3";
-const E3_NOTE = "E3";
-const D3_NOTE = "D3";
-const C3_NOTE = "C3";
-*/
 
 // The strings for note names in the sound library seem to be wrong so defining own notes names here with frequencies.
 const notes = {
@@ -98,26 +75,6 @@ const TOI700_B_RADIUS_KM = 0.944 * EARTH_RADIUS_KM;
 const TOI700_C_RADIUS_KM = 2.65 * EARTH_RADIUS_KM;
 const TOI700_D_RADIUS_KM = 1.156 * EARTH_RADIUS_KM;
 const TOI700_E_RADIUS_KM = 0.931 * EARTH_RADIUS_KM;
-
-// EXOPLANET CLASSIFICATION BY RADIUS - Source: ChatGPT
-// Sub-terran < 0.8 R⊕	Smaller than Earth; likely rocky or iron-rich, like Mars or Mercury.
-// Terran	0.8 – 1.25 R⊕	Earth-sized rocky planets.
-// Super-Earth	1.25 – 2.0 R⊕	Larger rocky planets, possibly with thin atmospheres.
-// Mini-Neptune / Sub-Neptune	2.0 – 4.0 R⊕	Small gas-rich planets with thick H/He envelopes. Often considered the dividing line between rocky and volatile-rich planets.
-// Neptune-like	4.0 – 6.0 R⊕	Larger ice giants, like Neptune or Uranus.
-// Gas Giant	> 6.0 R⊕	Jupiter-sized planets and larger; dominated by gas envelopes.
-// Super-Jupiter	> 13 R⊕ (or > 13 M_J)	Massive gas giants possibly in brown dwarf territory.
-//
-// Can map to seven notes of a scale
-// Sub-terran   | D4
-// Terran	      | C4 (Makes sense to me that Earth is Middle C)
-// Super-Earth  | B3
-// Mini-Neptune | A3
-// Neptune-like	| G3
-// Gas Giant	  | F3
-// Super-Jupiter| E3
-
-// Ranges are non-inclusive...sometimes.
 
 // Grab the data
 function preload() {
@@ -537,6 +494,6 @@ class Planet {
   }
   show() {
     circle(this.x, this.y, this.d);
-    text(this.type, this.x, this.y + 100);
+    text(this.type, this.x, this.y + 120);
   }
 }
