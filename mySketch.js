@@ -164,12 +164,38 @@ function draw() {
     text(patternLabel, width / 2, 30);
     textSize(18);
 
-    text(
+    let firstHost =
+      patternData[currentPattern]["pattern_" + (currentPattern + 1)].hostnames[
+        currentStarSystem
+      ];
+    let numSystemsWithPattern =
       patternData[currentPattern]["pattern_" + (currentPattern + 1)]
-        .hostnames[0],
+        .hostname_count;
+
+    // Show star system name
+    push();
+    textStyle(BOLD);
+    text(firstHost, width / 2, 60);
+    pop();
+
+    // Show how many other patterns there are
+    text(
+      "(" + (currentStarSystem + 1) + " of " + numSystemsWithPattern + ")",
+      width / 2,
+      80
+    );
+
+    //text("World", x + textWidth("Hello "), y);
+    /*text(
+      firstHost +
+        " (" +
+        (firstHostIndex + 1) +
+        " of " +
+        numSystemsWithPattern +
+        ")",
       width / 2,
       60
-    );
+    );*/
 
     push();
     // Star
@@ -295,33 +321,55 @@ function mouseClicked() {
   }
 }
 
-function resetDisplay() {
+function resetPattern() {
   // Clear planets
   planets.length = 0;
   planetProperties.length = 0;
+
+  // Clear pattern and star systems
   currentPatternSystems.length = 0;
+  currentStarSystem = 0;
 
   // Reset sound wave
   resetSoundwave();
 }
 
-function displayPattern(index) {
-  // Clear everything
-  resetDisplay();
-  // Get the list of star systems for this pattern and add each ones planet dictionaries to an array.
-  for (host of patternData[index]["pattern_" + (index + 1)].hostnames) {
-    // For each host listed in a pattern, add their list of planet dictionaries to an array
-    currentPatternSystems.push(starSysData[host]["planets"]);
-  }
+function resetStarSystem() {
+  // Clear planets
+  planets.length = 0;
+  planetProperties.length = 0;
+
+  // Reset sound wave
+  resetSoundwave();
+}
+
+function displayStarSystemFromCurrentPattern() {
   // Get the planet info for new star system
-  for (pl of currentPatternSystems[0]) {
+  for (pl of currentPatternSystems[currentStarSystem]) {
     planetProperties.push(pl);
   }
   // Figure out placement of new planets to be drawn
   calculatePlanets();
 }
 
+function displayPattern(index) {
+  // Clear everything
+  resetPattern();
+  // Get the list of star systems for this pattern and add each ones planet dictionaries to an array.
+  for (host of patternData[index]["pattern_" + (index + 1)].hostnames) {
+    // For each host listed in a pattern, add their list of planet dictionaries to an array
+    currentPatternSystems.push(starSysData[host]["planets"]);
+  }
+  // Get all the planet info for the first star system to display
+  displayStarSystemFromCurrentPattern();
+}
+
 function keyPressed() {
+  let numStarSystems = parseInt(
+    patternData[currentPattern]["pattern_" + (currentPattern + 1)]
+      .hostname_count
+  );
+
   switch (keyCode) {
     // Navigate to next pattern.
     case RIGHT_ARROW:
@@ -336,11 +384,19 @@ function keyPressed() {
       return false; // prevent default browser behavior, which may scroll page on press of arrow
     case DOWN_ARROW:
       // Navigate to next star system of current pattern.
-      //currentStarSystem = (currentStarSystem + 1) % starSystems.length;
-      break;
+      currentStarSystem = (currentStarSystem + 1) % numStarSystems;
+      resetStarSystem();
+      // Change to the new star systems content
+      displayStarSystemFromCurrentPattern();
+      return false; // prevent default browser behavior, which may scroll page on press of arrow
     case UP_ARROW:
       // Navigate to previous star system of current pattern.
-      break;
+      currentStarSystem =
+        (currentStarSystem - 1 + numStarSystems) % numStarSystems;
+      resetStarSystem();
+      // Change to the new star systems content
+      displayStarSystemFromCurrentPattern();
+      return false; // prevent default browser behavior, which may scroll page on press of arrow
   }
 }
 
