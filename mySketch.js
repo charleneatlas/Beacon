@@ -17,8 +17,7 @@ let p4;
 let windowCenter;
 let soundWaveSpeed = 600; //TODO: Make this user controllable
 let resetX;
-let planetRadii = [];
-let planetTypes = [];
+let planetProperties = [];
 let currentStarSystem = 0;
 let currentPattern = 0;
 let patternLabel;
@@ -132,28 +131,10 @@ function setup() {
     NEPTUNE_RADIUS_KM / 1000,
   ];
 
-  // HD110067 (K-type Main Sequence Star / "Orange Dwarf")
-  planetRadii_HD110067 = [
-    HD110067_B_RADIUS_KM / 1000,
-    HD110067_C_RADIUS_KM / 1000,
-    HD110067_D_RADIUS_KM / 1000,
-    HD110067_E_RADIUS_KM / 1000,
-    HD110067_F_RADIUS_KM / 1000,
-    HD110067_G_RADIUS_KM / 1000,
-  ];
-
-  // TOI-700 (M Class Main Sequence Star / "Red Dwarf")
-  planetRadii_TOI700 = [
-    TOI700_B_RADIUS_KM / 1000,
-    TOI700_C_RADIUS_KM / 1000,
-    TOI700_D_RADIUS_KM / 1000,
-    TOI700_E_RADIUS_KM / 1000,
-  ];
-
   // Star systems
-  starSystems[0] = planetRadii_SolarSystem;
-  starSystems[1] = planetRadii_HD110067;
-  starSystems[2] = planetRadii_TOI700;
+  //starSystems[0] = planetRadii_SolarSystem;
+  //starSystems[1] = planetRadii_HD110067;
+  //starSystems[2] = planetRadii_TOI700;
 
   // Display first pattern
   displayPattern(currentPattern);
@@ -265,12 +246,12 @@ function calculatePlanets() {
   previousCenter = sunX;
   previousRadius = sunDiameter / 2;
 
-  for (let i = 0; i < planetRadii.length; i++) {
+  for (let i = 0; i < planetProperties.length; i++) {
     planets[i] = new Planet(
       150 * i + 250,
       sunY,
-      (planetRadii[i] * EARTH_RADIUS_KM * 2) / ScaleFactor,
-      planetTypes[i]
+      (planetProperties[i].radius * EARTH_RADIUS_KM * 2) / ScaleFactor,
+      planetProperties[i].category
     );
   }
 
@@ -330,8 +311,7 @@ function mouseClicked() {
 function resetDisplay() {
   // Clear planets
   planets.length = 0;
-  planetRadii.length = 0;
-  planetTypes.length = 0;
+  planetProperties.length = 0;
   currentPatternSystems.length = 0;
 
   // Reset sound wave
@@ -348,8 +328,7 @@ function displayPattern(index) {
   }
   // Get the planet info for new star system
   for (pl of currentPatternSystems[0]) {
-    planetRadii.push(pl.radius);
-    planetTypes.push(pl.category); // TODO: Instead of separate arrays for all the planet attributes, create planet objects and pass them its properties in a constructor.
+    planetProperties.push(pl);
   }
   // Figure out placement of new planets to be drawn
   calculatePlanets();
