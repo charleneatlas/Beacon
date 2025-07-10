@@ -316,8 +316,7 @@ function mouseClicked() {
     // Focus the canvas
     canvas.elt.focus?.();
   } else {
-    playAnimation = !playAnimation;
-    resetSoundwave();
+    // TODO
   }
 }
 
@@ -397,6 +396,10 @@ function keyPressed() {
       // Change to the new star systems content
       displayStarSystemFromCurrentPattern();
       return false; // prevent default browser behavior, which may scroll page on press of arrow
+    case 32: //KeyCode for spacebar, no system variable in p5.js for it
+      playAnimation = !playAnimation;
+      resetSoundwave();
+      return false; // prevent default browser behavior, which may scroll page on press of spacebar
   }
 }
 
