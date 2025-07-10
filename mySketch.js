@@ -1,6 +1,7 @@
 // Beacon
 // Author: Charlene Atlas
 // Exoplanet systems with three of more planets. Comparing via "hearing" them in terms of their planet types and ordering.
+// At this time, focused on systems that have a "pattern" shared by at least one other system.
 // Radii are to scale, distances are not.
 
 let started = false;
@@ -366,78 +367,54 @@ function mouseClicked() {
   }
 }
 
+function resetDisplay() {
+  // Clear planets
+  planets.length = 0;
+  planetRadii.length = 0;
+  planetTypes.length = 0;
+  currentPatternSystems.length = 0;
+
+  // Reset sound wave
+  resetSoundwave();
+}
+
+function displayPattern(index) {
+  // Clear everything
+  resetDisplay();
+  // Get the list of star systems for this pattern and add each ones planet dictionaries to an array.
+  for (host of patternData[index]["pattern_" + (index + 1)].hostnames) {
+    // For each host listed in a pattern, add their list of planet dictionaries to an array
+    currentPatternSystems.push(starSysData[host]["planets"]);
+  }
+  // Get the planet info for new star system
+  for (pl of currentPatternSystems[0]) {
+    planetRadii.push(pl.radius);
+    planetTypes.push(pl.category); // TODO: Instead of separate arrays for all the planet attributes, create planet objects and pass them its properties in a constructor.
+  }
+  // Figure out placement of new planets to be drawn
+  calculatePlanets();
+}
+
 function keyPressed() {
-  if (keyCode === RIGHT_ARROW) {
-    // CHANGE TO NEW STAR SYSTEM
-    // Clear planets
-    planets.length = 0;
-    planetRadii.length = 0;
-    planetTypes.length = 0;
-    currentPatternSystems.length = 0;
-    // Reset sound wave
-    resetSoundwave();
-
-    // Change star system index
-    //currentStarSystem = (currentStarSystem + 1) % starSystems.length;
-
-    // CHANGE TO NEXT PATTERN
-    currentPattern = (currentPattern + 1) % patternData.length;
-    print(currentPattern);
-
-    for (host of patternData[currentPattern]["pattern_" + (currentPattern + 1)]
-      .hostnames) {
-      print(host);
-
-      // For each host listed in a pattern, add their list of planet dictionaries to an array
-      currentPatternSystems.push(starSysData[host]["planets"]);
-    }
-
-    // Get the planet info for new star system
-    for (pl of currentPatternSystems[0]) {
-      planetRadii.push(pl.radius);
-      planetTypes.push(pl.category); // TODO: Instead of separate arrays for all the planet attributes, create planet objects and pass them its properties in a constructor.
-    }
-    // Figure out placement of new planets to be drawn
-    calculatePlanets();
-    //print("CLICK: " + currentStarSystem);
-
-    return false; // prevent default browser behavior, which may scroll page on press of arrow
-  } else if (keyCode === LEFT_ARROW) {
-    // CHANGE TO NEW STAR SYSTEM
-    // Clear planets
-    planets.length = 0;
-    planetRadii.length = 0;
-    planetTypes.length = 0;
-    currentPatternSystems.length = 0;
-    // Reset sound wave
-    resetSoundwave();
-
-    // Change star system index
-    //currentStarSystem = (currentStarSystem + 1) % starSystems.length;
-
-    // CHANGE TO NEXT PATTERN
-    currentPattern =
-      (currentPattern - 1 + patternData.length) % patternData.length;
-    print(currentPattern);
-
-    for (host of patternData[currentPattern]["pattern_" + (currentPattern + 1)]
-      .hostnames) {
-      print(host);
-
-      // For each host listed in a pattern, add their list of planet dictionaries to an array
-      currentPatternSystems.push(starSysData[host]["planets"]);
-    }
-
-    // Get the planet info for new star system
-    for (pl of currentPatternSystems[0]) {
-      planetRadii.push(pl.radius);
-      planetTypes.push(pl.category); // TODO: Instead of separate arrays for all the planet attributes, create planet objects and pass them its properties in a constructor.
-    }
-    // Figure out placement of new planets to be drawn
-    calculatePlanets();
-    //print("CLICK: " + currentStarSystem);
-
-    return false; // prevent default browser behavior, which may scroll page on press of arrow
+  switch (keyCode) {
+    // Navigate to next pattern.
+    case RIGHT_ARROW:
+      currentPattern = (currentPattern + 1) % patternData.length;
+      displayPattern(currentPattern);
+      return false; // prevent default browser behavior, which may scroll page on press of arrow
+    // Navigate to previous pattern.
+    case LEFT_ARROW:
+      currentPattern =
+        (currentPattern - 1 + patternData.length) % patternData.length;
+      displayPattern(currentPattern);
+      return false; // prevent default browser behavior, which may scroll page on press of arrow
+    case DOWN_ARROW:
+      // Navigate to next star system of current pattern.
+      //currentStarSystem = (currentStarSystem + 1) % starSystems.length;
+      break;
+    case UP_ARROW:
+      // Navigate to previous star system of current pattern.
+      break;
   }
 }
 
