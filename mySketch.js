@@ -22,6 +22,7 @@ let currentStarSystem = 0;
 let currentPattern = 0;
 let patternLabel;
 let currentPatternSystems = []; // Star system data for current pattern
+let isShowingSolarSystem = false;
 
 let sunX;
 let sunY;
@@ -51,6 +52,87 @@ const ScaleFactor = 500; // A way to scale down planets to fit in app window
 const EARTH_RADIUS_KM = 6371; // Source: https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html
 
 // Make planet radii to scale, but not distances.
+
+// SOLAR SYSTEM DATA
+const Mercury = {
+  name: "Mercury",
+  radius: 0.38,
+  mass: 0.055,
+  orbital_period: 87.97,
+  category: "Terrestrial",
+  order: 1,
+};
+const Venus = {
+  name: "Venus",
+  radius: 0.95,
+  mass: 0.82,
+  orbital_period: 224.7,
+  category: "Terrestrial",
+  order: 3,
+};
+const Earth = {
+  name: "Earth",
+  radius: 1,
+  mass: 1,
+  orbital_period: 365,
+  category: "Terrestrial",
+  order: 3,
+};
+const Mars = {
+  name: "Mars",
+  radius: 0.53,
+  mass: 0.11,
+  orbital_period: 686.98,
+  category: "Terrestrial",
+  order: 4,
+};
+
+const Jupiter = {
+  name: "Jupiter",
+  radius: 11.21,
+  mass: 317.8,
+  orbital_period: 4332.59,
+  category: "Gas Giant",
+  order: 5,
+};
+
+const Saturn = {
+  name: "Saturn",
+  radius: 9.45,
+  mass: 95.16,
+  orbital_period: 10759.22,
+  category: "Gas Giant",
+  order: 6,
+};
+
+const Uranus = {
+  name: "Uranus",
+  radius: 4.01,
+  mass: 14.54,
+  orbital_period: 30685.4,
+  category: "Neptune-Like",
+  order: 7,
+};
+
+const Neptune = {
+  name: "Neptune",
+  radius: 3.88,
+  mass: 17.15,
+  orbital_period: 60190,
+  category: "Neptune-Like",
+  order: 8,
+};
+
+let solarPlanets = [
+  Mercury,
+  Venus,
+  Earth,
+  Mars,
+  Jupiter,
+  Saturn,
+  Uranus,
+  Neptune,
+];
 
 // SOLAR SYSTEM - Source: https://www.britannica.com/science/solar-system
 const MERCURY_RADIUS_KM = 4900 / 2;
@@ -118,11 +200,6 @@ function setup() {
     NEPTUNE_RADIUS_KM / 1000,
   ];
 
-  // Star systems
-  //starSystems[0] = planetRadii_SolarSystem;
-  //starSystems[1] = planetRadii_HD110067;
-  //starSystems[2] = planetRadii_TOI700;
-
   // Display first pattern
   displayPattern(currentPattern);
 }
@@ -143,39 +220,32 @@ function draw() {
     textAlign(TOP, CENTER);
     textSize(32); // Set text size to 32 pixels
 
-    let starSystemLabel;
+    let currentHostLabel;
+    let numSystemsWithPattern;
 
-    switch (currentStarSystem) {
-      case 0:
-        starSystemLabel = "SOLAR SYSTEM";
-        break;
-      case 1:
-        starSystemLabel = "HD110067";
-        break;
-      case 2:
-        starSystemLabel = "TOI-700";
-        break; // ... more cases
-      default:
-        starSystemLabel = "UNKNOWN";
+    if (!isShowingSolarSystem) {
+      patternLabel =
+        patternData[currentPattern]["pattern_" + (currentPattern + 1)].name;
+
+      currentHostLabel =
+        patternData[currentPattern]["pattern_" + (currentPattern + 1)]
+          .hostnames[currentStarSystem];
+
+      numSystemsWithPattern =
+        patternData[currentPattern]["pattern_" + (currentPattern + 1)]
+          .hostname_count;
+    } else {
+      patternLabel = "Pattern #0";
+      currentHostLabel = "The Sun";
+      numSystemsWithPattern = 1; // as of 7-10-25
     }
-
-    patternLabel =
-      patternData[currentPattern]["pattern_" + (currentPattern + 1)].name;
     text(patternLabel, width / 2, 30);
     textSize(18);
-
-    let firstHost =
-      patternData[currentPattern]["pattern_" + (currentPattern + 1)].hostnames[
-        currentStarSystem
-      ];
-    let numSystemsWithPattern =
-      patternData[currentPattern]["pattern_" + (currentPattern + 1)]
-        .hostname_count;
 
     // Show star system name
     push();
     textStyle(BOLD);
-    text(firstHost, width / 2, 60);
+    text(currentHostLabel, width / 2, 60);
     pop();
 
     // Show how many other patterns there are
@@ -324,6 +394,7 @@ function resetPattern() {
   // Clear planets
   planets.length = 0;
   planetProperties.length = 0;
+  isShowingSolarSystem = false; // In case was showing solar system previously
 
   // Clear pattern and star systems
   currentPatternSystems.length = 0;
@@ -363,11 +434,23 @@ function displayPattern(index) {
   displayStarSystemFromCurrentPattern();
 }
 
+function displaySolarSystem() {
+  // Clear everything
+  resetPattern();
+
+  // Set pattern to be solar system
+  isShowingSolarSystem = true;
+  currentPatternSystems.push(solarPlanets);
+  displayStarSystemFromCurrentPattern();
+}
+
 function keyPressed() {
-  let numStarSystems = parseInt(
-    patternData[currentPattern]["pattern_" + (currentPattern + 1)]
-      .hostname_count
-  );
+  // let numStarSystems = parseInt(
+  //   patternData[currentPattern]["pattern_" + (currentPattern + 1)]
+  //     .hostname_count
+  // );
+
+  let numStarSystems = currentPatternSystems.length;
 
   switch (keyCode) {
     // Navigate to next pattern.
@@ -400,6 +483,9 @@ function keyPressed() {
       playAnimation = !playAnimation;
       resetSoundwave();
       return false; // prevent default browser behavior, which may scroll page on press of spacebar
+    case TAB:
+      displaySolarSystem();
+      return false; // prevent default browser behavior, which may take action on press of TAB
   }
 }
 
