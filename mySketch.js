@@ -62,23 +62,10 @@ const SATURN_RADIUS_KM = 120600 / 2;
 const URANUS_RADIUS_KM = 51000 / 2;
 const NEPTUNE_RADIUS_KM = 50000 / 2;
 
-// HD110067 (Six sub-Neptune system) - Source: https://en.wikipedia.org/wiki/HD_110067
-const HD110067_B_RADIUS_KM = 2.2 * EARTH_RADIUS_KM;
-const HD110067_C_RADIUS_KM = 2.388 * EARTH_RADIUS_KM;
-const HD110067_D_RADIUS_KM = 2.852 * EARTH_RADIUS_KM;
-const HD110067_E_RADIUS_KM = 1.94 * EARTH_RADIUS_KM;
-const HD110067_F_RADIUS_KM = 2.601 * EARTH_RADIUS_KM;
-const HD110067_G_RADIUS_KM = 2.607 * EARTH_RADIUS_KM;
-
-// TOI-700 - https://en.wikipedia.org/wiki/TOI-700
-const TOI700_B_RADIUS_KM = 0.944 * EARTH_RADIUS_KM;
-const TOI700_C_RADIUS_KM = 2.65 * EARTH_RADIUS_KM;
-const TOI700_D_RADIUS_KM = 1.156 * EARTH_RADIUS_KM;
-const TOI700_E_RADIUS_KM = 0.931 * EARTH_RADIUS_KM;
-
 // Grab the data
 function preload() {
   //https://www.geeksforgeeks.org/javascript/p5-js-loadjson-function/
+  // Use the data from Nasa Exoplanet Institute (NexSci)
   loadJSON("PatternData_NexSci.json", onPatternFileLoad);
   loadJSON("StarSystemData_NexSci.json", onStarSysFileLoad);
 }
@@ -94,7 +81,7 @@ function onStarSysFileLoad(data) {
 }
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight / 3);
+  canvas = createCanvas(windowWidth, windowHeight / 1.8);
   canvas.parent("projects");
 
   /*const container = select("#projects"); // or whatever container you have
@@ -251,7 +238,7 @@ function calculatePlanets() {
       150 * i + 250,
       sunY,
       (planetProperties[i].radius * EARTH_RADIUS_KM * 2) / ScaleFactor,
-      planetProperties[i].category
+      planetProperties[i]
     );
   }
 
@@ -373,11 +360,16 @@ function windowResized() {
 }
 
 class Planet {
-  constructor(x, y, d, type) {
+  constructor(x, y, d, properties) {
     this.x = x;
     this.y = y;
-    this.d = d;
-    this.type = String(type);
+    this.d = d; // leaving this separate since might have some scale factor on this
+    // Real planet properties
+    this.name = String(properties.name);
+    this.radius = properties.radius;
+    this.mass = properties.mass;
+    this.orbital_period = properties.orbital_period;
+    this.type = String(properties.category);
 
     switch (this.type) {
       case "Terrestrial":
@@ -410,6 +402,17 @@ class Planet {
   }
   show() {
     circle(this.x, this.y, this.d);
-    text(this.type, this.x, this.y + 120);
+    push();
+    textStyle(BOLD);
+    text(this.type, this.x, this.y + -120);
+    pop();
+    text(this.name, this.x, this.y + 120);
+    text(parseFloat(this.radius).toFixed(2) + " R⊕", this.x, this.y + 150);
+    text(parseFloat(this.mass).toFixed(2) + " M⊕", this.x, this.y + 180);
+    text(
+      parseFloat(this.orbital_period).toFixed(2) + " days",
+      this.x,
+      this.y + 210
+    );
   }
 }
