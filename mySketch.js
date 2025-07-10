@@ -155,33 +155,8 @@ function setup() {
   starSystems[1] = planetRadii_HD110067;
   starSystems[2] = planetRadii_TOI700;
 
-  //print(starSysData[0][p]["planets"]["name"]);
-  //var index = 0;
-
-  for (host of patternData[currentPattern]["pattern_" + (currentPattern + 1)]
-    .hostnames) {
-    print(host);
-
-    // For each host listed in a pattern, add their list of planet dictionaries to an array
-    //currentPatternSystems[index] = starSysData[host]["planets"];
-    currentPatternSystems.push(starSysData[host]["planets"]);
-    //print(starSysData[host]["planets"]);
-    //print(currentPatternSystems[host]);
-    //index = index + 1;
-  }
-
-  for (pl of currentPatternSystems[0]) {
-    planetRadii.push(pl.radius);
-    planetTypes.push(pl.category); // TODO: Instead of separate arrays for all the planet attributes, create planet objects and pass them its properties in a constructor.
-  }
-
-  //planetRadii = starSystems[currentStarSystem];
-  calculatePlanets();
-
-  print(patternData[0]);
-  print(patternData[0]["pattern_1"]);
-  var testDict = patternData[0]["pattern_1"];
-  print(testDict.hostname_count);
+  // Display first pattern
+  displayPattern(currentPattern);
 }
 
 function draw() {
@@ -287,21 +262,8 @@ function euclideanDistance(point1, point2) {
 }
 
 function calculatePlanets() {
-  // TODO: Make the X placement consistent with 8 available "slots". The highest number of planets foundin a system is 8, and will be a good number musically.
-  // Right now there is a false rhythmic pattern happening depending on the diameters.
-
   previousCenter = sunX;
   previousRadius = sunDiameter / 2;
-
-  // Previous method of spacing, based off of distance to previous planet
-  // for (let i = 0; i < planetRadii.length; i++) {
-  //   centerX = previousCenter + previousRadius + spacing + planetRadii[i]; // CHATGPT suggestion: New center position for each planet = (previous planet’s center) + (previous planet’s radius) + (desired spacing) + (current planet’s radius)
-  //   planets[i] = new Planet(centerX, sunY, planetRadii[i] * 2);
-  //   print("make planet: " + planetRadii[i]);
-
-  //   previousCenter = centerX;
-  //   previousRadius = planetRadii[i];
-  // }
 
   for (let i = 0; i < planetRadii.length; i++) {
     planets[i] = new Planet(
@@ -310,8 +272,6 @@ function calculatePlanets() {
       (planetRadii[i] * EARTH_RADIUS_KM * 2) / ScaleFactor,
       planetTypes[i]
     );
-    //print(typeof planets[i].type);
-    //print("HELLLLLO");
   }
 
   // Determine how far the sound wave front should go before resetting. Here using the X of the last planet and adding sun radius as a buffer.
