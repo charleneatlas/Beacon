@@ -304,10 +304,28 @@ function startSketches() {
         //p.background(0);
         //fill(255, 222, 33); // nice yellow
         p.fill(255, 255, 255); // white
-
+        p.push();
         p.textAlign(p.CENTER, p.CENTER);
-        p.textSize(32); // Set text size to 32 pixels
-        p.text("BEACON \nClick to start", p.width / 2, p.height / 2);
+        p.textSize(48); // Set text size to 32 pixels
+        p.text("BEACON", p.width / 2, 100);
+        p.textSize(22); // Set text size to 32 pixels
+        p.text(
+          "Every star is a beacon. \nOur Sun lights our way—just as countless other stars warm and guide their own distant worlds. \nThough separated by vast space, these systems share melodies of formation. \nNo known system shares our song, yet among the stars, sister systems call to each other. \nLet’s explore their music—beacons reaching out to one another... and to us.",
+          p.width / 2,
+          250
+        );
+        p.textSize(28);
+        p.textStyle(p.ITALIC);
+        p.text("Click to Start", p.width / 2, 400);
+        //p.noFill();
+        p.stroke("white");
+        // p.rect(
+        //   p.width / 2 - p.textWidth("Click to Start") / 2,
+        //   380,
+        //   p.textWidth("Click to Start"),
+        //   50
+        // );
+        p.pop();
       } else {
         p.clear();
 
