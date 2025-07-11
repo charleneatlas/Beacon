@@ -5,6 +5,8 @@ body {
   line-height: 1.6;
   background-color: #0d0d1a;
   color: #f0f0f0;
+  overflow-x: hidden; /* optional: prevents horizontal scroll */
+  overflow-y: auto;   /* allows vertical scroll */
 }
 
 header {
@@ -23,6 +25,30 @@ nav a:hover {
   text-decoration: underline;
 }
 
+#container {
+  position: relative;
+  width: 100%;
+  height: 500px; /* set a fixed height or use viewport units */
+  /* height must be set for absolute children to fill it */
+}
+
+#canvas3D, #canvas2D {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#canvas3D {
+  z-index: 1; /* bottom */
+}
+
+#canvas2D {
+  z-index: 2; /* top */
+  background: transparent !important;
+}
+
 section {
   padding: 2rem;
   margin: auto;
@@ -35,26 +61,4 @@ section {
   margin-left: 0;
   margin-right: auto;
   /*background: #322;*/
-}
-
-#projects canvas {
-  display: block;
-  width: 100%;
-  margin-left: 0;
-  margin-right: auto;
-  max-width: 100%;
-  height: auto;
-  border: 3px solid white;
- 
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #1e1e2f;
-  color: #aaa;
-}
-
-a {
-  color: #9bdfff;
 }

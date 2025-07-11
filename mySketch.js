@@ -4,6 +4,10 @@
 // At this time, focused on systems that have a "pattern" shared by at least one other system.
 // Radii are to scale, distances are not.
 
+// P5 instances
+let p5_2D = null;
+let p5_3D = null;
+
 let started = false;
 let playAnimation = false;
 let synth;
@@ -26,11 +30,17 @@ let isShowingSolarSystem = false;
 
 let sunX;
 let sunY;
+let starColor;
 let sunDiameter;
 let spacing;
 
-let patternData;
-let starSysData;
+//let patternData;
+//let starSysData;
+
+const sharedData = {
+  patternData: null,
+  starSysData: null,
+};
 
 let aspectRatio = 16 / 9;
 
@@ -144,6 +154,40 @@ const SATURN_RADIUS_KM = 120600 / 2;
 const URANUS_RADIUS_KM = 51000 / 2;
 const NEPTUNE_RADIUS_KM = 50000 / 2;
 
+function preloadMultipleJSON(files, callback) {
+  let loaded = 0;
+  const total = files.length;
+
+  files.forEach((file) => {
+    fetch(file.path)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(
+            `Failed to load ${file.path}: ${response.statusText}`
+          );
+        }
+        return response.json();
+      })
+      .then((data) => {
+        sharedData[file.key] = data;
+        loaded++;
+        if (loaded === total) callback(); // all loaded
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  });
+}
+
+// Call this first
+preloadMultipleJSON(
+  [
+    { key: "patternData", path: "PatternData_NexSci.json" },
+    { key: "starSysData", path: "StarSystemData_NexSci.json" },
+  ],
+  startSketches
+);
+/*
 // Grab the data
 function preload() {
   //https://www.geeksforgeeks.org/javascript/p5-js-loadjson-function/
@@ -160,162 +204,275 @@ function onPatternFileLoad(data) {
 function onStarSysFileLoad(data) {
   starSysData = data;
   print("Star system file loaded.");
-}
+}*/
 
-function setup() {
-  canvas = createCanvas(windowWidth, windowHeight / 1.8);
-  canvas.parent("projects");
+function startSketches() {
+  // TEST🪐 3D Sketch (renders a rotating sphere)
+  new p5((p) => {
+    // Save the p5 instance for use outside
+    p5_3D = p;
 
-  /*const container = select("#projects"); // or whatever container you have
+    p.setup = () => {
+      p.createCanvas(p.windowWidth, p.windowHeight / 1.8, p.WEBGL).parent(
+        "canvas3D"
+      );
+      p.ortho(); // <-- no perspective distortion
+    };
+
+    p.draw = () => {
+      p.background(0);
+      p.stroke(255, 0, 0);
+      p.ambientLight(150);
+      p.directionalLight(starColor, 1, 0, 0);
+
+      const z = 0; //Not messin' with Z for this.
+
+      if (started) {
+        //If past title and intro screens
+        p.push();
+        p.translate(-p.width / 2, -p.height / 2, 0);
+        // Now (0,0,0) is top-left, matching 2D canvas!
+
+        for (const pl of planets) {
+          p.push();
+          p.translate(pl.x, pl.y, z);
+          //console.log(`3D planet at (${pl.x}, ${pl.y}, ${z})`);
+          // Now moved to match 2D position
+          p.ambientMaterial(250);
+          p.noStroke();
+          p.sphere(pl.r);
+          p.pop();
+        }
+
+        p.pop();
+      }
+    };
+  });
+
+  new p5((p) => {
+    // Save the p5 instance for use outside
+    p5_2D = p;
+
+    p.setup = () => {
+      p.canvas = p.createCanvas(p.windowWidth, p.windowHeight / 1.8);
+      p.canvas.parent("canvas2D");
+
+      /*const container = select("#projects"); // or whatever container you have
   let w = container.width;
   let h = w / aspectRatio;
   createCanvas(w, h).parent("projects");*/
 
-  s = 0;
+      s = 0;
 
-  synth = new p5.MonoSynth();
+      synth = new p5.MonoSynth();
 
-  // Sun
-  // TODO: Make Sun (star) to scale and correct color depending on star class
-  //sunX = -1 * (1392000/1000)/3;
-  sunX = 0;
-  sunY = height / 2;
-  sunDiameter = 400; //1392000/1000
-  spacing = 50;
-  sunCenter = {
-    x: sunX,
-    y: sunY,
-  };
+      // Sun
+      // TODO: Make Sun (star) to scale and correct color depending on star class
+      //sunX = -1 * (1392000/1000)/3;
+      sunX = 0;
+      sunY = p.height / 2;
+      sunDiameter = 400; //1392000/1000
+      spacing = 50;
+      sunCenter = {
+        x: sunX,
+        y: sunY,
+      };
 
-  //Planets
-  // SOLAR SYSTEM (G-type Main Sequence Star / "Yellow Dwarf")
-  planetRadii_SolarSystem = [
-    MERCURY_RADIUS_KM / 1000,
-    VENUS_RADIUS_KM / 1000,
-    EARTH_RADIUS_KM / 1000,
-    MARS_RADIUS_KM / 1000,
-    JUPITER_RADIUS_KM / 1000,
-    SATURN_RADIUS_KM / 1000,
-    URANUS_RADIUS_KM / 1000,
-    NEPTUNE_RADIUS_KM / 1000,
-  ];
+      //Planets
+      // SOLAR SYSTEM (G-type Main Sequence Star / "Yellow Dwarf")
+      planetRadii_SolarSystem = [
+        MERCURY_RADIUS_KM / 1000,
+        VENUS_RADIUS_KM / 1000,
+        EARTH_RADIUS_KM / 1000,
+        MARS_RADIUS_KM / 1000,
+        JUPITER_RADIUS_KM / 1000,
+        SATURN_RADIUS_KM / 1000,
+        URANUS_RADIUS_KM / 1000,
+        NEPTUNE_RADIUS_KM / 1000,
+      ];
 
-  // Display first pattern
-  displayPattern(currentPattern);
-}
+      // Display first pattern
+      displayPattern(currentPattern);
+    };
 
-function draw() {
-  if (!started) {
-    // Start screen
-    background(0);
-    //fill(255, 222, 33); // nice yellow
-    fill(255, 255, 255); // white
+    p.draw = () => {
+      starColor = p.color(255, 222, 33);
 
-    textAlign(CENTER, CENTER);
-    textSize(32); // Set text size to 32 pixels
-    text("BEACON \nClick to start", width / 2, height / 2);
-  } else {
-    background(0);
+      if (!started) {
+        // Start screen
+        //p.background(0);
+        //fill(255, 222, 33); // nice yellow
+        p.fill(255, 255, 255); // white
 
-    textAlign(TOP, CENTER);
-    textSize(32); // Set text size to 32 pixels
+        p.textAlign(p.CENTER, p.CENTER);
+        p.textSize(32); // Set text size to 32 pixels
+        p.text("BEACON \nClick to start", p.width / 2, p.height / 2);
+      } else {
+        p.clear();
 
-    let currentHostLabel;
-    let numSystemsWithPattern;
+        p.textAlign(p.CENTER, p.TOP);
+        p.textSize(32); // Set text size to 32 pixels
 
-    if (!isShowingSolarSystem) {
-      patternLabel =
-        patternData[currentPattern]["pattern_" + (currentPattern + 1)].name;
+        let currentHostLabel;
+        let numSystemsWithPattern;
 
-      currentHostLabel =
-        patternData[currentPattern]["pattern_" + (currentPattern + 1)]
-          .hostnames[currentStarSystem];
+        if (!isShowingSolarSystem) {
+          patternLabel =
+            sharedData.patternData[currentPattern][
+              "pattern_" + (currentPattern + 1)
+            ].name;
 
-      numSystemsWithPattern =
-        patternData[currentPattern]["pattern_" + (currentPattern + 1)]
-          .hostname_count;
-    } else {
-      patternLabel = "Pattern #0";
-      currentHostLabel = "The Sun";
-      numSystemsWithPattern = 1; // as of 7-10-25
-    }
-    text(patternLabel, width / 2, 30);
-    textSize(18);
+          currentHostLabel =
+            sharedData.patternData[currentPattern][
+              "pattern_" + (currentPattern + 1)
+            ].hostnames[currentStarSystem];
 
-    // Show star system name
-    push();
-    textStyle(BOLD);
-    text(currentHostLabel, width / 2, 60);
-    pop();
+          numSystemsWithPattern =
+            sharedData.patternData[currentPattern][
+              "pattern_" + (currentPattern + 1)
+            ].hostname_count;
+        } else {
+          patternLabel = "Pattern #0";
+          currentHostLabel = "The Sun";
+          numSystemsWithPattern = 1; // as of 7-10-25
+        }
+        p.text(patternLabel, p.width / 2, 30);
+        p.textSize(18);
 
-    // Show how many other patterns there are
-    text(
-      "(" + (currentStarSystem + 1) + " of " + numSystemsWithPattern + ")",
-      width / 2,
-      80
-    );
+        // Show star system name
+        p.push();
+        p.textStyle(p.BOLD);
+        p.text(currentHostLabel, p.width / 2, 60);
+        p.pop();
 
-    //text("World", x + textWidth("Hello "), y);
-    /*text(
-      firstHost +
-        " (" +
-        (firstHostIndex + 1) +
-        " of " +
-        numSystemsWithPattern +
-        ")",
-      width / 2,
-      60
-    );*/
+        // Show how many other patterns there are
+        p.text(
+          "(" + (currentStarSystem + 1) + " of " + numSystemsWithPattern + ")",
+          p.width / 2,
+          80
+        );
 
-    push();
-    // Star
-    fill(255, 222, 33);
-    stroke("orange");
-    strokeWeight(5);
-    circle(sunX, sunY, sunDiameter);
+        p.push();
+        // Star
+        p.fill(starColor);
+        p.stroke("orange");
+        p.strokeWeight(5);
+        p.circle(sunX, sunY, sunDiameter);
 
-    pop();
+        p.pop();
 
-    push();
-    // Planets
-    fill(224, 205, 149); // Ecru https://www.figma.com/colors/ecru/
-    noStroke();
-    //stroke(109,59,7); // Mocha https://www.figma.com/colors/mocha/
-    //strokeWeight(2);
+        p.push();
+        // Planets
+        p.fill("white"); // Ecru https://www.figma.com/colors/ecru/
+        p.noStroke();
+        //stroke(109,59,7); // Mocha https://www.figma.com/colors/mocha/
+        //strokeWeight(2);
 
-    for (let p of planets) {
-      p.show();
-    }
+        for (let pl of planets) {
+          pl.show();
+        }
 
-    pop();
+        p.pop();
 
-    push();
+        p.push();
 
-    stroke("pink");
-    strokeWeight(3);
-    noFill();
+        p.stroke("pink");
+        p.strokeWeight(3);
+        p.noFill();
 
-    soundWaveDiameter = sunDiameter + s; // To make the expanding circle start at border of sun
-    circle(sunX, sunY, soundWaveDiameter); // To make the expanding circle start at border of sun
-    pop();
+        soundWaveDiameter = sunDiameter + s; // To make the expanding circle start at border of sun
+        p.circle(sunX, sunY, soundWaveDiameter); // To make the expanding circle start at border of sun
+        p.pop();
 
-    for (let p of planets) {
-      checkPlayPlanet(p);
-    }
+        for (let pl of planets) {
+          checkPlayPlanet(pl);
+        }
 
-    //s = s + soundWaveSpeed;
+        //s = s + soundWaveSpeed;
 
-    if (playAnimation) {
-      s += soundWaveSpeed * (deltaTime / 1000);
-    }
+        if (playAnimation) {
+          s += soundWaveSpeed * (p.deltaTime / 1000);
+        }
 
-    soundWaveEdgeX = sunX + soundWaveDiameter / 2;
-    //print("EDGE: " + soundWaveEdgeX);
+        soundWaveEdgeX = sunX + soundWaveDiameter / 2;
+        //print("EDGE: " + soundWaveEdgeX);
 
-    if (soundWaveEdgeX > resetX) {
-      resetSoundwave();
-    }
-  }
+        if (soundWaveEdgeX > resetX) {
+          resetSoundwave();
+        }
+      }
+    };
+
+    p.mouseClicked = () => {
+      if (!started) {
+        // First click by user will start everything else. From this point clicking will have normal in-app use of play/pausing animation.
+        started = true;
+
+        // Make sure audio context running due to new browser rules that block autoplaying audio
+        if (p.getAudioContext().state !== "running") {
+          p.getAudioContext().resume();
+        }
+
+        // Play soundwave line and resulting audio as hits planets
+        playAnimation = true;
+
+        // Focus the canvas
+        p.canvas.elt.focus?.();
+      } else {
+        // TODO
+      }
+    };
+
+    p.keyPressed = () => {
+      // let numStarSystems = parseInt(
+      //   patternData[currentPattern]["pattern_" + (currentPattern + 1)]
+      //     .hostname_count
+      // );
+
+      let numStarSystems = currentPatternSystems.length;
+
+      switch (p.keyCode) {
+        // Navigate to next pattern.
+        case p.RIGHT_ARROW:
+          currentPattern = (currentPattern + 1) % sharedData.patternData.length;
+          displayPattern(currentPattern);
+          return false; // prevent default browser behavior, which may scroll page on press of arrow
+        // Navigate to previous pattern.
+        case p.LEFT_ARROW:
+          currentPattern =
+            (currentPattern - 1 + sharedData.patternData.length) %
+            sharedData.patternData.length;
+          displayPattern(currentPattern);
+          return false; // prevent default browser behavior, which may scroll page on press of arrow
+        case p.DOWN_ARROW:
+          // Navigate to next star system of current pattern.
+          currentStarSystem = (currentStarSystem + 1) % numStarSystems;
+          resetStarSystem();
+          // Change to the new star systems content
+          displayStarSystemFromCurrentPattern();
+          return false; // prevent default browser behavior, which may scroll page on press of arrow
+        case p.UP_ARROW:
+          // Navigate to previous star system of current pattern.
+          currentStarSystem =
+            (currentStarSystem - 1 + numStarSystems) % numStarSystems;
+          resetStarSystem();
+          // Change to the new star systems content
+          displayStarSystemFromCurrentPattern();
+          return false; // prevent default browser behavior, which may scroll page on press of arrow
+        case 32: //KeyCode for spacebar, no system variable in p5.js for it
+          playAnimation = !playAnimation;
+          resetSoundwave();
+          return false; // prevent default browser behavior, which may scroll page on press of spacebar
+        case p.TAB:
+          if (!isShowingSolarSystem) {
+            displaySolarSystem();
+          } else {
+            displayPattern(currentPattern);
+          }
+          return false; // prevent default browser behavior, which may take action on press of TAB
+      }
+    };
+  });
 }
 
 function euclideanDistance(point1, point2) {
@@ -333,7 +490,7 @@ function calculatePlanets() {
     planets[i] = new Planet(
       150 * i + 250,
       sunY,
-      (planetProperties[i].radius * EARTH_RADIUS_KM * 2) / ScaleFactor,
+      (planetProperties[i].radius * EARTH_RADIUS_KM) / ScaleFactor,
       planetProperties[i]
     );
   }
@@ -342,51 +499,31 @@ function calculatePlanets() {
   resetX = sunDiameter / 2 + planets[planets.length - 1].x;
 }
 
-function checkPlayPlanet(p) {
+function checkPlayPlanet(pl) {
   if (
     soundWaveDiameter / 2 >
     euclideanDistance(sunCenter, {
-      x: p.x,
-      y: p.y,
+      x: pl.x,
+      y: pl.y,
     })
   ) {
-    if (p.played == false) {
+    if (pl.played == false) {
       //MonoSynth Syntax (frequency, velocity, secondsFromNow, sustainTime)
       //https://p5js.org/reference/p5.MonoSynth/play/#:~:text=Reference%20play()-,play(),triggerRelease.
-      synth.play(p.note);
-      p.played = true;
+      synth.play(pl.note);
+      pl.played = true;
 
-      print("PLAYED");
+      //print("PLAYED");
     }
   }
 }
 
 function resetSoundwave() {
-  print("RESET");
+  //print("RESET");
   s = 0;
 
   for (let p of planets) {
     p.played = false;
-  }
-}
-
-function mouseClicked() {
-  if (!started) {
-    // First click by user will start everything else. From this point clicking will have normal in-app use of play/pausing animation.
-    started = true;
-
-    // Make sure audio context running due to new browser rules that block autoplaying audio
-    if (getAudioContext().state !== "running") {
-      getAudioContext().resume();
-    }
-
-    // Play soundwave line and resulting audio as hits planets
-    playAnimation = true;
-
-    // Focus the canvas
-    canvas.elt.focus?.();
-  } else {
-    // TODO
   }
 }
 
@@ -426,9 +563,10 @@ function displayPattern(index) {
   // Clear everything
   resetPattern();
   // Get the list of star systems for this pattern and add each ones planet dictionaries to an array.
-  for (host of patternData[index]["pattern_" + (index + 1)].hostnames) {
+  for (host of sharedData.patternData[index]["pattern_" + (index + 1)]
+    .hostnames) {
     // For each host listed in a pattern, add their list of planet dictionaries to an array
-    currentPatternSystems.push(starSysData[host]["planets"]);
+    currentPatternSystems.push(sharedData.starSysData[host]["planets"]);
   }
   // Get all the planet info for the first star system to display
   displayStarSystemFromCurrentPattern();
@@ -442,55 +580,6 @@ function displaySolarSystem() {
   isShowingSolarSystem = true;
   currentPatternSystems.push(solarPlanets);
   displayStarSystemFromCurrentPattern();
-}
-
-function keyPressed() {
-  // let numStarSystems = parseInt(
-  //   patternData[currentPattern]["pattern_" + (currentPattern + 1)]
-  //     .hostname_count
-  // );
-
-  let numStarSystems = currentPatternSystems.length;
-
-  switch (keyCode) {
-    // Navigate to next pattern.
-    case RIGHT_ARROW:
-      currentPattern = (currentPattern + 1) % patternData.length;
-      displayPattern(currentPattern);
-      return false; // prevent default browser behavior, which may scroll page on press of arrow
-    // Navigate to previous pattern.
-    case LEFT_ARROW:
-      currentPattern =
-        (currentPattern - 1 + patternData.length) % patternData.length;
-      displayPattern(currentPattern);
-      return false; // prevent default browser behavior, which may scroll page on press of arrow
-    case DOWN_ARROW:
-      // Navigate to next star system of current pattern.
-      currentStarSystem = (currentStarSystem + 1) % numStarSystems;
-      resetStarSystem();
-      // Change to the new star systems content
-      displayStarSystemFromCurrentPattern();
-      return false; // prevent default browser behavior, which may scroll page on press of arrow
-    case UP_ARROW:
-      // Navigate to previous star system of current pattern.
-      currentStarSystem =
-        (currentStarSystem - 1 + numStarSystems) % numStarSystems;
-      resetStarSystem();
-      // Change to the new star systems content
-      displayStarSystemFromCurrentPattern();
-      return false; // prevent default browser behavior, which may scroll page on press of arrow
-    case 32: //KeyCode for spacebar, no system variable in p5.js for it
-      playAnimation = !playAnimation;
-      resetSoundwave();
-      return false; // prevent default browser behavior, which may scroll page on press of spacebar
-    case TAB:
-      if (!isShowingSolarSystem) {
-        displaySolarSystem();
-      } else {
-        displayPattern(currentPattern);
-      }
-      return false; // prevent default browser behavior, which may take action on press of TAB
-  }
 }
 
 function windowResized() {
@@ -509,10 +598,10 @@ function windowResized() {
 }
 
 class Planet {
-  constructor(x, y, d, properties) {
+  constructor(x, y, r, properties) {
     this.x = x;
     this.y = y;
-    this.d = d; // leaving this separate since might have some scale factor on this
+    this.r = r; // leaving this separate since might have some scale factor on this
     // Real planet properties
     this.name = String(properties.name);
     this.radius = properties.radius;
@@ -550,18 +639,26 @@ class Planet {
     this.played = false;
   }
   show() {
-    circle(this.x, this.y, this.d);
-    push();
-    textStyle(BOLD);
-    text(this.type, this.x, this.y + -120);
-    pop();
-    text(this.name, this.x, this.y + 120);
-    text(parseFloat(this.radius).toFixed(2) + " R⊕", this.x, this.y + 150);
-    text(parseFloat(this.mass).toFixed(2) + " M⊕", this.x, this.y + 180);
-    text(
+    //p5_2D.circle(this.x, this.y, this.r * 2); // Rendering the planet itself in 3D canvas now.
+    //p5_2D.push();
+    //p5_2D.fill("white");
+    p5_2D.push();
+    p5_2D.textStyle(p5_2D.BOLD);
+    p5_2D.textSize(20);
+    p5_2D.text(this.type, this.x, this.y + -120);
+    p5_2D.pop();
+    p5_2D.text(this.name, this.x, this.y + 120);
+    p5_2D.text(
+      parseFloat(this.radius).toFixed(2) + " R⊕",
+      this.x,
+      this.y + 150
+    );
+    p5_2D.text(parseFloat(this.mass).toFixed(2) + " M⊕", this.x, this.y + 180);
+    p5_2D.text(
       parseFloat(this.orbital_period).toFixed(2) + " days",
       this.x,
       this.y + 210
     );
+    //p5_2D.pop();
   }
 }
