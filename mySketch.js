@@ -269,9 +269,10 @@ function startSketches() {
       // Sun
       // TODO: Make Sun (star) to scale and correct color depending on star class
       //sunX = -1 * (1392000/1000)/3;
-      sunX = 0;
-      sunY = p.height / 2;
+
       sunDiameter = 400; //1392000/1000
+      sunX = -sunDiameter / 4;
+      sunY = p.height / 2;
       spacing = 50;
       sunCenter = {
         x: sunX,
@@ -483,12 +484,9 @@ function euclideanDistance(point1, point2) {
 }
 
 function calculatePlanets() {
-  previousCenter = sunX;
-  previousRadius = sunDiameter / 2;
-
   for (let i = 0; i < planetProperties.length; i++) {
     planets[i] = new Planet(
-      150 * i + 250,
+      160 * i + 150,
       sunY,
       (planetProperties[i].radius * EARTH_RADIUS_KM) / ScaleFactor,
       planetProperties[i]
