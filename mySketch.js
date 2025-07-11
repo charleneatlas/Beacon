@@ -484,7 +484,11 @@ function keyPressed() {
       resetSoundwave();
       return false; // prevent default browser behavior, which may scroll page on press of spacebar
     case TAB:
-      displaySolarSystem();
+      if (!isShowingSolarSystem) {
+        displaySolarSystem();
+      } else {
+        displayPattern(currentPattern);
+      }
       return false; // prevent default browser behavior, which may take action on press of TAB
   }
 }
