@@ -27,6 +27,10 @@ let currentPattern = 0;
 let patternLabel;
 let currentPatternSystems = []; // Star system data for current pattern
 let isShowingSolarSystem = false;
+let myButton_OneHit;
+let myButton_SolarSystem;
+let myButton_Patterns;
+let selectedButton = null;
 
 let sunX;
 let sunY;
@@ -58,7 +62,7 @@ const starSystems = [];
 const planets = [];
 const patterns = [];
 
-const ScaleFactor = 500; // A way to scale down planets to fit in app window
+const ScaleFactor = 900; // A way to scale down planets to fit in app window
 const EARTH_RADIUS_KM = 6371; // Source: https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html
 
 // Make planet radii to scale, but not distances.
@@ -183,7 +187,7 @@ function preloadMultipleJSON(files, callback) {
 preloadMultipleJSON(
   [
     { key: "patternData", path: "PatternData_NexSci.json" },
-    { key: "starSysData", path: "StarSystemData_NexSci.json" },
+    { key: "starSysData", path: "StarSystemData_NexSci_AllGreaterThan3.json" },
   ],
   startSketches
 );
@@ -262,9 +266,46 @@ function startSketches() {
   let h = w / aspectRatio;
   createCanvas(w, h).parent("projects");*/
 
+      starColor = p.color(255, 222, 33);
       s = 0;
 
       synth = new p5.MonoSynth();
+
+      // UI for switching datasets
+
+      myButton_SolarSystem = p.createButton("Our Solar System");
+      myButton_SolarSystem.parent("canvas2D");
+      myButton_SolarSystem.style("width", "150px");
+      myButton_SolarSystem.style("height", "40px");
+      myButton_SolarSystem.style("background-color", "#bbb");
+      myButton_SolarSystem.style("color", "#fff");
+      myButton_SolarSystem.position(30, 20);
+      myButton_SolarSystem.hide();
+
+      myButton_OneHit = p.createButton("One Hit Wonders");
+      myButton_OneHit.parent("canvas2D");
+      myButton_OneHit.style("width", "150px");
+      myButton_OneHit.style("height", "40px");
+      myButton_OneHit.style("background-color", "#bbb");
+      myButton_OneHit.style("color", "#fff");
+      myButton_OneHit.position(200, 20);
+      myButton_OneHit.hide();
+
+      myButton_Patterns = p.createButton("Patterns");
+      myButton_Patterns.parent("canvas2D");
+      myButton_Patterns.style("width", "150px");
+      myButton_Patterns.style("height", "40px");
+      myButton_Patterns.style("background-color", "#bbb");
+      myButton_Patterns.style("color", "#fff");
+      myButton_Patterns.position(370, 20);
+      myButton_Patterns.hide();
+
+      // Add a callback function
+      myButton_SolarSystem.mousePressed(displaySolarSystem);
+      myButton_OneHit.mousePressed(showOneHitWonders);
+      myButton_Patterns.mousePressed(() => {
+        displayPattern(currentPattern);
+      });
 
       // Sun
       // TODO: Make Sun (star) to scale and correct color depending on star class
@@ -297,8 +338,6 @@ function startSketches() {
     };
 
     p.draw = () => {
-      starColor = p.color(255, 222, 33);
-
       if (!started) {
         // Start screen
         //p.background(0);
@@ -328,6 +367,12 @@ function startSketches() {
         p.pop();
       } else {
         p.clear();
+
+        // Show Dataset Buttons
+        myButton_SolarSystem.show();
+        //displaySolarSystem();
+        myButton_OneHit.show();
+        myButton_Patterns.show();
 
         p.textAlign(p.CENTER, p.TOP);
         p.textSize(32); // Set text size to 32 pixels
@@ -526,6 +571,7 @@ function checkPlayPlanet(pl) {
     if (pl.played == false) {
       //MonoSynth Syntax (frequency, velocity, secondsFromNow, sustainTime)
       //https://p5js.org/reference/p5.MonoSynth/play/#:~:text=Reference%20play()-,play(),triggerRelease.
+
       synth.play(pl.note);
       pl.played = true;
 
@@ -578,6 +624,10 @@ function displayStarSystemFromCurrentPattern() {
 function displayPattern(index) {
   // Clear everything
   resetPattern();
+
+  // Select button
+  selectButton(myButton_Patterns);
+
   // Get the list of star systems for this pattern and add each ones planet dictionaries to an array.
   for (host of sharedData.patternData[index]["pattern_" + (index + 1)]
     .hostnames) {
@@ -592,10 +642,32 @@ function displaySolarSystem() {
   // Clear everything
   resetPattern();
 
+  // Show button as selected
+  selectButton(myButton_SolarSystem);
+
   // Set pattern to be solar system
   isShowingSolarSystem = true;
   currentPatternSystems.push(solarPlanets);
   displayStarSystemFromCurrentPattern();
+}
+
+function showOneHitWonders() {
+  selectButton(myButton_OneHit);
+  console.log("One Hit Wonders!");
+}
+
+function selectButton(btn) {
+  // Deselect the previously selected button
+  if (selectedButton) {
+    selectedButton.style("background-color", "#bbb");
+    selectedButton.style("color", "#fff");
+  }
+
+  // Select the new one
+  btn.style("background-color", starColor);
+  btn.style("color", "#000");
+  selectedButton = btn;
+  console.log("YOOOOO");
 }
 
 function windowResized() {

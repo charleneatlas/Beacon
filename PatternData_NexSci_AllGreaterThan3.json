@@ -1,0 +1,1412 @@
+[
+  {
+    "pattern_1": {
+      "name": "Pattern #1",
+      "pattern": [
+        "Super-Earth,Gas Giant,Neptune-like,Neptune-like,Brown Dwarf"
+      ],
+      "hostnames": [
+        "55 Cnc"
+      ]
+    }
+  },
+  {
+    "pattern_2": {
+      "name": "Pattern #2",
+      "pattern": [
+        "Terrestrial,Terrestrial,Terrestrial,Terrestrial"
+      ],
+      "hostnames": [
+        "Barnard's star",
+        "Kepler-1542"
+      ]
+    }
+  },
+  {
+    "pattern_3": {
+      "name": "Pattern #3",
+      "pattern": [
+        "Super-Earth,Super-Earth,Super-Earth,Neptune-like"
+      ],
+      "hostnames": [
+        "DMPP-1"
+      ]
+    }
+  },
+  {
+    "pattern_4": {
+      "name": "Pattern #4",
+      "pattern": [
+        "Super-Earth,Neptune-like,sub-Neptune,Neptune-like"
+      ],
+      "hostnames": [
+        "GJ 3293"
+      ]
+    }
+  },
+  {
+    "pattern_5": {
+      "name": "Pattern #5",
+      "pattern": [
+        "sub-Neptune,Super-Earth,Super-Earth,Super-Earth,sub-Neptune"
+      ],
+      "hostnames": [
+        "GJ 667 C"
+      ]
+    }
+  },
+  {
+    "pattern_6": {
+      "name": "Pattern #6",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Brown Dwarf,Brown Dwarf"
+      ],
+      "hostnames": [
+        "GJ 676 A"
+      ]
+    }
+  },
+  {
+    "pattern_7": {
+      "name": "Pattern #7",
+      "pattern": [
+        "sub-Neptune,Gas Giant,Brown Dwarf,Neptune-like"
+      ],
+      "hostnames": [
+        "GJ 876"
+      ]
+    }
+  },
+  {
+    "pattern_8": {
+      "name": "Pattern #8",
+      "pattern": [
+        "Neptune-like,Neptune-like,Neptune-like,Neptune-like,Neptune-like,Gas Giant"
+      ],
+      "hostnames": [
+        "HD 10180"
+      ]
+    }
+  },
+  {
+    "pattern_9": {
+      "name": "Pattern #9",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,Super-Earth,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 108236"
+      ]
+    }
+  },
+  {
+    "pattern_10": {
+      "name": "Pattern #10",
+      "pattern": [
+        "sub-Neptune,sub-Neptune,sub-Neptune,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 110067"
+      ]
+    }
+  },
+  {
+    "pattern_11": {
+      "name": "Pattern #11",
+      "pattern": [
+        "Super-Earth,Super-Earth,sub-Neptune,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "HD 134606",
+        "Kepler-62"
+      ]
+    }
+  },
+  {
+    "pattern_12": {
+      "name": "Pattern #12",
+      "pattern": [
+        "Gas Giant,Brown Dwarf,Brown Dwarf,Gas Giant"
+      ],
+      "hostnames": [
+        "HD 141399"
+      ]
+    }
+  },
+  {
+    "pattern_13": {
+      "name": "Pattern #13",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 158259"
+      ]
+    }
+  },
+  {
+    "pattern_14": {
+      "name": "Pattern #14",
+      "pattern": [
+        "Neptune-like,Brown Dwarf,Brown Dwarf,Brown Dwarf"
+      ],
+      "hostnames": [
+        "HD 160691"
+      ]
+    }
+  },
+  {
+    "pattern_15": {
+      "name": "Pattern #15",
+      "pattern": [
+        "Super-Earth,Neptune-like,Neptune-like,Gas Giant"
+      ],
+      "hostnames": [
+        "HD 164922"
+      ]
+    }
+  },
+  {
+    "pattern_16": {
+      "name": "Pattern #16",
+      "pattern": [
+        "Neptune-like,Super-Earth,Super-Earth,Gas Giant,Neptune-like,Brown Dwarf"
+      ],
+      "hostnames": [
+        "HD 191939"
+      ]
+    }
+  },
+  {
+    "pattern_17": {
+      "name": "Pattern #17",
+      "pattern": [
+        "Terrestrial,sub-Neptune,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "HD 20781",
+        "TOI-500"
+      ]
+    }
+  },
+  {
+    "pattern_18": {
+      "name": "Pattern #18",
+      "pattern": [
+        "Brown Dwarf"
+      ],
+      "hostnames": [
+        "HD 20782"
+      ]
+    }
+  },
+  {
+    "pattern_19": {
+      "name": "Pattern #19",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 20794",
+        "Kepler-251",
+        "Kepler-256",
+        "Kepler-265",
+        "Kepler-306",
+        "TOI-561"
+      ]
+    }
+  },
+  {
+    "pattern_20": {
+      "name": "Pattern #20",
+      "pattern": [
+        "Terrestrial,Terrestrial,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "HD 215152",
+        "tau Cet"
+      ]
+    }
+  },
+  {
+    "pattern_21": {
+      "name": "Pattern #21",
+      "pattern": [
+        "Super-Earth,Super-Earth,Super-Earth,Neptune-like,Neptune-like,Gas Giant"
+      ],
+      "hostnames": [
+        "HD 219134"
+      ]
+    }
+  },
+  {
+    "pattern_22": {
+      "name": "Pattern #22",
+      "pattern": [
+        "Terrestrial,Terrestrial,Terrestrial,sub-Neptune,Super-Earth"
+      ],
+      "hostnames": [
+        "HD 23472"
+      ]
+    }
+  },
+  {
+    "pattern_23": {
+      "name": "Pattern #23",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Neptune-like,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 3167"
+      ]
+    }
+  },
+  {
+    "pattern_24": {
+      "name": "Pattern #24",
+      "pattern": [
+        "Neptune-like,Neptune-like,Neptune-like,Neptune-like,Gas Giant,Gas Giant"
+      ],
+      "hostnames": [
+        "HD 34445"
+      ]
+    }
+  },
+  {
+    "pattern_25": {
+      "name": "Pattern #25",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Super-Earth,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 40307"
+      ]
+    }
+  },
+  {
+    "pattern_26": {
+      "name": "Pattern #26",
+      "pattern": [
+        "sub-Neptune,sub-Neptune,Neptune-like,Gas Giant,Neptune-like"
+      ],
+      "hostnames": [
+        "HIP 41378"
+      ]
+    }
+  },
+  {
+    "pattern_27": {
+      "name": "Pattern #27",
+      "pattern": [
+        "Brown Dwarf,Brown Dwarf,Brown Dwarf,Brown Dwarf"
+      ],
+      "hostnames": [
+        "HR 8799"
+      ]
+    }
+  },
+  {
+    "pattern_28": {
+      "name": "Pattern #28",
+      "pattern": [
+        "Super-Earth,Super-Earth,sub-Neptune,Super-Earth"
+      ],
+      "hostnames": [
+        "K2-133"
+      ]
+    }
+  },
+  {
+    "pattern_29": {
+      "name": "Pattern #29",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,Neptune-like,Low-mass sub-Neptune,Super-Earth"
+      ],
+      "hostnames": [
+        "K2-138"
+      ]
+    }
+  },
+  {
+    "pattern_30": {
+      "name": "Pattern #30",
+      "pattern": [
+        "Terrestrial,Super-Earth,sub-Neptune,Super-Earth"
+      ],
+      "hostnames": [
+        "K2-187"
+      ]
+    }
+  },
+  {
+    "pattern_31": {
+      "name": "Pattern #31",
+      "pattern": [
+        "Neptune-like,Terrestrial,Super-Earth,sub-Neptune"
+      ],
+      "hostnames": [
+        "K2-266"
+      ]
+    }
+  },
+  {
+    "pattern_32": {
+      "name": "Pattern #32",
+      "pattern": [
+        "Super-Earth,Super-Earth,Super-Earth,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "K2-268"
+      ]
+    }
+  },
+  {
+    "pattern_33": {
+      "name": "Pattern #33",
+      "pattern": [
+        "sub-Neptune,Neptune-like,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "K2-285"
+      ]
+    }
+  },
+  {
+    "pattern_34": {
+      "name": "Pattern #34",
+      "pattern": [
+        "Super-Earth,Neptune-like,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "K2-32"
+      ]
+    }
+  },
+  {
+    "pattern_35": {
+      "name": "Pattern #35",
+      "pattern": [
+        "Terrestrial,Terrestrial,Super-Earth,Super-Earth,sub-Neptune"
+      ],
+      "hostnames": [
+        "K2-384"
+      ]
+    }
+  },
+  {
+    "pattern_36": {
+      "name": "Pattern #36",
+      "pattern": [
+        "Terrestrial,Terrestrial,Terrestrial,Super-Earth"
+      ],
+      "hostnames": [
+        "K2-72"
+      ]
+    }
+  },
+  {
+    "pattern_37": {
+      "name": "Pattern #37",
+      "pattern": [
+        "Super-Earth,Terrestrial,Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune,Neptune-like,Gas Giant"
+      ],
+      "hostnames": [
+        "KOI-351"
+      ]
+    }
+  },
+  {
+    "pattern_38": {
+      "name": "Pattern #38",
+      "pattern": [
+        "Neptune-like,Neptune-like,Gas Giant,Neptune-like"
+      ],
+      "hostnames": [
+        "KOI-94"
+      ]
+    }
+  },
+  {
+    "pattern_39": {
+      "name": "Pattern #39",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Super-Earth,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-100",
+        "TOI-1246"
+      ]
+    }
+  },
+  {
+    "pattern_40": {
+      "name": "Pattern #40",
+      "pattern": [
+        "Terrestrial,Terrestrial,Super-Earth,sub-Neptune,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-102"
+      ]
+    }
+  },
+  {
+    "pattern_41": {
+      "name": "Pattern #41",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Super-Earth,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-106"
+      ]
+    }
+  },
+  {
+    "pattern_42": {
+      "name": "Pattern #42",
+      "pattern": [
+        "Super-Earth,Neptune-like,Super-Earth,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-107"
+      ]
+    }
+  },
+  {
+    "pattern_43": {
+      "name": "Pattern #43",
+      "pattern": [
+        "Low-mass sub-Neptune,sub-Neptune,Super-Earth,Super-Earth,sub-Neptune,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-11"
+      ]
+    }
+  },
+  {
+    "pattern_44": {
+      "name": "Pattern #44",
+      "pattern": [
+        "sub-Neptune,Neptune-like,sub-Neptune,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-122"
+      ]
+    }
+  },
+  {
+    "pattern_45": {
+      "name": "Pattern #45",
+      "pattern": [
+        "Terrestrial,Super-Earth,Super-Earth,Terrestrial"
+      ],
+      "hostnames": [
+        "Kepler-132",
+        "Kepler-138"
+      ]
+    }
+  },
+  {
+    "pattern_46": {
+      "name": "Pattern #46",
+      "pattern": [
+        "Terrestrial,Super-Earth,Super-Earth,Terrestrial"
+      ],
+      "hostnames": [
+        "Kepler-132",
+        "Kepler-138"
+      ]
+    }
+  },
+  {
+    "pattern_47": {
+      "name": "Pattern #47",
+      "pattern": [
+        "sub-Neptune,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-1388",
+        "Kepler-172"
+      ]
+    }
+  },
+  {
+    "pattern_48": {
+      "name": "Pattern #48",
+      "pattern": [
+        "Super-Earth,Super-Earth,Neptune-like,Neptune-like,Brown Dwarf"
+      ],
+      "hostnames": [
+        "Kepler-139"
+      ]
+    }
+  },
+  {
+    "pattern_49": {
+      "name": "Pattern #49",
+      "pattern": [
+        "Super-Earth,Neptune-like,sub-Neptune,Super-Earth,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-150"
+      ]
+    }
+  },
+  {
+    "pattern_50": {
+      "name": "Pattern #50",
+      "pattern": [
+        "Super-Earth,Super-Earth,Neptune-like,sub-Neptune,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-154"
+      ]
+    }
+  },
+  {
+    "pattern_51": {
+      "name": "Pattern #51",
+      "pattern": [
+        "Terrestrial,Terrestrial,Terrestrial,Terrestrial"
+      ],
+      "hostnames": [
+        "Barnard's star",
+        "Kepler-1542"
+      ]
+    }
+  },
+  {
+    "pattern_52": {
+      "name": "Pattern #52",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-164"
+      ]
+    }
+  },
+  {
+    "pattern_53": {
+      "name": "Pattern #53",
+      "pattern": [
+        "Super-Earth,Super-Earth,Super-Earth,Brown Dwarf"
+      ],
+      "hostnames": [
+        "Kepler-167"
+      ]
+    }
+  },
+  {
+    "pattern_54": {
+      "name": "Pattern #54",
+      "pattern": [
+        "Terrestrial,Terrestrial,Super-Earth,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-169"
+      ]
+    }
+  },
+  {
+    "pattern_55": {
+      "name": "Pattern #55",
+      "pattern": [
+        "sub-Neptune,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-1388",
+        "Kepler-172"
+      ]
+    }
+  },
+  {
+    "pattern_56": {
+      "name": "Pattern #56",
+      "pattern": [
+        "Gas Giant,sub-Neptune,sub-Neptune,Terrestrial"
+      ],
+      "hostnames": [
+        "Kepler-176",
+        "Kepler-49"
+      ]
+    }
+  },
+  {
+    "pattern_57": {
+      "name": "Pattern #57",
+      "pattern": [
+        "Terrestrial,Super-Earth,Super-Earth,Super-Earth,Terrestrial"
+      ],
+      "hostnames": [
+        "Kepler-186"
+      ]
+    }
+  },
+  {
+    "pattern_58": {
+      "name": "Pattern #58",
+      "pattern": [
+        "Terrestrial,Super-Earth,Terrestrial,Terrestrial"
+      ],
+      "hostnames": [
+        "Kepler-197"
+      ]
+    }
+  },
+  {
+    "pattern_59": {
+      "name": "Pattern #59",
+      "pattern": [
+        "Super-Earth,Super-Earth,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-1987",
+        "Kepler-221",
+        "Kepler-224",
+        "Kepler-758"
+      ]
+    }
+  },
+  {
+    "pattern_60": {
+      "name": "Pattern #60",
+      "pattern": [
+        "Super-Earth,Terrestrial,sub-Neptune,Terrestrial,Neptune-like,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-20"
+      ]
+    }
+  },
+  {
+    "pattern_61": {
+      "name": "Pattern #61",
+      "pattern": [
+        "Super-Earth,Super-Earth,Terrestrial,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-208"
+      ]
+    }
+  },
+  {
+    "pattern_62": {
+      "name": "Pattern #62",
+      "pattern": [
+        "Super-Earth,Super-Earth,Neptune-like,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-215"
+      ]
+    }
+  },
+  {
+    "pattern_63": {
+      "name": "Pattern #63",
+      "pattern": [
+        "Terrestrial,Super-Earth,Terrestrial,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-220",
+        "L 98-59"
+      ]
+    }
+  },
+  {
+    "pattern_64": {
+      "name": "Pattern #64",
+      "pattern": [
+        "Super-Earth,Super-Earth,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-1987",
+        "Kepler-221",
+        "Kepler-224",
+        "Kepler-758"
+      ]
+    }
+  },
+  {
+    "pattern_65": {
+      "name": "Pattern #65",
+      "pattern": [
+        "Super-Earth,Super-Earth,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-223",
+        "Kepler-286"
+      ]
+    }
+  },
+  {
+    "pattern_66": {
+      "name": "Pattern #66",
+      "pattern": [
+        "Super-Earth,Super-Earth,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-1987",
+        "Kepler-221",
+        "Kepler-224",
+        "Kepler-758"
+      ]
+    }
+  },
+  {
+    "pattern_67": {
+      "name": "Pattern #67",
+      "pattern": [
+        "sub-Neptune,Super-Earth,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-235"
+      ]
+    }
+  },
+  {
+    "pattern_68": {
+      "name": "Pattern #68",
+      "pattern": [
+        "Brown Dwarf,Gas Giant,Neptune-like,Gas Giant,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-238"
+      ]
+    }
+  },
+  {
+    "pattern_69": {
+      "name": "Pattern #69",
+      "pattern": [
+        "Gas Giant,sub-Neptune,sub-Neptune,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-24"
+      ]
+    }
+  },
+  {
+    "pattern_70": {
+      "name": "Pattern #70",
+      "pattern": [
+        "Brown Dwarf,Gas Giant,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-245"
+      ]
+    }
+  },
+  {
+    "pattern_71": {
+      "name": "Pattern #71",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 20794",
+        "Kepler-251",
+        "Kepler-256",
+        "Kepler-265",
+        "Kepler-306",
+        "TOI-561"
+      ]
+    }
+  },
+  {
+    "pattern_72": {
+      "name": "Pattern #72",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 20794",
+        "Kepler-251",
+        "Kepler-256",
+        "Kepler-265",
+        "Kepler-306",
+        "TOI-561"
+      ]
+    }
+  },
+  {
+    "pattern_73": {
+      "name": "Pattern #73",
+      "pattern": [
+        "Terrestrial,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-26",
+        "Kepler-304",
+        "Kepler-342"
+      ]
+    }
+  },
+  {
+    "pattern_74": {
+      "name": "Pattern #74",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 20794",
+        "Kepler-251",
+        "Kepler-256",
+        "Kepler-265",
+        "Kepler-306",
+        "TOI-561"
+      ]
+    }
+  },
+  {
+    "pattern_75": {
+      "name": "Pattern #75",
+      "pattern": [
+        "Brown Dwarf,Neptune-like,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-279"
+      ]
+    }
+  },
+  {
+    "pattern_76": {
+      "name": "Pattern #76",
+      "pattern": [
+        "Terrestrial,Terrestrial,Gas Giant,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-282"
+      ]
+    }
+  },
+  {
+    "pattern_77": {
+      "name": "Pattern #77",
+      "pattern": [
+        "Super-Earth,Super-Earth,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-223",
+        "Kepler-286"
+      ]
+    }
+  },
+  {
+    "pattern_78": {
+      "name": "Pattern #78",
+      "pattern": [
+        "sub-Neptune,Super-Earth,Gas Giant,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-289"
+      ]
+    }
+  },
+  {
+    "pattern_79": {
+      "name": "Pattern #79",
+      "pattern": [
+        "Super-Earth,Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-292"
+      ]
+    }
+  },
+  {
+    "pattern_80": {
+      "name": "Pattern #80",
+      "pattern": [
+        "sub-Neptune,Super-Earth,sub-Neptune,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-296"
+      ]
+    }
+  },
+  {
+    "pattern_81": {
+      "name": "Pattern #81",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-299"
+      ]
+    }
+  },
+  {
+    "pattern_82": {
+      "name": "Pattern #82",
+      "pattern": [
+        "Terrestrial,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-26",
+        "Kepler-304",
+        "Kepler-342"
+      ]
+    }
+  },
+  {
+    "pattern_83": {
+      "name": "Pattern #83",
+      "pattern": [
+        "Super-Earth,Neptune-like,Super-Earth,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-305"
+      ]
+    }
+  },
+  {
+    "pattern_84": {
+      "name": "Pattern #84",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 20794",
+        "Kepler-251",
+        "Kepler-256",
+        "Kepler-265",
+        "Kepler-306",
+        "TOI-561"
+      ]
+    }
+  },
+  {
+    "pattern_85": {
+      "name": "Pattern #85",
+      "pattern": [
+        "Brown Dwarf,Super-Earth,Brown Dwarf,Gas Giant,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-32"
+      ]
+    }
+  },
+  {
+    "pattern_86": {
+      "name": "Pattern #86",
+      "pattern": [
+        "Brown Dwarf,Gas Giant,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-324"
+      ]
+    }
+  },
+  {
+    "pattern_87": {
+      "name": "Pattern #87",
+      "pattern": [
+        "Super-Earth,Low-mass sub-Neptune,Super-Earth,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-33"
+      ]
+    }
+  },
+  {
+    "pattern_88": {
+      "name": "Pattern #88",
+      "pattern": [
+        "Super-Earth,Neptune-like,sub-Neptune,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-338"
+      ]
+    }
+  },
+  {
+    "pattern_89": {
+      "name": "Pattern #89",
+      "pattern": [
+        "Terrestrial,Super-Earth,Super-Earth,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-341"
+      ]
+    }
+  },
+  {
+    "pattern_90": {
+      "name": "Pattern #90",
+      "pattern": [
+        "Terrestrial,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-26",
+        "Kepler-304",
+        "Kepler-342"
+      ]
+    }
+  },
+  {
+    "pattern_91": {
+      "name": "Pattern #91",
+      "pattern": [
+        "Terrestrial,Terrestrial,sub-Neptune,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-37"
+      ]
+    }
+  },
+  {
+    "pattern_92": {
+      "name": "Pattern #92",
+      "pattern": [
+        "Terrestrial,Super-Earth,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-402"
+      ]
+    }
+  },
+  {
+    "pattern_93": {
+      "name": "Pattern #93",
+      "pattern": [
+        "Neptune-like,Neptune-like,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-411"
+      ]
+    }
+  },
+  {
+    "pattern_94": {
+      "name": "Pattern #94",
+      "pattern": [
+        "Terrestrial,Terrestrial,Terrestrial,Terrestrial,Terrestrial"
+      ],
+      "hostnames": [
+        "Kepler-444"
+      ]
+    }
+  },
+  {
+    "pattern_95": {
+      "name": "Pattern #95",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,Brown Dwarf,Gas Giant"
+      ],
+      "hostnames": [
+        "Kepler-48"
+      ]
+    }
+  },
+  {
+    "pattern_96": {
+      "name": "Pattern #96",
+      "pattern": [
+        "Gas Giant,sub-Neptune,sub-Neptune,Terrestrial"
+      ],
+      "hostnames": [
+        "Kepler-176",
+        "Kepler-49"
+      ]
+    }
+  },
+  {
+    "pattern_97": {
+      "name": "Pattern #97",
+      "pattern": [
+        "Super-Earth,Super-Earth,Super-Earth,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-51"
+      ]
+    }
+  },
+  {
+    "pattern_98": {
+      "name": "Pattern #98",
+      "pattern": [
+        "Super-Earth,Super-Earth,Super-Earth,Neptune-like,Gas Giant"
+      ],
+      "hostnames": [
+        "Kepler-55"
+      ]
+    }
+  },
+  {
+    "pattern_99": {
+      "name": "Pattern #99",
+      "pattern": [
+        "Brown Dwarf,Neptune-like,Neptune-like,Gas Giant"
+      ],
+      "hostnames": [
+        "Kepler-58"
+      ]
+    }
+  },
+  {
+    "pattern_100": {
+      "name": "Pattern #100",
+      "pattern": [
+        "Super-Earth,Super-Earth,sub-Neptune,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "HD 134606",
+        "Kepler-62"
+      ]
+    }
+  },
+  {
+    "pattern_101": {
+      "name": "Pattern #101",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Super-Earth,Gas Giant"
+      ],
+      "hostnames": [
+        "Kepler-65"
+      ]
+    }
+  },
+  {
+    "pattern_102": {
+      "name": "Pattern #102",
+      "pattern": [
+        "sub-Neptune,Terrestrial,Gas Giant,Gas Giant"
+      ],
+      "hostnames": [
+        "Kepler-68"
+      ]
+    }
+  },
+  {
+    "pattern_103": {
+      "name": "Pattern #103",
+      "pattern": [
+        "Super-Earth,Super-Earth,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-1987",
+        "Kepler-221",
+        "Kepler-224",
+        "Kepler-758"
+      ]
+    }
+  },
+  {
+    "pattern_104": {
+      "name": "Pattern #104",
+      "pattern": [
+        "Neptune-like,Super-Earth,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-79"
+      ]
+    }
+  },
+  {
+    "pattern_105": {
+      "name": "Pattern #105",
+      "pattern": [
+        "Brown Dwarf,Super-Earth,Super-Earth,sub-Neptune,sub-Neptune,Terrestrial"
+      ],
+      "hostnames": [
+        "Kepler-80"
+      ]
+    }
+  },
+  {
+    "pattern_106": {
+      "name": "Pattern #106",
+      "pattern": [
+        "Brown Dwarf,Gas Giant,Neptune-like,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-82"
+      ]
+    }
+  },
+  {
+    "pattern_107": {
+      "name": "Pattern #107",
+      "pattern": [
+        "Super-Earth,Neptune-like,Neptune-like,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "Kepler-84"
+      ]
+    }
+  },
+  {
+    "pattern_108": {
+      "name": "Pattern #108",
+      "pattern": [
+        "Low-mass sub-Neptune,sub-Neptune,Super-Earth,Terrestrial"
+      ],
+      "hostnames": [
+        "Kepler-85"
+      ]
+    }
+  },
+  {
+    "pattern_109": {
+      "name": "Pattern #109",
+      "pattern": [
+        "Terrestrial,Super-Earth,Terrestrial,Super-Earth"
+      ],
+      "hostnames": [
+        "Kepler-220",
+        "L 98-59"
+      ]
+    }
+  },
+  {
+    "pattern_110": {
+      "name": "Pattern #110",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Super-Earth,sub-Neptune,Super-Earth,sub-Neptune"
+      ],
+      "hostnames": [
+        "TOI-1136"
+      ]
+    }
+  },
+  {
+    "pattern_111": {
+      "name": "Pattern #111",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Super-Earth,Neptune-like"
+      ],
+      "hostnames": [
+        "Kepler-100",
+        "TOI-1246"
+      ]
+    }
+  },
+  {
+    "pattern_112": {
+      "name": "Pattern #112",
+      "pattern": [
+        "Terrestrial,Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "TOI-178"
+      ]
+    }
+  },
+  {
+    "pattern_113": {
+      "name": "Pattern #113",
+      "pattern": [
+        "Super-Earth,sub-Neptune,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "TOI-2076"
+      ]
+    }
+  },
+  {
+    "pattern_114": {
+      "name": "Pattern #114",
+      "pattern": [
+        "Neptune-like,Neptune-like,Neptune-like,Brown Dwarf"
+      ],
+      "hostnames": [
+        "TOI-4010"
+      ]
+    }
+  },
+  {
+    "pattern_115": {
+      "name": "Pattern #115",
+      "pattern": [
+        "Terrestrial,sub-Neptune,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "HD 20781",
+        "TOI-500"
+      ]
+    }
+  },
+  {
+    "pattern_116": {
+      "name": "Pattern #116",
+      "pattern": [
+        "Super-Earth,sub-Neptune,sub-Neptune,sub-Neptune"
+      ],
+      "hostnames": [
+        "HD 20794",
+        "Kepler-251",
+        "Kepler-256",
+        "Kepler-265",
+        "Kepler-306",
+        "TOI-561"
+      ]
+    }
+  },
+  {
+    "pattern_117": {
+      "name": "Pattern #117",
+      "pattern": [
+        "Terrestrial,sub-Neptune,Terrestrial,Terrestrial"
+      ],
+      "hostnames": [
+        "TOI-700"
+      ]
+    }
+  },
+  {
+    "pattern_118": {
+      "name": "Pattern #118",
+      "pattern": [
+        "Terrestrial,Terrestrial,Terrestrial,Terrestrial,Terrestrial,Terrestrial,Terrestrial"
+      ],
+      "hostnames": [
+        "TRAPPIST-1"
+      ]
+    }
+  },
+  {
+    "pattern_119": {
+      "name": "Pattern #119",
+      "pattern": [
+        "Gas Giant,Gas Giant,Gas Giant,Brown Dwarf"
+      ],
+      "hostnames": [
+        "V1298 Tau"
+      ]
+    }
+  },
+  {
+    "pattern_120": {
+      "name": "Pattern #120",
+      "pattern": [
+        "Super-Earth,Brown Dwarf,Neptune-like,Brown Dwarf"
+      ],
+      "hostnames": [
+        "WASP-47"
+      ]
+    }
+  },
+  {
+    "pattern_121": {
+      "name": "Pattern #121",
+      "pattern": [
+        "Super-Earth,Brown Dwarf,Neptune-like,Neptune-like"
+      ],
+      "hostnames": [
+        "rho CrB"
+      ]
+    }
+  },
+  {
+    "pattern_122": {
+      "name": "Pattern #122",
+      "pattern": [
+        "Terrestrial,Terrestrial,Super-Earth,Super-Earth"
+      ],
+      "hostnames": [
+        "HD 215152",
+        "tau Cet"
+      ]
+    }
+  }
+]

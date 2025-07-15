@@ -1,0 +1,10246 @@
+{
+  "55 Cnc": {
+    "planets": [
+      {
+        "name": "55 Cnc e",
+        "radius": [
+          1.875
+        ],
+        "mass": [
+          7.99
+        ],
+        "orbital_period": [
+          0.7365474
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "55 Cnc b",
+        "radius": [
+          13.9
+        ],
+        "mass": [
+          263.9785
+        ],
+        "orbital_period": [
+          14.6516
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "55 Cnc c",
+        "radius": [
+          8.51
+        ],
+        "mass": [
+          54.4738
+        ],
+        "orbital_period": [
+          44.3989
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "55 Cnc f",
+        "radius": [
+          7.59
+        ],
+        "mass": [
+          44.812
+        ],
+        "orbital_period": [
+          259.88
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "55 Cnc d",
+        "radius": [
+          13.0
+        ],
+        "mass": [
+          1232.493
+        ],
+        "orbital_period": [
+          5574.2
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Barnard's star": {
+    "planets": [
+      {
+        "name": "Barnard d",
+        "radius": [
+          0.694
+        ],
+        "mass": [
+          0.263
+        ],
+        "orbital_period": [
+          2.3402
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Barnard b",
+        "radius": [
+          0.72
+        ],
+        "mass": [
+          0.299
+        ],
+        "orbital_period": [
+          3.1542
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Barnard c",
+        "radius": [
+          0.743
+        ],
+        "mass": [
+          0.335
+        ],
+        "orbital_period": [
+          4.1244
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Barnard e",
+        "radius": [
+          0.637
+        ],
+        "mass": [
+          0.193
+        ],
+        "orbital_period": [
+          6.7392
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "DMPP-1": {
+    "planets": [
+      {
+        "name": "DMPP-1 d",
+        "radius": [
+          1.65
+        ],
+        "mass": [
+          3.35
+        ],
+        "orbital_period": [
+          2.882
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "DMPP-1 e",
+        "radius": [
+          1.86
+        ],
+        "mass": [
+          4.13
+        ],
+        "orbital_period": [
+          5.516
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "DMPP-1 c",
+        "radius": [
+          3.06
+        ],
+        "mass": [
+          9.6
+        ],
+        "orbital_period": [
+          6.584
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "DMPP-1 b",
+        "radius": [
+          5.29
+        ],
+        "mass": [
+          24.27
+        ],
+        "orbital_period": [
+          18.57
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "GJ 3293": {
+    "planets": [
+      {
+        "name": "GJ 3293 e",
+        "radius": [
+          1.63
+        ],
+        "mass": [
+          3.28
+        ],
+        "orbital_period": [
+          13.2543
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "GJ 3293 b",
+        "radius": [
+          5.19
+        ],
+        "mass": [
+          23.54
+        ],
+        "orbital_period": [
+          30.5987
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "GJ 3293 d",
+        "radius": [
+          2.67
+        ],
+        "mass": [
+          7.6
+        ],
+        "orbital_period": [
+          48.1345
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "GJ 3293 c",
+        "radius": [
+          4.87
+        ],
+        "mass": [
+          21.09
+        ],
+        "orbital_period": [
+          122.6196
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "GJ 667 C": {
+    "planets": [
+      {
+        "name": "GJ 667 C b",
+        "radius": [
+          2.25
+        ],
+        "mass": [
+          5.68
+        ],
+        "orbital_period": [
+          7.203
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "GJ 667 C c",
+        "radius": [
+          1.77
+        ],
+        "mass": [
+          3.8
+        ],
+        "orbital_period": [
+          28.14
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "GJ 667 C f",
+        "radius": [
+          1.45
+        ],
+        "mass": [
+          2.7
+        ],
+        "orbital_period": [
+          39.026
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "GJ 667 C e",
+        "radius": [
+          1.45
+        ],
+        "mass": [
+          2.7
+        ],
+        "orbital_period": [
+          62.24
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "GJ 667 C g",
+        "radius": [
+          1.99
+        ],
+        "mass": [
+          4.6
+        ],
+        "orbital_period": [
+          256.2
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "GJ 676 A": {
+    "planets": [
+      {
+        "name": "GJ 676 A d",
+        "radius": [
+          1.78
+        ],
+        "mass": [
+          3.81394088
+        ],
+        "orbital_period": [
+          3.60076
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "GJ 676 A e",
+        "radius": [
+          2.47
+        ],
+        "mass": [
+          6.67439655
+        ],
+        "orbital_period": [
+          35.47358
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "GJ 676 A b",
+        "radius": [
+          12.8
+        ],
+        "mass": [
+          1840.86213334
+        ],
+        "orbital_period": [
+          1051.44521
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "GJ 676 A c",
+        "radius": [
+          12.3
+        ],
+        "mass": [
+          4288.14086724
+        ],
+        "orbital_period": [
+          13921.42302
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "GJ 876": {
+    "planets": [
+      {
+        "name": "GJ 876 d",
+        "radius": [
+          2.51
+        ],
+        "mass": [
+          6.83
+        ],
+        "orbital_period": [
+          1.93778
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "GJ 876 c",
+        "radius": [
+          14.0
+        ],
+        "mass": [
+          226.9846
+        ],
+        "orbital_period": [
+          30.0881
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "GJ 876 b",
+        "radius": [
+          13.3
+        ],
+        "mass": [
+          723.2235
+        ],
+        "orbital_period": [
+          61.1166
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "GJ 876 e",
+        "radius": [
+          3.92
+        ],
+        "mass": [
+          14.6
+        ],
+        "orbital_period": [
+          124.26
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "HD 10180": {
+    "planets": [
+      {
+        "name": "HD 10180 c",
+        "radius": [
+          3.68
+        ],
+        "mass": [
+          13.1
+        ],
+        "orbital_period": [
+          5.75969
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 10180 d",
+        "radius": [
+          3.45
+        ],
+        "mass": [
+          11.75
+        ],
+        "orbital_period": [
+          16.357
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 10180 e",
+        "radius": [
+          5.39
+        ],
+        "mass": [
+          25.1
+        ],
+        "orbital_period": [
+          49.748
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 10180 f",
+        "radius": [
+          5.24
+        ],
+        "mass": [
+          23.9
+        ],
+        "orbital_period": [
+          122.744
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 10180 g",
+        "radius": [
+          4.91
+        ],
+        "mass": [
+          21.4
+        ],
+        "orbital_period": [
+          604.67
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "HD 10180 h",
+        "radius": [
+          9.4
+        ],
+        "mass": [
+          64.4
+        ],
+        "orbital_period": [
+          2205.0
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "HD 108236": {
+    "planets": [
+      {
+        "name": "HD 108236 b",
+        "radius": [
+          1.615
+        ],
+        "mass": [
+          3.24
+        ],
+        "orbital_period": [
+          3.795963
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 108236 c",
+        "radius": [
+          2.071
+        ],
+        "mass": [
+          4.94
+        ],
+        "orbital_period": [
+          6.203449
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 108236 d",
+        "radius": [
+          2.539
+        ],
+        "mass": [
+          6.98
+        ],
+        "orbital_period": [
+          14.175685
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 108236 e",
+        "radius": [
+          3.083
+        ],
+        "mass": [
+          9.71
+        ],
+        "orbital_period": [
+          19.590025
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 108236 f",
+        "radius": [
+          2.017
+        ],
+        "mass": [
+          4.72
+        ],
+        "orbital_period": [
+          29.54115
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "HD 110067": {
+    "planets": [
+      {
+        "name": "HD 110067 b",
+        "radius": [
+          2.2
+        ],
+        "mass": [
+          5.69
+        ],
+        "orbital_period": [
+          9.113678
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 110067 c",
+        "radius": [
+          2.388
+        ],
+        "mass": [
+          6.3
+        ],
+        "orbital_period": [
+          13.673694
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 110067 d",
+        "radius": [
+          2.852
+        ],
+        "mass": [
+          8.52
+        ],
+        "orbital_period": [
+          20.519617
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 110067 e",
+        "radius": [
+          1.94
+        ],
+        "mass": [
+          3.9
+        ],
+        "orbital_period": [
+          30.793091
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 110067 f",
+        "radius": [
+          2.601
+        ],
+        "mass": [
+          5.04
+        ],
+        "orbital_period": [
+          41.05854
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "HD 110067 g",
+        "radius": [
+          2.607
+        ],
+        "mass": [
+          8.4
+        ],
+        "orbital_period": [
+          54.76992
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "HD 134606": {
+    "planets": [
+      {
+        "name": "HD 134606 e",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.34
+        ],
+        "orbital_period": [
+          4.3203
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 134606 b",
+        "radius": [
+          2.97
+        ],
+        "mass": [
+          9.09
+        ],
+        "orbital_period": [
+          12.089
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 134606 f",
+        "radius": [
+          2.24
+        ],
+        "mass": [
+          5.63
+        ],
+        "orbital_period": [
+          26.915
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 134606 c",
+        "radius": [
+          3.37
+        ],
+        "mass": [
+          11.31
+        ],
+        "orbital_period": [
+          58.883
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 134606 d",
+        "radius": [
+          7.59
+        ],
+        "mass": [
+          44.8
+        ],
+        "orbital_period": [
+          966.5
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "HD 141399": {
+    "planets": [
+      {
+        "name": "HD 141399 b",
+        "radius": [
+          14.3
+        ],
+        "mass": [
+          143.34133
+        ],
+        "orbital_period": [
+          94.44
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 141399 c",
+        "radius": [
+          13.6
+        ],
+        "mass": [
+          422.7139
+        ],
+        "orbital_period": [
+          201.99
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 141399 d",
+        "radius": [
+          13.7
+        ],
+        "mass": [
+          375.0394
+        ],
+        "orbital_period": [
+          1069.8
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 141399 e",
+        "radius": [
+          14.1
+        ],
+        "mass": [
+          209.7678
+        ],
+        "orbital_period": [
+          5000.0
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "HD 158259": {
+    "planets": [
+      {
+        "name": "HD 158259 b",
+        "radius": [
+          1.28228
+        ],
+        "mass": [
+          2.22
+        ],
+        "orbital_period": [
+          2.178
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 158259 c",
+        "radius": [
+          2.23
+        ],
+        "mass": [
+          5.6
+        ],
+        "orbital_period": [
+          3.432
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 158259 d",
+        "radius": [
+          2.18
+        ],
+        "mass": [
+          5.41
+        ],
+        "orbital_period": [
+          5.1980814
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 158259 e",
+        "radius": [
+          2.34
+        ],
+        "mass": [
+          6.08
+        ],
+        "orbital_period": [
+          7.951
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 158259 f",
+        "radius": [
+          2.35
+        ],
+        "mass": [
+          6.14
+        ],
+        "orbital_period": [
+          12.028
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "HD 160691": {
+    "planets": [
+      {
+        "name": "HD 160691 d",
+        "radius": [
+          3.17
+        ],
+        "mass": [
+          10.17
+        ],
+        "orbital_period": [
+          9.6392
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 160691 e",
+        "radius": [
+          0.0
+        ],
+        "mass": [
+          2224.798849
+        ],
+        "orbital_period": [
+          307.9
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 160691 b",
+        "radius": [
+          0.0
+        ],
+        "mass": [
+          1366.6621501
+        ],
+        "orbital_period": [
+          645.0
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 160691 c",
+        "radius": [
+          0.0
+        ],
+        "mass": [
+          1398.4449908
+        ],
+        "orbital_period": [
+          3947.0
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "HD 164922": {
+    "planets": [
+      {
+        "name": "HD 164922 d",
+        "radius": [
+          1.83
+        ],
+        "mass": [
+          4.0
+        ],
+        "orbital_period": [
+          12.458
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 164922 e",
+        "radius": [
+          3.23
+        ],
+        "mass": [
+          10.52012027
+        ],
+        "orbital_period": [
+          41.763
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 164922 c",
+        "radius": [
+          3.66
+        ],
+        "mass": [
+          13.0
+        ],
+        "orbital_period": [
+          75.74
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 164922 b",
+        "radius": [
+          13.3
+        ],
+        "mass": [
+          116.0
+        ],
+        "orbital_period": [
+          1207.0
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "HD 191939": {
+    "planets": [
+      {
+        "name": "HD 191939 b",
+        "radius": [
+          3.41
+        ],
+        "mass": [
+          10.0
+        ],
+        "orbital_period": [
+          8.8803256
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 191939 c",
+        "radius": [
+          3.195
+        ],
+        "mass": [
+          8.0
+        ],
+        "orbital_period": [
+          28.579743
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 191939 d",
+        "radius": [
+          2.995
+        ],
+        "mass": [
+          2.8
+        ],
+        "orbital_period": [
+          38.353037
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 191939 e",
+        "radius": [
+          13.0
+        ],
+        "mass": [
+          112.2
+        ],
+        "orbital_period": [
+          101.12
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 191939 g",
+        "radius": [
+          3.74
+        ],
+        "mass": [
+          13.5
+        ],
+        "orbital_period": [
+          284.0
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "HD 191939 f",
+        "radius": [
+          13.2
+        ],
+        "mass": [
+          915.34581216
+        ],
+        "orbital_period": [
+          2898.0
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "HD 20781": {
+    "planets": [
+      {
+        "name": "HD 20781 b",
+        "radius": [
+          1.21
+        ],
+        "mass": [
+          1.93
+        ],
+        "orbital_period": [
+          5.3135
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 20781 c",
+        "radius": [
+          2.17
+        ],
+        "mass": [
+          5.33
+        ],
+        "orbital_period": [
+          13.8905
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 20781 d",
+        "radius": [
+          3.25
+        ],
+        "mass": [
+          10.61
+        ],
+        "orbital_period": [
+          29.158
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 20781 e",
+        "radius": [
+          3.83
+        ],
+        "mass": [
+          14.03
+        ],
+        "orbital_period": [
+          85.5073
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "HD 20782": {
+    "planets": [
+      {
+        "name": "HD 20782 b",
+        "radius": [
+          13.6
+        ],
+        "mass": [
+          472.83
+        ],
+        "orbital_period": [
+          597.0643
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          1
+        ]
+      }
+    ]
+  },
+  "HD 20794": {
+    "planets": [
+      {
+        "name": "HD 20794 b",
+        "radius": [
+          1.45
+        ],
+        "mass": [
+          2.7
+        ],
+        "orbital_period": [
+          18.314
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 20794 d",
+        "radius": [
+          2.04
+        ],
+        "mass": [
+          4.8
+        ],
+        "orbital_period": [
+          89.68
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 20794 e",
+        "radius": [
+          2.03
+        ],
+        "mass": [
+          4.77
+        ],
+        "orbital_period": [
+          147.02
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 20794 f",
+        "radius": [
+          2.28
+        ],
+        "mass": [
+          5.82
+        ],
+        "orbital_period": [
+          647.6
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "HD 215152": {
+    "planets": [
+      {
+        "name": "HD 215152 b",
+        "radius": [
+          1.19
+        ],
+        "mass": [
+          1.819
+        ],
+        "orbital_period": [
+          5.75999
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 215152 c",
+        "radius": [
+          1.17
+        ],
+        "mass": [
+          1.72
+        ],
+        "orbital_period": [
+          7.28243
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 215152 d",
+        "radius": [
+          1.48
+        ],
+        "mass": [
+          2.801
+        ],
+        "orbital_period": [
+          10.86499
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 215152 e",
+        "radius": [
+          1.51
+        ],
+        "mass": [
+          2.877
+        ],
+        "orbital_period": [
+          25.1967
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "HD 219134": {
+    "planets": [
+      {
+        "name": "HD 219134 b",
+        "radius": [
+          1.602
+        ],
+        "mass": [
+          4.74
+        ],
+        "orbital_period": [
+          3.092926
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 219134 c",
+        "radius": [
+          1.511
+        ],
+        "mass": [
+          4.36
+        ],
+        "orbital_period": [
+          6.76458
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 219134 f",
+        "radius": [
+          1.31
+        ],
+        "mass": [
+          7.3
+        ],
+        "orbital_period": [
+          22.717
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 219134 d",
+        "radius": [
+          1.61
+        ],
+        "mass": [
+          16.17
+        ],
+        "orbital_period": [
+          46.859
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 219134 g",
+        "radius": [
+          3.28
+        ],
+        "mass": [
+          10.80622
+        ],
+        "orbital_period": [
+          94.2
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "HD 219134 h",
+        "radius": [
+          12.7
+        ],
+        "mass": [
+          108.0622
+        ],
+        "orbital_period": [
+          2247.0
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "HD 23472": {
+    "planets": [
+      {
+        "name": "HD 23472 d",
+        "radius": [
+          0.75
+        ],
+        "mass": [
+          0.55
+        ],
+        "orbital_period": [
+          3.97664
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 23472 e",
+        "radius": [
+          0.818
+        ],
+        "mass": [
+          0.72
+        ],
+        "orbital_period": [
+          7.90754
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 23472 f",
+        "radius": [
+          1.137
+        ],
+        "mass": [
+          0.77
+        ],
+        "orbital_period": [
+          12.1621839
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 23472 b",
+        "radius": [
+          2.0
+        ],
+        "mass": [
+          8.32
+        ],
+        "orbital_period": [
+          17.667087
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 23472 c",
+        "radius": [
+          1.87
+        ],
+        "mass": [
+          3.41
+        ],
+        "orbital_period": [
+          29.79749
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "HD 3167": {
+    "planets": [
+      {
+        "name": "HD 3167 b",
+        "radius": [
+          1.67
+        ],
+        "mass": [
+          4.97
+        ],
+        "orbital_period": [
+          0.959641
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 3167 d",
+        "radius": [
+          1.92
+        ],
+        "mass": [
+          4.33
+        ],
+        "orbital_period": [
+          8.4112
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 3167 c",
+        "radius": [
+          3.0
+        ],
+        "mass": [
+          11.13
+        ],
+        "orbital_period": [
+          29.8454
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 3167 e",
+        "radius": [
+          2.83
+        ],
+        "mass": [
+          8.41
+        ],
+        "orbital_period": [
+          96.63
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "HD 34445": {
+    "planets": [
+      {
+        "name": "HD 34445 e",
+        "radius": [
+          4.26
+        ],
+        "mass": [
+          16.8
+        ],
+        "orbital_period": [
+          49.175
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 34445 d",
+        "radius": [
+          6.07
+        ],
+        "mass": [
+          30.7
+        ],
+        "orbital_period": [
+          117.87
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 34445 c",
+        "radius": [
+          8.42
+        ],
+        "mass": [
+          53.5
+        ],
+        "orbital_period": [
+          214.67
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 34445 f",
+        "radius": [
+          6.88
+        ],
+        "mass": [
+          37.9
+        ],
+        "orbital_period": [
+          676.8
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 34445 b",
+        "radius": [
+          13.9
+        ],
+        "mass": [
+          260.6206
+        ],
+        "orbital_period": [
+          1049.0
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "HD 34445 g",
+        "radius": [
+          13.6
+        ],
+        "mass": [
+          120.6
+        ],
+        "orbital_period": [
+          5700.0
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "HD 40307": {
+    "planets": [
+      {
+        "name": "HD 40307 b",
+        "radius": [
+          1.83
+        ],
+        "mass": [
+          4.0
+        ],
+        "orbital_period": [
+          4.3123
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HD 40307 c",
+        "radius": [
+          2.46
+        ],
+        "mass": [
+          6.6
+        ],
+        "orbital_period": [
+          9.6184
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HD 40307 d",
+        "radius": [
+          3.04
+        ],
+        "mass": [
+          9.5
+        ],
+        "orbital_period": [
+          20.432
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HD 40307 f",
+        "radius": [
+          2.13
+        ],
+        "mass": [
+          5.2
+        ],
+        "orbital_period": [
+          51.76
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HD 40307 g",
+        "radius": [
+          2.56
+        ],
+        "mass": [
+          7.1
+        ],
+        "orbital_period": [
+          197.8
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "HIP 41378": {
+    "planets": [
+      {
+        "name": "HIP 41378 b",
+        "radius": [
+          2.44317
+        ],
+        "mass": [
+          6.54
+        ],
+        "orbital_period": [
+          15.572098
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HIP 41378 c",
+        "radius": [
+          2.56
+        ],
+        "mass": [
+          7.08
+        ],
+        "orbital_period": [
+          31.70648
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HIP 41378 e",
+        "radius": [
+          5.51
+        ],
+        "mass": [
+          26.0
+        ],
+        "orbital_period": [
+          131.0
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HIP 41378 f",
+        "radius": [
+          10.2
+        ],
+        "mass": [
+          74.0
+        ],
+        "orbital_period": [
+          1084.0
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "HIP 41378 d",
+        "radius": [
+          3.96
+        ],
+        "mass": [
+          14.9
+        ],
+        "orbital_period": [
+          1114.0
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "HR 8799": {
+    "planets": [
+      {
+        "name": "HR 8799 e",
+        "radius": [
+          13.11453
+        ],
+        "mass": [
+          3178.3
+        ],
+        "orbital_period": [
+          20815.6
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "HR 8799 d",
+        "radius": [
+          13.0
+        ],
+        "mass": [
+          3000.0
+        ],
+        "orbital_period": [
+          37000.0
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "HR 8799 c",
+        "radius": [
+          13.0
+        ],
+        "mass": [
+          3000.0
+        ],
+        "orbital_period": [
+          69000.0
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "HR 8799 b",
+        "radius": [
+          13.0
+        ],
+        "mass": [
+          2000.0
+        ],
+        "orbital_period": [
+          170000.0
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "K2-133": {
+    "planets": [
+      {
+        "name": "K2-133 b",
+        "radius": [
+          1.34
+        ],
+        "mass": [
+          2.36
+        ],
+        "orbital_period": [
+          3.07133
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-133 c",
+        "radius": [
+          1.603
+        ],
+        "mass": [
+          3.2
+        ],
+        "orbital_period": [
+          4.86784
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-133 d",
+        "radius": [
+          2.003
+        ],
+        "mass": [
+          4.67
+        ],
+        "orbital_period": [
+          11.02454
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-133 e",
+        "radius": [
+          1.73
+        ],
+        "mass": [
+          3.64
+        ],
+        "orbital_period": [
+          26.5841
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "K2-138": {
+    "planets": [
+      {
+        "name": "K2-138 b",
+        "radius": [
+          1.51
+        ],
+        "mass": [
+          3.1
+        ],
+        "orbital_period": [
+          2.35309
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-138 c",
+        "radius": [
+          2.299
+        ],
+        "mass": [
+          6.31
+        ],
+        "orbital_period": [
+          3.56004
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-138 d",
+        "radius": [
+          2.39
+        ],
+        "mass": [
+          7.92
+        ],
+        "orbital_period": [
+          5.40479
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-138 e",
+        "radius": [
+          3.39
+        ],
+        "mass": [
+          12.97
+        ],
+        "orbital_period": [
+          8.26146
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "K2-138 f",
+        "radius": [
+          2.904
+        ],
+        "mass": [
+          1.63
+        ],
+        "orbital_period": [
+          12.75758
+        ],
+        "category": [
+          "Low-mass sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "K2-138 g",
+        "radius": [
+          3.013
+        ],
+        "mass": [
+          4.32
+        ],
+        "orbital_period": [
+          41.96797
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "K2-187": {
+    "planets": [
+      {
+        "name": "K2-187 b",
+        "radius": [
+          1.2
+        ],
+        "mass": [
+          1.87
+        ],
+        "orbital_period": [
+          0.77401
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-187 c",
+        "radius": [
+          1.4
+        ],
+        "mass": [
+          2.54
+        ],
+        "orbital_period": [
+          2.871512
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-187 d",
+        "radius": [
+          2.4
+        ],
+        "mass": [
+          6.35
+        ],
+        "orbital_period": [
+          7.149584
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-187 e",
+        "radius": [
+          1.9
+        ],
+        "mass": [
+          4.27
+        ],
+        "orbital_period": [
+          13.606629
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "K2-266": {
+    "planets": [
+      {
+        "name": "K2-266 b",
+        "radius": [
+          3.3
+        ],
+        "mass": [
+          11.26782377
+        ],
+        "orbital_period": [
+          0.658524
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-266 c",
+        "radius": [
+          0.705
+        ],
+        "mass": [
+          0.29013072
+        ],
+        "orbital_period": [
+          7.814
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-266 d",
+        "radius": [
+          2.93
+        ],
+        "mass": [
+          8.9
+        ],
+        "orbital_period": [
+          14.697
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-266 e",
+        "radius": [
+          2.73
+        ],
+        "mass": [
+          14.3
+        ],
+        "orbital_period": [
+          19.482
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "K2-268": {
+    "planets": [
+      {
+        "name": "K2-268 b",
+        "radius": [
+          1.5
+        ],
+        "mass": [
+          2.86
+        ],
+        "orbital_period": [
+          2.151676
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-268 d",
+        "radius": [
+          1.49
+        ],
+        "mass": [
+          2.83
+        ],
+        "orbital_period": [
+          4.528598
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-268 e",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.33
+        ],
+        "orbital_period": [
+          6.131243
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-268 c",
+        "radius": [
+          2.69
+        ],
+        "mass": [
+          7.7
+        ],
+        "orbital_period": [
+          9.327527
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "K2-268 f",
+        "radius": [
+          2.23
+        ],
+        "mass": [
+          5.6
+        ],
+        "orbital_period": [
+          26.27057
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "K2-285": {
+    "planets": [
+      {
+        "name": "K2-285 b",
+        "radius": [
+          2.59
+        ],
+        "mass": [
+          9.68
+        ],
+        "orbital_period": [
+          3.471745
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-285 c",
+        "radius": [
+          3.53
+        ],
+        "mass": [
+          15.68
+        ],
+        "orbital_period": [
+          7.138048
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-285 d",
+        "radius": [
+          2.48
+        ],
+        "mass": [
+          6.5
+        ],
+        "orbital_period": [
+          10.45582
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-285 e",
+        "radius": [
+          1.95
+        ],
+        "mass": [
+          10.7
+        ],
+        "orbital_period": [
+          14.76289
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "K2-32": {
+    "planets": [
+      {
+        "name": "K2-32 e",
+        "radius": [
+          1.212
+        ],
+        "mass": [
+          2.1
+        ],
+        "orbital_period": [
+          4.34934
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-32 b",
+        "radius": [
+          5.299
+        ],
+        "mass": [
+          15.0
+        ],
+        "orbital_period": [
+          8.992
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-32 c",
+        "radius": [
+          3.134
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          20.66093
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-32 d",
+        "radius": [
+          3.484
+        ],
+        "mass": [
+          6.7
+        ],
+        "orbital_period": [
+          31.71701
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "K2-384": {
+    "planets": [
+      {
+        "name": "K2-384 b",
+        "radius": [
+          1.076
+        ],
+        "mass": [
+          1.26
+        ],
+        "orbital_period": [
+          2.231527
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-384 c",
+        "radius": [
+          1.191
+        ],
+        "mass": [
+          1.82
+        ],
+        "orbital_period": [
+          4.194766
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-384 d",
+        "radius": [
+          1.392
+        ],
+        "mass": [
+          2.52
+        ],
+        "orbital_period": [
+          6.679582
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-384 e",
+        "radius": [
+          1.345
+        ],
+        "mass": [
+          2.37
+        ],
+        "orbital_period": [
+          9.715043
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "K2-384 f",
+        "radius": [
+          2.222
+        ],
+        "mass": [
+          5.57
+        ],
+        "orbital_period": [
+          13.62749
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "K2-72": {
+    "planets": [
+      {
+        "name": "K2-72 b",
+        "radius": [
+          1.08
+        ],
+        "mass": [
+          1.28
+        ],
+        "orbital_period": [
+          5.577212
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "K2-72 d",
+        "radius": [
+          1.01
+        ],
+        "mass": [
+          1.01
+        ],
+        "orbital_period": [
+          7.760178
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "K2-72 c",
+        "radius": [
+          1.16
+        ],
+        "mass": [
+          1.65
+        ],
+        "orbital_period": [
+          15.189034
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "K2-72 e",
+        "radius": [
+          1.29
+        ],
+        "mass": [
+          2.21
+        ],
+        "orbital_period": [
+          24.158868
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "KOI-351": {
+    "planets": [
+      {
+        "name": "KOI-351 b",
+        "radius": [
+          1.31
+        ],
+        "mass": [
+          2.27
+        ],
+        "orbital_period": [
+          7.008151
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "KOI-351 c",
+        "radius": [
+          1.19
+        ],
+        "mass": [
+          1.81
+        ],
+        "orbital_period": [
+          8.719375
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-90 i",
+        "radius": [
+          1.32
+        ],
+        "mass": [
+          2.3
+        ],
+        "orbital_period": [
+          14.44912
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "KOI-351 d",
+        "radius": [
+          2.87
+        ],
+        "mass": [
+          8.6
+        ],
+        "orbital_period": [
+          59.73667
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "KOI-351 e",
+        "radius": [
+          2.66
+        ],
+        "mass": [
+          7.56
+        ],
+        "orbital_period": [
+          91.93913
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "KOI-351 f",
+        "radius": [
+          2.88
+        ],
+        "mass": [
+          8.65
+        ],
+        "orbital_period": [
+          124.9144
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          6
+        ]
+      },
+      {
+        "name": "KOI-351 g",
+        "radius": [
+          8.1
+        ],
+        "mass": [
+          15.0
+        ],
+        "orbital_period": [
+          210.60697
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          7
+        ]
+      },
+      {
+        "name": "KOI-351 h",
+        "radius": [
+          11.3
+        ],
+        "mass": [
+          203.0
+        ],
+        "orbital_period": [
+          331.60059
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          8
+        ]
+      }
+    ]
+  },
+  "KOI-94": {
+    "planets": [
+      {
+        "name": "KOI-94 b",
+        "radius": [
+          1.71
+        ],
+        "mass": [
+          10.5
+        ],
+        "orbital_period": [
+          3.743208
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "KOI-94 c",
+        "radius": [
+          4.32
+        ],
+        "mass": [
+          15.6
+        ],
+        "orbital_period": [
+          10.423648
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "KOI-94 d",
+        "radius": [
+          11.27
+        ],
+        "mass": [
+          106.0
+        ],
+        "orbital_period": [
+          22.342989
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "KOI-94 e",
+        "radius": [
+          6.56
+        ],
+        "mass": [
+          35.0
+        ],
+        "orbital_period": [
+          54.32031
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-100": {
+    "planets": [
+      {
+        "name": "Kepler-100 b",
+        "radius": [
+          1.32
+        ],
+        "mass": [
+          7.34
+        ],
+        "orbital_period": [
+          6.88705
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-100 c",
+        "radius": [
+          2.2
+        ],
+        "mass": [
+          7.05
+        ],
+        "orbital_period": [
+          12.8159
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-100 d",
+        "radius": [
+          1.61
+        ],
+        "mass": [
+          3.0
+        ],
+        "orbital_period": [
+          35.3331
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-100 e",
+        "radius": [
+          5.27
+        ],
+        "mass": [
+          24.14271827
+        ],
+        "orbital_period": [
+          60.888588
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-102": {
+    "planets": [
+      {
+        "name": "Kepler-102 b",
+        "radius": [
+          0.46
+        ],
+        "mass": [
+          1.1
+        ],
+        "orbital_period": [
+          5.286965
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-102 c",
+        "radius": [
+          0.567
+        ],
+        "mass": [
+          1.7
+        ],
+        "orbital_period": [
+          7.071392
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-102 d",
+        "radius": [
+          1.154
+        ],
+        "mass": [
+          3.0
+        ],
+        "orbital_period": [
+          10.311767
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-102 e",
+        "radius": [
+          2.17
+        ],
+        "mass": [
+          4.7
+        ],
+        "orbital_period": [
+          16.1456994
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-102 f",
+        "radius": [
+          0.861
+        ],
+        "mass": [
+          4.3
+        ],
+        "orbital_period": [
+          27.453592
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-106": {
+    "planets": [
+      {
+        "name": "Kepler-106 b",
+        "radius": [
+          0.82
+        ],
+        "mass": [
+          5.3
+        ],
+        "orbital_period": [
+          6.16486
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-106 c",
+        "radius": [
+          2.5
+        ],
+        "mass": [
+          10.44
+        ],
+        "orbital_period": [
+          13.5708
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-106 d",
+        "radius": [
+          0.95
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          23.9802
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-106 e",
+        "radius": [
+          2.56
+        ],
+        "mass": [
+          11.17
+        ],
+        "orbital_period": [
+          43.8445
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-107": {
+    "planets": [
+      {
+        "name": "Kepler-107 b",
+        "radius": [
+          1.536
+        ],
+        "mass": [
+          3.8
+        ],
+        "orbital_period": [
+          3.1800218
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-107 c",
+        "radius": [
+          1.597
+        ],
+        "mass": [
+          10.0
+        ],
+        "orbital_period": [
+          4.901452
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-107 d",
+        "radius": [
+          0.86
+        ],
+        "mass": [
+          7.7
+        ],
+        "orbital_period": [
+          7.95839
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-107 e",
+        "radius": [
+          2.903
+        ],
+        "mass": [
+          14.1
+        ],
+        "orbital_period": [
+          14.749143
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-11": {
+    "planets": [
+      {
+        "name": "Kepler-11 b",
+        "radius": [
+          1.8
+        ],
+        "mass": [
+          1.9
+        ],
+        "orbital_period": [
+          10.3039
+        ],
+        "category": [
+          "Low-mass sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-11 c",
+        "radius": [
+          2.87
+        ],
+        "mass": [
+          2.9
+        ],
+        "orbital_period": [
+          13.0241
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-11 d",
+        "radius": [
+          3.12
+        ],
+        "mass": [
+          7.3
+        ],
+        "orbital_period": [
+          22.6845
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-11 e",
+        "radius": [
+          4.19
+        ],
+        "mass": [
+          8.0
+        ],
+        "orbital_period": [
+          31.9996
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-11 f",
+        "radius": [
+          2.49
+        ],
+        "mass": [
+          2.0
+        ],
+        "orbital_period": [
+          46.6888
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "Kepler-11 g",
+        "radius": [
+          3.33
+        ],
+        "mass": [
+          25.0
+        ],
+        "orbital_period": [
+          118.3807
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "Kepler-122": {
+    "planets": [
+      {
+        "name": "Kepler-122 b",
+        "radius": [
+          2.34
+        ],
+        "mass": [
+          6.08
+        ],
+        "orbital_period": [
+          5.766193
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-122 c",
+        "radius": [
+          5.87
+        ],
+        "mass": [
+          29.0
+        ],
+        "orbital_period": [
+          12.465988
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-122 d",
+        "radius": [
+          2.2
+        ],
+        "mass": [
+          5.48
+        ],
+        "orbital_period": [
+          21.587475
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-122 e",
+        "radius": [
+          2.6
+        ],
+        "mass": [
+          27.7
+        ],
+        "orbital_period": [
+          37.993273
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-122 f",
+        "radius": [
+          1.75
+        ],
+        "mass": [
+          36.0
+        ],
+        "orbital_period": [
+          56.268
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-132": {
+    "planets": [
+      {
+        "name": "Kepler-132 b",
+        "radius": [
+          1.21
+        ],
+        "mass": [
+          1.92
+        ],
+        "orbital_period": [
+          6.178196
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-132 c",
+        "radius": [
+          1.28
+        ],
+        "mass": [
+          2.18
+        ],
+        "orbital_period": [
+          6.414914
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-132 d",
+        "radius": [
+          1.55
+        ],
+        "mass": [
+          3.02
+        ],
+        "orbital_period": [
+          18.010199
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-132 e",
+        "radius": [
+          1.18
+        ],
+        "mass": [
+          1.76
+        ],
+        "orbital_period": [
+          110.2869374
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-138": {
+    "planets": [
+      {
+        "name": "Kepler-138 b",
+        "radius": [
+          0.64
+        ],
+        "mass": [
+          0.07
+        ],
+        "orbital_period": [
+          10.3134
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-138 c",
+        "radius": [
+          1.51
+        ],
+        "mass": [
+          2.3
+        ],
+        "orbital_period": [
+          13.7815
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-138 d",
+        "radius": [
+          1.51
+        ],
+        "mass": [
+          2.1
+        ],
+        "orbital_period": [
+          23.0923
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-138 e",
+        "radius": [
+          0.797
+        ],
+        "mass": [
+          0.43
+        ],
+        "orbital_period": [
+          38.23
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-1388": {
+    "planets": [
+      {
+        "name": "Kepler-1388 c",
+        "radius": [
+          2.26
+        ],
+        "mass": [
+          5.73
+        ],
+        "orbital_period": [
+          5.53608151
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-1388 b",
+        "radius": [
+          2.59
+        ],
+        "mass": [
+          7.22
+        ],
+        "orbital_period": [
+          12.2854603
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-1388 d",
+        "radius": [
+          2.86
+        ],
+        "mass": [
+          8.55
+        ],
+        "orbital_period": [
+          20.9568158
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-1388 e",
+        "radius": [
+          2.46
+        ],
+        "mass": [
+          6.62
+        ],
+        "orbital_period": [
+          37.6327084
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-139": {
+    "planets": [
+      {
+        "name": "Kepler-139 d",
+        "radius": [
+          1.695
+        ],
+        "mass": [
+          2.0
+        ],
+        "orbital_period": [
+          7.305699922
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-139 b",
+        "radius": [
+          2.94
+        ],
+        "mass": [
+          7.0
+        ],
+        "orbital_period": [
+          15.771044
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-139 c",
+        "radius": [
+          3.38
+        ],
+        "mass": [
+          13.0
+        ],
+        "orbital_period": [
+          157.072878
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-139 f",
+        "radius": [
+          6.67
+        ],
+        "mass": [
+          36.0
+        ],
+        "orbital_period": [
+          355.0
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-139 e",
+        "radius": [
+          13.7
+        ],
+        "mass": [
+          378.0
+        ],
+        "orbital_period": [
+          2047.635373
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-150": {
+    "planets": [
+      {
+        "name": "Kepler-150 b",
+        "radius": [
+          1.25
+        ],
+        "mass": [
+          2.1
+        ],
+        "orbital_period": [
+          3.428054
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-150 c",
+        "radius": [
+          3.69
+        ],
+        "mass": [
+          13.2
+        ],
+        "orbital_period": [
+          7.381998
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-150 d",
+        "radius": [
+          2.79
+        ],
+        "mass": [
+          8.2
+        ],
+        "orbital_period": [
+          12.56093
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-150 e",
+        "radius": [
+          3.12
+        ],
+        "mass": [
+          9.91
+        ],
+        "orbital_period": [
+          30.826557
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-150 f",
+        "radius": [
+          3.64
+        ],
+        "mass": [
+          12.9
+        ],
+        "orbital_period": [
+          637.2093
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-154": {
+    "planets": [
+      {
+        "name": "Kepler-154 e",
+        "radius": [
+          1.5
+        ],
+        "mass": [
+          2.86
+        ],
+        "orbital_period": [
+          3.93276465
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-154 f",
+        "radius": [
+          1.5
+        ],
+        "mass": [
+          2.86
+        ],
+        "orbital_period": [
+          9.91935684
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-154 d",
+        "radius": [
+          3.84
+        ],
+        "mass": [
+          14.1
+        ],
+        "orbital_period": [
+          20.54981883
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-154 b",
+        "radius": [
+          2.26
+        ],
+        "mass": [
+          5.73
+        ],
+        "orbital_period": [
+          33.040532
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-154 c",
+        "radius": [
+          2.95
+        ],
+        "mass": [
+          9.01
+        ],
+        "orbital_period": [
+          62.303276
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-1542": {
+    "planets": [
+      {
+        "name": "Kepler-1542 c",
+        "radius": [
+          0.65
+        ],
+        "mass": [
+          0.208
+        ],
+        "orbital_period": [
+          2.89223021
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-1542 b",
+        "radius": [
+          0.76
+        ],
+        "mass": [
+          0.363
+        ],
+        "orbital_period": [
+          3.95116882
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-1542 e",
+        "radius": [
+          0.76
+        ],
+        "mass": [
+          0.363
+        ],
+        "orbital_period": [
+          5.10115756
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-1542 d",
+        "radius": [
+          0.87
+        ],
+        "mass": [
+          0.59
+        ],
+        "orbital_period": [
+          5.99273738
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-164": {
+    "planets": [
+      {
+        "name": "Kepler-164 b",
+        "radius": [
+          1.41
+        ],
+        "mass": [
+          2.57
+        ],
+        "orbital_period": [
+          5.03503
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-164 c",
+        "radius": [
+          2.73
+        ],
+        "mass": [
+          7.9
+        ],
+        "orbital_period": [
+          10.945723
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-164 d",
+        "radius": [
+          2.45
+        ],
+        "mass": [
+          6.57
+        ],
+        "orbital_period": [
+          28.986769
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-164 e",
+        "radius": [
+          4.24
+        ],
+        "mass": [
+          16.7
+        ],
+        "orbital_period": [
+          94.886902
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-167": {
+    "planets": [
+      {
+        "name": "Kepler-167 b",
+        "radius": [
+          1.718
+        ],
+        "mass": [
+          3.6
+        ],
+        "orbital_period": [
+          4.3931539
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-167 c",
+        "radius": [
+          1.674
+        ],
+        "mass": [
+          3.44
+        ],
+        "orbital_period": [
+          7.406106
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-167 d",
+        "radius": [
+          1.238
+        ],
+        "mass": [
+          2.06
+        ],
+        "orbital_period": [
+          21.80379
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-167 e",
+        "radius": [
+          10.16
+        ],
+        "mass": [
+          321.00669107
+        ],
+        "orbital_period": [
+          1071.23205
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-169": {
+    "planets": [
+      {
+        "name": "Kepler-169 b",
+        "radius": [
+          1.13
+        ],
+        "mass": [
+          1.51
+        ],
+        "orbital_period": [
+          3.250619
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-169 c",
+        "radius": [
+          1.21
+        ],
+        "mass": [
+          1.92
+        ],
+        "orbital_period": [
+          6.195469
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-169 d",
+        "radius": [
+          1.25
+        ],
+        "mass": [
+          2.1
+        ],
+        "orbital_period": [
+          8.348125
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-169 e",
+        "radius": [
+          2.2
+        ],
+        "mass": [
+          5.48
+        ],
+        "orbital_period": [
+          13.767102
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-169 f",
+        "radius": [
+          2.58
+        ],
+        "mass": [
+          7.18
+        ],
+        "orbital_period": [
+          87.090195
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-172": {
+    "planets": [
+      {
+        "name": "Kepler-172 b",
+        "radius": [
+          2.35
+        ],
+        "mass": [
+          6.12
+        ],
+        "orbital_period": [
+          2.940309
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-172 c",
+        "radius": [
+          2.86
+        ],
+        "mass": [
+          8.55
+        ],
+        "orbital_period": [
+          6.388996
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-172 d",
+        "radius": [
+          2.25
+        ],
+        "mass": [
+          5.69
+        ],
+        "orbital_period": [
+          14.627119
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-172 e",
+        "radius": [
+          2.76
+        ],
+        "mass": [
+          8.05
+        ],
+        "orbital_period": [
+          35.118736
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-176": {
+    "planets": [
+      {
+        "name": "Kepler-176 b",
+        "radius": [
+          1.43
+        ],
+        "mass": [
+          290.537
+        ],
+        "orbital_period": [
+          5.433074
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-176 c",
+        "radius": [
+          2.6
+        ],
+        "mass": [
+          1.33
+        ],
+        "orbital_period": [
+          12.759712
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-176 d",
+        "radius": [
+          2.51
+        ],
+        "mass": [
+          1.72
+        ],
+        "orbital_period": [
+          25.751974
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-176 e",
+        "radius": [
+          1.45
+        ],
+        "mass": [
+          0.52075
+        ],
+        "orbital_period": [
+          51.16579
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-186": {
+    "planets": [
+      {
+        "name": "Kepler-186 b",
+        "radius": [
+          1.07
+        ],
+        "mass": [
+          1.24
+        ],
+        "orbital_period": [
+          3.8867907
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-186 c",
+        "radius": [
+          1.25
+        ],
+        "mass": [
+          2.1
+        ],
+        "orbital_period": [
+          7.267302
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-186 d",
+        "radius": [
+          1.4
+        ],
+        "mass": [
+          2.54
+        ],
+        "orbital_period": [
+          13.342996
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-186 e",
+        "radius": [
+          1.27
+        ],
+        "mass": [
+          2.15
+        ],
+        "orbital_period": [
+          22.407704
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-186 f",
+        "radius": [
+          1.17
+        ],
+        "mass": [
+          1.71
+        ],
+        "orbital_period": [
+          129.9441
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-197": {
+    "planets": [
+      {
+        "name": "Kepler-197 b",
+        "radius": [
+          1.02
+        ],
+        "mass": [
+          1.04
+        ],
+        "orbital_period": [
+          5.599308
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-197 c",
+        "radius": [
+          1.23
+        ],
+        "mass": [
+          5.3
+        ],
+        "orbital_period": [
+          10.349695
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-197 d",
+        "radius": [
+          1.22
+        ],
+        "mass": [
+          1.98
+        ],
+        "orbital_period": [
+          15.677563
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-197 e",
+        "radius": [
+          0.91
+        ],
+        "mass": [
+          0.693
+        ],
+        "orbital_period": [
+          25.209715
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-1987": {
+    "planets": [
+      {
+        "name": "Kepler-1987 b",
+        "radius": [
+          1.23
+        ],
+        "mass": [
+          2.04
+        ],
+        "orbital_period": [
+          2.345863002
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-1987 c",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.33
+        ],
+        "orbital_period": [
+          3.64830183
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-1987 d",
+        "radius": [
+          2.66
+        ],
+        "mass": [
+          7.56
+        ],
+        "orbital_period": [
+          5.644914154
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-1987 e",
+        "radius": [
+          1.92
+        ],
+        "mass": [
+          4.35
+        ],
+        "orbital_period": [
+          8.74292005
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-20": {
+    "planets": [
+      {
+        "name": "Kepler-20 b",
+        "radius": [
+          1.773
+        ],
+        "mass": [
+          9.7
+        ],
+        "orbital_period": [
+          3.6961049
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-20 e",
+        "radius": [
+          0.821
+        ],
+        "mass": [
+          0.76
+        ],
+        "orbital_period": [
+          6.0984882
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-20 c",
+        "radius": [
+          2.894
+        ],
+        "mass": [
+          11.1
+        ],
+        "orbital_period": [
+          10.8540774
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-20 f",
+        "radius": [
+          0.952
+        ],
+        "mass": [
+          1.4
+        ],
+        "orbital_period": [
+          19.578328
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-20 g",
+        "radius": [
+          4.71
+        ],
+        "mass": [
+          19.96
+        ],
+        "orbital_period": [
+          34.94
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "Kepler-20 d",
+        "radius": [
+          2.606
+        ],
+        "mass": [
+          13.4
+        ],
+        "orbital_period": [
+          77.611455
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "Kepler-208": {
+    "planets": [
+      {
+        "name": "Kepler-208 b",
+        "radius": [
+          1.63
+        ],
+        "mass": [
+          3.29
+        ],
+        "orbital_period": [
+          4.22864
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-208 c",
+        "radius": [
+          1.39
+        ],
+        "mass": [
+          2.51
+        ],
+        "orbital_period": [
+          7.466623
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-208 d",
+        "radius": [
+          1.2
+        ],
+        "mass": [
+          1.87
+        ],
+        "orbital_period": [
+          11.131786
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-208 e",
+        "radius": [
+          1.48
+        ],
+        "mass": [
+          2.79
+        ],
+        "orbital_period": [
+          16.259458
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-215": {
+    "planets": [
+      {
+        "name": "Kepler-215 b",
+        "radius": [
+          1.62
+        ],
+        "mass": [
+          3.26
+        ],
+        "orbital_period": [
+          9.360672
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-215 c",
+        "radius": [
+          1.77
+        ],
+        "mass": [
+          3.78
+        ],
+        "orbital_period": [
+          14.667108
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-215 d",
+        "radius": [
+          2.39
+        ],
+        "mass": [
+          23.6
+        ],
+        "orbital_period": [
+          30.864423
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-215 e",
+        "radius": [
+          1.75
+        ],
+        "mass": [
+          3.71
+        ],
+        "orbital_period": [
+          68.16101
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-220": {
+    "planets": [
+      {
+        "name": "Kepler-220 b",
+        "radius": [
+          0.81
+        ],
+        "mass": [
+          0.457
+        ],
+        "orbital_period": [
+          4.159807
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-220 c",
+        "radius": [
+          1.57
+        ],
+        "mass": [
+          3.09
+        ],
+        "orbital_period": [
+          9.034199
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-220 d",
+        "radius": [
+          0.98
+        ],
+        "mass": [
+          0.904
+        ],
+        "orbital_period": [
+          28.122397
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-220 e",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.33
+        ],
+        "orbital_period": [
+          45.902733
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-221": {
+    "planets": [
+      {
+        "name": "Kepler-221 b",
+        "radius": [
+          1.71
+        ],
+        "mass": [
+          5.95575
+        ],
+        "orbital_period": [
+          2.795906
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-221 c",
+        "radius": [
+          2.93
+        ],
+        "mass": [
+          9.3
+        ],
+        "orbital_period": [
+          5.690586
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-221 d",
+        "radius": [
+          2.73
+        ],
+        "mass": [
+          3.61
+        ],
+        "orbital_period": [
+          10.04156
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-221 e",
+        "radius": [
+          2.63
+        ],
+        "mass": [
+          7.86706
+        ],
+        "orbital_period": [
+          18.369917
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-223": {
+    "planets": [
+      {
+        "name": "Kepler-223 b",
+        "radius": [
+          2.99
+        ],
+        "mass": [
+          7.4
+        ],
+        "orbital_period": [
+          7.38449
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-223 c",
+        "radius": [
+          3.44
+        ],
+        "mass": [
+          5.1
+        ],
+        "orbital_period": [
+          9.84564
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-223 d",
+        "radius": [
+          5.24
+        ],
+        "mass": [
+          8.0
+        ],
+        "orbital_period": [
+          14.78869
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-223 e",
+        "radius": [
+          4.6
+        ],
+        "mass": [
+          4.8
+        ],
+        "orbital_period": [
+          19.72567
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-224": {
+    "planets": [
+      {
+        "name": "Kepler-224 b",
+        "radius": [
+          1.39
+        ],
+        "mass": [
+          2.51
+        ],
+        "orbital_period": [
+          3.132924
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-224 c",
+        "radius": [
+          3.12
+        ],
+        "mass": [
+          9.91
+        ],
+        "orbital_period": [
+          5.925003
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-224 d",
+        "radius": [
+          2.3
+        ],
+        "mass": [
+          5.9
+        ],
+        "orbital_period": [
+          11.349393
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-224 e",
+        "radius": [
+          1.97
+        ],
+        "mass": [
+          4.54
+        ],
+        "orbital_period": [
+          18.643577
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-235": {
+    "planets": [
+      {
+        "name": "Kepler-235 b",
+        "radius": [
+          2.23
+        ],
+        "mass": [
+          5.6
+        ],
+        "orbital_period": [
+          3.340222
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-235 c",
+        "radius": [
+          1.28
+        ],
+        "mass": [
+          2.18
+        ],
+        "orbital_period": [
+          7.824904
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-235 d",
+        "radius": [
+          2.05
+        ],
+        "mass": [
+          4.86
+        ],
+        "orbital_period": [
+          20.060548
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-235 e",
+        "radius": [
+          2.22
+        ],
+        "mass": [
+          5.56
+        ],
+        "orbital_period": [
+          46.183669
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-238": {
+    "planets": [
+      {
+        "name": "Kepler-238 b",
+        "radius": [
+          1.73
+        ],
+        "mass": [
+          3305.02
+        ],
+        "orbital_period": [
+          2.090876
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-238 c",
+        "radius": [
+          2.39
+        ],
+        "mass": [
+          152.522
+        ],
+        "orbital_period": [
+          6.155557
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-238 d",
+        "radius": [
+          3.07
+        ],
+        "mass": [
+          23.1
+        ],
+        "orbital_period": [
+          13.233549
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-238 e",
+        "radius": [
+          5.6
+        ],
+        "mass": [
+          169.7
+        ],
+        "orbital_period": [
+          23.654
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-238 f",
+        "radius": [
+          2.0
+        ],
+        "mass": [
+          13.5
+        ],
+        "orbital_period": [
+          50.447
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-24": {
+    "planets": [
+      {
+        "name": "Kepler-24 d",
+        "radius": [
+          1.67
+        ],
+        "mass": [
+          293.959
+        ],
+        "orbital_period": [
+          4.244384
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-24 b",
+        "radius": [
+          2.348
+        ],
+        "mass": [
+          11.14
+        ],
+        "orbital_period": [
+          8.14
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-24 c",
+        "radius": [
+          2.514
+        ],
+        "mass": [
+          9.99
+        ],
+        "orbital_period": [
+          12.33
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-24 e",
+        "radius": [
+          2.78
+        ],
+        "mass": [
+          26.2118
+        ],
+        "orbital_period": [
+          18.998355
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-245": {
+    "planets": [
+      {
+        "name": "Kepler-245 e",
+        "radius": [
+          1.75
+        ],
+        "mass": [
+          1806.36
+        ],
+        "orbital_period": [
+          3.219821056
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-245 b",
+        "radius": [
+          2.57
+        ],
+        "mass": [
+          146.78
+        ],
+        "orbital_period": [
+          7.49019
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-245 c",
+        "radius": [
+          2.18
+        ],
+        "mass": [
+          26.7
+        ],
+        "orbital_period": [
+          17.460812
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-245 d",
+        "radius": [
+          3.03
+        ],
+        "mass": [
+          21.6
+        ],
+        "orbital_period": [
+          36.277108
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-251": {
+    "planets": [
+      {
+        "name": "Kepler-251 b",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.33
+        ],
+        "orbital_period": [
+          4.790936
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-251 c",
+        "radius": [
+          2.77
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          16.514043
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-251 d",
+        "radius": [
+          2.77
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          30.133001
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-251 e",
+        "radius": [
+          2.77
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          99.640161
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-256": {
+    "planets": [
+      {
+        "name": "Kepler-256 b",
+        "radius": [
+          1.59
+        ],
+        "mass": [
+          3.15
+        ],
+        "orbital_period": [
+          1.620493
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-256 c",
+        "radius": [
+          2.15
+        ],
+        "mass": [
+          5.27
+        ],
+        "orbital_period": [
+          3.38802
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-256 d",
+        "radius": [
+          2.48
+        ],
+        "mass": [
+          6.71
+        ],
+        "orbital_period": [
+          5.839172
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-256 e",
+        "radius": [
+          2.35
+        ],
+        "mass": [
+          6.12
+        ],
+        "orbital_period": [
+          10.681572
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-26": {
+    "planets": [
+      {
+        "name": "Kepler-26 d",
+        "radius": [
+          1.07
+        ],
+        "mass": [
+          1.24
+        ],
+        "orbital_period": [
+          3.543919
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-26 b",
+        "radius": [
+          2.78
+        ],
+        "mass": [
+          5.12
+        ],
+        "orbital_period": [
+          12.28
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-26 c",
+        "radius": [
+          2.72
+        ],
+        "mass": [
+          6.2
+        ],
+        "orbital_period": [
+          17.2559
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-26 e",
+        "radius": [
+          2.41
+        ],
+        "mass": [
+          6.39
+        ],
+        "orbital_period": [
+          46.827915
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-265": {
+    "planets": [
+      {
+        "name": "Kepler-265 b",
+        "radius": [
+          1.86
+        ],
+        "mass": [
+          4.12
+        ],
+        "orbital_period": [
+          6.846262
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-265 c",
+        "radius": [
+          2.63
+        ],
+        "mass": [
+          7.41
+        ],
+        "orbital_period": [
+          17.028937
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-265 d",
+        "radius": [
+          2.49
+        ],
+        "mass": [
+          6.76
+        ],
+        "orbital_period": [
+          43.130617
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-265 e",
+        "radius": [
+          2.59
+        ],
+        "mass": [
+          7.22
+        ],
+        "orbital_period": [
+          67.831024
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-279": {
+    "planets": [
+      {
+        "name": "Kepler-279 b",
+        "radius": [
+          3.62
+        ],
+        "mass": [
+          4180.93
+        ],
+        "orbital_period": [
+          12.309681
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-279 c",
+        "radius": [
+          4.3
+        ],
+        "mass": [
+          49.4
+        ],
+        "orbital_period": [
+          35.736
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-279 d",
+        "radius": [
+          3.1
+        ],
+        "mass": [
+          37.5
+        ],
+        "orbital_period": [
+          54.414
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-279 e",
+        "radius": [
+          4.13
+        ],
+        "mass": [
+          56.0
+        ],
+        "orbital_period": [
+          98.3531
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-282": {
+    "planets": [
+      {
+        "name": "Kepler-282 b",
+        "radius": [
+          1.01
+        ],
+        "mass": [
+          1.01
+        ],
+        "orbital_period": [
+          9.220524
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-282 c",
+        "radius": [
+          1.2
+        ],
+        "mass": [
+          1.87
+        ],
+        "orbital_period": [
+          13.638723
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-282 d",
+        "radius": [
+          2.46
+        ],
+        "mass": [
+          61.0
+        ],
+        "orbital_period": [
+          24.806
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-282 e",
+        "radius": [
+          3.1
+        ],
+        "mass": [
+          56.2
+        ],
+        "orbital_period": [
+          44.347
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-286": {
+    "planets": [
+      {
+        "name": "Kepler-286 b",
+        "radius": [
+          1.24
+        ],
+        "mass": [
+          2.07
+        ],
+        "orbital_period": [
+          1.796302
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-286 c",
+        "radius": [
+          1.37
+        ],
+        "mass": [
+          2.45
+        ],
+        "orbital_period": [
+          3.468095
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-286 d",
+        "radius": [
+          1.33
+        ],
+        "mass": [
+          2.33
+        ],
+        "orbital_period": [
+          5.914323
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-286 e",
+        "radius": [
+          1.77
+        ],
+        "mass": [
+          3.78
+        ],
+        "orbital_period": [
+          29.221289
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-289": {
+    "planets": [
+      {
+        "name": "Kepler-289 b",
+        "radius": [
+          2.49
+        ],
+        "mass": [
+          3.7
+        ],
+        "orbital_period": [
+          34.5383
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-289 d",
+        "radius": [
+          3.03
+        ],
+        "mass": [
+          5.33
+        ],
+        "orbital_period": [
+          66.0282
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-289 c",
+        "radius": [
+          11.23
+        ],
+        "mass": [
+          157.18
+        ],
+        "orbital_period": [
+          125.8723
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-289 e",
+        "radius": [
+          2.94
+        ],
+        "mass": [
+          17.4
+        ],
+        "orbital_period": [
+          330.0716
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-292": {
+    "planets": [
+      {
+        "name": "Kepler-292 b",
+        "radius": [
+          1.32
+        ],
+        "mass": [
+          2.3
+        ],
+        "orbital_period": [
+          2.580827
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-292 c",
+        "radius": [
+          1.47
+        ],
+        "mass": [
+          2.76
+        ],
+        "orbital_period": [
+          3.715335
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-292 d",
+        "radius": [
+          2.23
+        ],
+        "mass": [
+          5.6
+        ],
+        "orbital_period": [
+          7.055679
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-292 e",
+        "radius": [
+          2.67
+        ],
+        "mass": [
+          7.61
+        ],
+        "orbital_period": [
+          11.97901
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-292 f",
+        "radius": [
+          2.35
+        ],
+        "mass": [
+          6.12
+        ],
+        "orbital_period": [
+          20.834237
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-296": {
+    "planets": [
+      {
+        "name": "Kepler-296 c",
+        "radius": [
+          2.0
+        ],
+        "mass": [
+          4.66
+        ],
+        "orbital_period": [
+          5.8416366
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-296 b",
+        "radius": [
+          1.61
+        ],
+        "mass": [
+          3.22
+        ],
+        "orbital_period": [
+          10.864384
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-296 d",
+        "radius": [
+          2.09
+        ],
+        "mass": [
+          5.02
+        ],
+        "orbital_period": [
+          19.850291
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-296 e",
+        "radius": [
+          1.53
+        ],
+        "mass": [
+          2.96
+        ],
+        "orbital_period": [
+          34.14211
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-296 f",
+        "radius": [
+          1.8
+        ],
+        "mass": [
+          3.89
+        ],
+        "orbital_period": [
+          63.33627
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-299": {
+    "planets": [
+      {
+        "name": "Kepler-299 b",
+        "radius": [
+          1.32
+        ],
+        "mass": [
+          2.3
+        ],
+        "orbital_period": [
+          2.927128
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-299 c",
+        "radius": [
+          2.65
+        ],
+        "mass": [
+          7.51
+        ],
+        "orbital_period": [
+          6.885875
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-299 d",
+        "radius": [
+          1.86
+        ],
+        "mass": [
+          4.12
+        ],
+        "orbital_period": [
+          15.054786
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-299 e",
+        "radius": [
+          1.87
+        ],
+        "mass": [
+          4.16
+        ],
+        "orbital_period": [
+          38.285489
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-304": {
+    "planets": [
+      {
+        "name": "Kepler-304 e",
+        "radius": [
+          1.2
+        ],
+        "mass": [
+          1.87
+        ],
+        "orbital_period": [
+          1.499146953
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-304 b",
+        "radius": [
+          2.86
+        ],
+        "mass": [
+          8.55
+        ],
+        "orbital_period": [
+          3.295709
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-304 c",
+        "radius": [
+          2.17
+        ],
+        "mass": [
+          5.35
+        ],
+        "orbital_period": [
+          5.315946
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-304 d",
+        "radius": [
+          2.75
+        ],
+        "mass": [
+          8.0
+        ],
+        "orbital_period": [
+          9.653471
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-305": {
+    "planets": [
+      {
+        "name": "Kepler-305 e",
+        "radius": [
+          1.7938153
+        ],
+        "mass": [
+          3.87
+        ],
+        "orbital_period": [
+          3.20538
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-305 b",
+        "radius": [
+          3.6
+        ],
+        "mass": [
+          10.5
+        ],
+        "orbital_period": [
+          5.487
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-305 c",
+        "radius": [
+          3.3
+        ],
+        "mass": [
+          6.0
+        ],
+        "orbital_period": [
+          8.291
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-305 d",
+        "radius": [
+          2.76
+        ],
+        "mass": [
+          6.2
+        ],
+        "orbital_period": [
+          16.74
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-306": {
+    "planets": [
+      {
+        "name": "Kepler-306 b",
+        "radius": [
+          1.52
+        ],
+        "mass": [
+          2.92
+        ],
+        "orbital_period": [
+          4.646186
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-306 c",
+        "radius": [
+          2.35
+        ],
+        "mass": [
+          6.12
+        ],
+        "orbital_period": [
+          7.240193
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-306 d",
+        "radius": [
+          2.47
+        ],
+        "mass": [
+          6.66
+        ],
+        "orbital_period": [
+          17.326644
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-306 e",
+        "radius": [
+          2.27
+        ],
+        "mass": [
+          5.77
+        ],
+        "orbital_period": [
+          44.840975
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-32": {
+    "planets": [
+      {
+        "name": "Kepler-32 f",
+        "radius": [
+          0.82
+        ],
+        "mass": [
+          1862.11
+        ],
+        "orbital_period": [
+          0.74296
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-32 e",
+        "radius": [
+          1.5
+        ],
+        "mass": [
+          4.08181
+        ],
+        "orbital_period": [
+          2.896
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-32 b",
+        "radius": [
+          2.2
+        ],
+        "mass": [
+          1303.0
+        ],
+        "orbital_period": [
+          5.90124
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-32 c",
+        "radius": [
+          2.0
+        ],
+        "mass": [
+          158.9
+        ],
+        "orbital_period": [
+          8.7522
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-32 d",
+        "radius": [
+          2.7
+        ],
+        "mass": [
+          39.9089
+        ],
+        "orbital_period": [
+          22.7802
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-324": {
+    "planets": [
+      {
+        "name": "Kepler-324 b",
+        "radius": [
+          1.14
+        ],
+        "mass": [
+          2414.4
+        ],
+        "orbital_period": [
+          4.385315
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-324 e",
+        "radius": [
+          2.03862444
+        ],
+        "mass": [
+          235.014
+        ],
+        "orbital_period": [
+          13.97939968
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "KOI-1831 d",
+        "radius": [
+          1.13
+        ],
+        "mass": [
+          2.23
+        ],
+        "orbital_period": [
+          34.169
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-324 c",
+        "radius": [
+          3.15
+        ],
+        "mass": [
+          6.2
+        ],
+        "orbital_period": [
+          51.805612
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-33": {
+    "planets": [
+      {
+        "name": "Kepler-33 b",
+        "radius": [
+          1.74
+        ],
+        "mass": [
+          3.68
+        ],
+        "orbital_period": [
+          5.66793
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-33 c",
+        "radius": [
+          3.2
+        ],
+        "mass": [
+          0.39
+        ],
+        "orbital_period": [
+          13.17562
+        ],
+        "category": [
+          "Low-mass sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-33 d",
+        "radius": [
+          5.35
+        ],
+        "mass": [
+          3.91
+        ],
+        "orbital_period": [
+          21.77596
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-33 e",
+        "radius": [
+          4.02
+        ],
+        "mass": [
+          5.57
+        ],
+        "orbital_period": [
+          31.7844
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-33 f",
+        "radius": [
+          4.46
+        ],
+        "mass": [
+          9.6
+        ],
+        "orbital_period": [
+          41.02902
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-338": {
+    "planets": [
+      {
+        "name": "Kepler-338 e",
+        "radius": [
+          1.56
+        ],
+        "mass": [
+          8.5
+        ],
+        "orbital_period": [
+          9.341
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-338 b",
+        "radius": [
+          2.44
+        ],
+        "mass": [
+          30.6
+        ],
+        "orbital_period": [
+          13.726976
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-338 c",
+        "radius": [
+          2.34
+        ],
+        "mass": [
+          6.08
+        ],
+        "orbital_period": [
+          24.310856
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-338 d",
+        "radius": [
+          3.0
+        ],
+        "mass": [
+          9.27
+        ],
+        "orbital_period": [
+          44.431014
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-341": {
+    "planets": [
+      {
+        "name": "Kepler-341 b",
+        "radius": [
+          1.18
+        ],
+        "mass": [
+          1.76
+        ],
+        "orbital_period": [
+          5.195528
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-341 c",
+        "radius": [
+          1.7
+        ],
+        "mass": [
+          3.53
+        ],
+        "orbital_period": [
+          8.01041
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-341 d",
+        "radius": [
+          1.85
+        ],
+        "mass": [
+          4.08
+        ],
+        "orbital_period": [
+          27.666313
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-341 e",
+        "radius": [
+          1.99
+        ],
+        "mass": [
+          4.62
+        ],
+        "orbital_period": [
+          42.473269
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-342": {
+    "planets": [
+      {
+        "name": "Kepler-342 e",
+        "radius": [
+          0.88
+        ],
+        "mass": [
+          0.615
+        ],
+        "orbital_period": [
+          1.644224613
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-342 b",
+        "radius": [
+          2.25
+        ],
+        "mass": [
+          5.69
+        ],
+        "orbital_period": [
+          15.170318
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-342 c",
+        "radius": [
+          1.96
+        ],
+        "mass": [
+          4.5
+        ],
+        "orbital_period": [
+          26.234138
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-342 d",
+        "radius": [
+          2.49
+        ],
+        "mass": [
+          6.76
+        ],
+        "orbital_period": [
+          39.459357
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-37": {
+    "planets": [
+      {
+        "name": "Kepler-37 b",
+        "radius": [
+          0.3098
+        ],
+        "mass": [
+          0.79
+        ],
+        "orbital_period": [
+          13.36702
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-37 c",
+        "radius": [
+          0.755
+        ],
+        "mass": [
+          1.3
+        ],
+        "orbital_period": [
+          21.301848
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-37 d",
+        "radius": [
+          2.03
+        ],
+        "mass": [
+          2.0
+        ],
+        "orbital_period": [
+          39.7922622
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-37 e",
+        "radius": [
+          0.37
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          51.196
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-402": {
+    "planets": [
+      {
+        "name": "Kepler-402 b",
+        "radius": [
+          1.22
+        ],
+        "mass": [
+          1.98
+        ],
+        "orbital_period": [
+          4.028751
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-402 c",
+        "radius": [
+          1.56
+        ],
+        "mass": [
+          3.05
+        ],
+        "orbital_period": [
+          6.124821
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-402 d",
+        "radius": [
+          1.38
+        ],
+        "mass": [
+          2.48
+        ],
+        "orbital_period": [
+          8.921099
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-402 e",
+        "radius": [
+          1.46
+        ],
+        "mass": [
+          2.73
+        ],
+        "orbital_period": [
+          11.242861
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-411": {
+    "planets": [
+      {
+        "name": "Kepler-411 b",
+        "radius": [
+          2.401
+        ],
+        "mass": [
+          25.6
+        ],
+        "orbital_period": [
+          3.005156
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-411 c",
+        "radius": [
+          4.421
+        ],
+        "mass": [
+          26.4
+        ],
+        "orbital_period": [
+          7.834435
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-411 e",
+        "radius": [
+          3.28
+        ],
+        "mass": [
+          10.8
+        ],
+        "orbital_period": [
+          31.509728
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-411 d",
+        "radius": [
+          3.319
+        ],
+        "mass": [
+          15.2
+        ],
+        "orbital_period": [
+          58.02035
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-444": {
+    "planets": [
+      {
+        "name": "Kepler-444 b",
+        "radius": [
+          0.403
+        ],
+        "mass": [
+          0.0374
+        ],
+        "orbital_period": [
+          3.6001053
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-444 c",
+        "radius": [
+          0.497
+        ],
+        "mass": [
+          0.0793
+        ],
+        "orbital_period": [
+          4.5458841
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-444 d",
+        "radius": [
+          0.53
+        ],
+        "mass": [
+          0.2
+        ],
+        "orbital_period": [
+          6.189392
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-444 e",
+        "radius": [
+          0.546
+        ],
+        "mass": [
+          0.1
+        ],
+        "orbital_period": [
+          7.743493
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-444 f",
+        "radius": [
+          0.741
+        ],
+        "mass": [
+          0.332
+        ],
+        "orbital_period": [
+          9.740486
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-48": {
+    "planets": [
+      {
+        "name": "Kepler-48 b",
+        "radius": [
+          1.88
+        ],
+        "mass": [
+          3.94
+        ],
+        "orbital_period": [
+          4.778
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-48 c",
+        "radius": [
+          2.71
+        ],
+        "mass": [
+          14.61
+        ],
+        "orbital_period": [
+          9.67395
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-48 d",
+        "radius": [
+          2.04
+        ],
+        "mass": [
+          7.93
+        ],
+        "orbital_period": [
+          42.8961
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-48 e",
+        "radius": [
+          13.4
+        ],
+        "mass": [
+          657.0
+        ],
+        "orbital_period": [
+          982.0
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-48 f",
+        "radius": [
+          13.8
+        ],
+        "mass": [
+          298.5809968
+        ],
+        "orbital_period": [
+          5219.681854
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-49": {
+    "planets": [
+      {
+        "name": "Kepler-49 d",
+        "radius": [
+          1.6
+        ],
+        "mass": [
+          235.982
+        ],
+        "orbital_period": [
+          2.576549
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-49 b",
+        "radius": [
+          2.579
+        ],
+        "mass": [
+          9.77
+        ],
+        "orbital_period": [
+          7.2
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-49 c",
+        "radius": [
+          2.444
+        ],
+        "mass": [
+          8.38
+        ],
+        "orbital_period": [
+          10.91
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-49 e",
+        "radius": [
+          1.56
+        ],
+        "mass": [
+          1.03815
+        ],
+        "orbital_period": [
+          18.596108
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-51": {
+    "planets": [
+      {
+        "name": "Kepler-51 b",
+        "radius": [
+          7.1
+        ],
+        "mass": [
+          2.1
+        ],
+        "orbital_period": [
+          45.154
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-51 c",
+        "radius": [
+          9.0
+        ],
+        "mass": [
+          4.0
+        ],
+        "orbital_period": [
+          85.312
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-51 d",
+        "radius": [
+          9.7
+        ],
+        "mass": [
+          7.6
+        ],
+        "orbital_period": [
+          130.194
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-51 e",
+        "radius": [
+          2.18
+        ],
+        "mass": [
+          5.4
+        ],
+        "orbital_period": [
+          264.284
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-55": {
+    "planets": [
+      {
+        "name": "Kepler-55 d",
+        "radius": [
+          1.59
+        ],
+        "mass": [
+          3.15
+        ],
+        "orbital_period": [
+          2.211099
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-55 e",
+        "radius": [
+          1.55
+        ],
+        "mass": [
+          3.02
+        ],
+        "orbital_period": [
+          4.617534
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-55 f",
+        "radius": [
+          1.59
+        ],
+        "mass": [
+          3.15
+        ],
+        "orbital_period": [
+          10.198545
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-55 b",
+        "radius": [
+          2.43
+        ],
+        "mass": [
+          43.0
+        ],
+        "orbital_period": [
+          27.9481449
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-55 c",
+        "radius": [
+          2.21
+        ],
+        "mass": [
+          69.8
+        ],
+        "orbital_period": [
+          42.1516418
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-58": {
+    "planets": [
+      {
+        "name": "Kepler-58 e",
+        "radius": [
+          1.61
+        ],
+        "mass": [
+          597.796
+        ],
+        "orbital_period": [
+          4.45814897
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-58 b",
+        "radius": [
+          2.78
+        ],
+        "mass": [
+          35.5
+        ],
+        "orbital_period": [
+          10.2184954
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-58 c",
+        "radius": [
+          2.86
+        ],
+        "mass": [
+          53.0
+        ],
+        "orbital_period": [
+          15.5741568
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-58 d",
+        "radius": [
+          2.94
+        ],
+        "mass": [
+          245.343
+        ],
+        "orbital_period": [
+          40.101371
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-62": {
+    "planets": [
+      {
+        "name": "Kepler-62 b",
+        "radius": [
+          1.31
+        ],
+        "mass": [
+          9.0
+        ],
+        "orbital_period": [
+          5.714932
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-62 c",
+        "radius": [
+          0.54
+        ],
+        "mass": [
+          4.0
+        ],
+        "orbital_period": [
+          12.4417
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-62 d",
+        "radius": [
+          1.95
+        ],
+        "mass": [
+          14.0
+        ],
+        "orbital_period": [
+          18.16406
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-62 e",
+        "radius": [
+          1.61
+        ],
+        "mass": [
+          36.0
+        ],
+        "orbital_period": [
+          122.3874
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-62 f",
+        "radius": [
+          1.41
+        ],
+        "mass": [
+          35.0
+        ],
+        "orbital_period": [
+          267.291
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-65": {
+    "planets": [
+      {
+        "name": "Kepler-65 b",
+        "radius": [
+          1.42
+        ],
+        "mass": [
+          2.4
+        ],
+        "orbital_period": [
+          2.15491
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-65 c",
+        "radius": [
+          2.58
+        ],
+        "mass": [
+          5.4
+        ],
+        "orbital_period": [
+          5.859944
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-65 d",
+        "radius": [
+          1.52
+        ],
+        "mass": [
+          4.14
+        ],
+        "orbital_period": [
+          8.13123
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-65 e",
+        "radius": [
+          13.9
+        ],
+        "mass": [
+          260.0
+        ],
+        "orbital_period": [
+          258.8
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-68": {
+    "planets": [
+      {
+        "name": "Kepler-68 b",
+        "radius": [
+          2.357
+        ],
+        "mass": [
+          8.03
+        ],
+        "orbital_period": [
+          5.39875259
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-68 c",
+        "radius": [
+          0.979
+        ],
+        "mass": [
+          1.3
+        ],
+        "orbital_period": [
+          9.605027
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-68 d",
+        "radius": [
+          13.9
+        ],
+        "mass": [
+          267.0
+        ],
+        "orbital_period": [
+          632.62
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-68 e",
+        "radius": [
+          11.2
+        ],
+        "mass": [
+          86.4493267
+        ],
+        "orbital_period": [
+          3455.0
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-758": {
+    "planets": [
+      {
+        "name": "Kepler-758 c",
+        "radius": [
+          1.69
+        ],
+        "mass": [
+          3.5
+        ],
+        "orbital_period": [
+          4.75793986
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-758 e",
+        "radius": [
+          1.53
+        ],
+        "mass": [
+          2.96
+        ],
+        "orbital_period": [
+          8.1934719
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-758 b",
+        "radius": [
+          2.48
+        ],
+        "mass": [
+          6.71
+        ],
+        "orbital_period": [
+          12.1097104
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-758 d",
+        "radius": [
+          2.12
+        ],
+        "mass": [
+          5.14
+        ],
+        "orbital_period": [
+          20.4966197
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-79": {
+    "planets": [
+      {
+        "name": "Kepler-79 b",
+        "radius": [
+          3.47
+        ],
+        "mass": [
+          10.9
+        ],
+        "orbital_period": [
+          13.4845
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-79 c",
+        "radius": [
+          3.72
+        ],
+        "mass": [
+          5.9
+        ],
+        "orbital_period": [
+          27.4029
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-79 d",
+        "radius": [
+          7.16
+        ],
+        "mass": [
+          6.0
+        ],
+        "orbital_period": [
+          52.0902
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-79 e",
+        "radius": [
+          3.49
+        ],
+        "mass": [
+          4.1
+        ],
+        "orbital_period": [
+          81.0659
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "Kepler-80": {
+    "planets": [
+      {
+        "name": "Kepler-80 f",
+        "radius": [
+          1.21
+        ],
+        "mass": [
+          4459.73
+        ],
+        "orbital_period": [
+          0.9867873
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-80 d",
+        "radius": [
+          1.53
+        ],
+        "mass": [
+          6.75
+        ],
+        "orbital_period": [
+          3.07222
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-80 e",
+        "radius": [
+          1.6
+        ],
+        "mass": [
+          4.13
+        ],
+        "orbital_period": [
+          4.64489
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-80 b",
+        "radius": [
+          2.67
+        ],
+        "mass": [
+          6.93
+        ],
+        "orbital_period": [
+          7.05246
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-80 c",
+        "radius": [
+          2.74
+        ],
+        "mass": [
+          6.74
+        ],
+        "orbital_period": [
+          9.52355
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "Kepler-80 g",
+        "radius": [
+          1.13
+        ],
+        "mass": [
+          0.065
+        ],
+        "orbital_period": [
+          14.64558
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "Kepler-82": {
+    "planets": [
+      {
+        "name": "Kepler-82 d",
+        "radius": [
+          1.77
+        ],
+        "mass": [
+          885.098
+        ],
+        "orbital_period": [
+          2.382961
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-82 e",
+        "radius": [
+          2.47
+        ],
+        "mass": [
+          254.02
+        ],
+        "orbital_period": [
+          5.902206
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-82 b",
+        "radius": [
+          4.07
+        ],
+        "mass": [
+          12.15
+        ],
+        "orbital_period": [
+          26.44
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-82 c",
+        "radius": [
+          5.34
+        ],
+        "mass": [
+          13.9
+        ],
+        "orbital_period": [
+          51.54
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-82 f",
+        "radius": [
+          4.84
+        ],
+        "mass": [
+          20.9
+        ],
+        "orbital_period": [
+          75.732
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-84": {
+    "planets": [
+      {
+        "name": "Kepler-84 d",
+        "radius": [
+          1.38
+        ],
+        "mass": [
+          2.48
+        ],
+        "orbital_period": [
+          4.224537
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-84 b",
+        "radius": [
+          2.23
+        ],
+        "mass": [
+          40.0
+        ],
+        "orbital_period": [
+          8.726
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-84 c",
+        "radius": [
+          2.36
+        ],
+        "mass": [
+          20.2
+        ],
+        "orbital_period": [
+          12.883
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-84 e",
+        "radius": [
+          2.6
+        ],
+        "mass": [
+          7.27
+        ],
+        "orbital_period": [
+          27.434389
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "Kepler-84 f",
+        "radius": [
+          2.2
+        ],
+        "mass": [
+          5.48
+        ],
+        "orbital_period": [
+          44.552169
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      }
+    ]
+  },
+  "Kepler-85": {
+    "planets": [
+      {
+        "name": "Kepler-85 b",
+        "radius": [
+          1.778
+        ],
+        "mass": [
+          1.84
+        ],
+        "orbital_period": [
+          8.3
+        ],
+        "category": [
+          "Low-mass sub-Neptune"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "Kepler-85 c",
+        "radius": [
+          1.978
+        ],
+        "mass": [
+          2.15
+        ],
+        "orbital_period": [
+          12.51
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "Kepler-85 d",
+        "radius": [
+          1.2
+        ],
+        "mass": [
+          8.69679
+        ],
+        "orbital_period": [
+          17.91323
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "Kepler-85 e",
+        "radius": [
+          1.27
+        ],
+        "mass": [
+          0.6
+        ],
+        "orbital_period": [
+          25.216751
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "L 98-59": {
+    "planets": [
+      {
+        "name": "L 98-59 b",
+        "radius": [
+          0.85
+        ],
+        "mass": [
+          0.4
+        ],
+        "orbital_period": [
+          2.2531136
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "L 98-59 c",
+        "radius": [
+          1.385
+        ],
+        "mass": [
+          2.22
+        ],
+        "orbital_period": [
+          3.6906777
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "L 98-59 d",
+        "radius": [
+          1.521
+        ],
+        "mass": [
+          1.94
+        ],
+        "orbital_period": [
+          7.4507245
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "L 98-59 e",
+        "radius": [
+          1.56
+        ],
+        "mass": [
+          3.06
+        ],
+        "orbital_period": [
+          12.796
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "TOI-1136": {
+    "planets": [
+      {
+        "name": "TOI-1136 b",
+        "radius": [
+          1.9
+        ],
+        "mass": [
+          3.5
+        ],
+        "orbital_period": [
+          4.1727
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-1136 c",
+        "radius": [
+          2.879
+        ],
+        "mass": [
+          6.32
+        ],
+        "orbital_period": [
+          6.2574
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-1136 d",
+        "radius": [
+          4.627
+        ],
+        "mass": [
+          8.35
+        ],
+        "orbital_period": [
+          12.5199
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-1136 e",
+        "radius": [
+          2.639
+        ],
+        "mass": [
+          6.07
+        ],
+        "orbital_period": [
+          18.801
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "TOI-1136 f",
+        "radius": [
+          3.73591482
+        ],
+        "mass": [
+          9.7
+        ],
+        "orbital_period": [
+          26.321
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "TOI-1136 g",
+        "radius": [
+          2.53
+        ],
+        "mass": [
+          5.6
+        ],
+        "orbital_period": [
+          39.545
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "TOI-1246": {
+    "planets": [
+      {
+        "name": "TOI-1246 b",
+        "radius": [
+          3.01
+        ],
+        "mass": [
+          8.1
+        ],
+        "orbital_period": [
+          4.30744
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-1246 c",
+        "radius": [
+          2.45109846
+        ],
+        "mass": [
+          9.1
+        ],
+        "orbital_period": [
+          5.904137
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-1246 d",
+        "radius": [
+          3.43139739
+        ],
+        "mass": [
+          5.4
+        ],
+        "orbital_period": [
+          18.654874
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-1246 e",
+        "radius": [
+          3.5141875
+        ],
+        "mass": [
+          14.5
+        ],
+        "orbital_period": [
+          37.92548
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "TOI-178": {
+    "planets": [
+      {
+        "name": "TOI-178 b",
+        "radius": [
+          1.152
+        ],
+        "mass": [
+          1.5
+        ],
+        "orbital_period": [
+          1.914558
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-178 c",
+        "radius": [
+          1.669
+        ],
+        "mass": [
+          4.77
+        ],
+        "orbital_period": [
+          3.23845
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-178 d",
+        "radius": [
+          2.572
+        ],
+        "mass": [
+          3.01
+        ],
+        "orbital_period": [
+          6.5577
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-178 e",
+        "radius": [
+          2.207
+        ],
+        "mass": [
+          3.86
+        ],
+        "orbital_period": [
+          9.961881
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "TOI-178 f",
+        "radius": [
+          2.287
+        ],
+        "mass": [
+          7.72
+        ],
+        "orbital_period": [
+          15.231915
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "TOI-178 g",
+        "radius": [
+          2.87
+        ],
+        "mass": [
+          3.94
+        ],
+        "orbital_period": [
+          20.7095
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          6
+        ]
+      }
+    ]
+  },
+  "TOI-2076": {
+    "planets": [
+      {
+        "name": "TOI-2076 e",
+        "radius": [
+          1.355
+        ],
+        "mass": [
+          2.4
+        ],
+        "orbital_period": [
+          3.0223445
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-2076 b",
+        "radius": [
+          2.39
+        ],
+        "mass": [
+          16.1
+        ],
+        "orbital_period": [
+          10.355235
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-2076 c",
+        "radius": [
+          3.69441587
+        ],
+        "mass": [
+          55.0
+        ],
+        "orbital_period": [
+          21.015327
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-2076 d",
+        "radius": [
+          3.43087751
+        ],
+        "mass": [
+          29.0
+        ],
+        "orbital_period": [
+          35.125686
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "TOI-4010": {
+    "planets": [
+      {
+        "name": "TOI-4010 b",
+        "radius": [
+          3.02
+        ],
+        "mass": [
+          11.0
+        ],
+        "orbital_period": [
+          1.348335
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-4010 c",
+        "radius": [
+          5.93
+        ],
+        "mass": [
+          20.31
+        ],
+        "orbital_period": [
+          5.414654
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-4010 d",
+        "radius": [
+          6.18
+        ],
+        "mass": [
+          38.15
+        ],
+        "orbital_period": [
+          14.70886
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-4010 e",
+        "radius": [
+          13.3
+        ],
+        "mass": [
+          692.0
+        ],
+        "orbital_period": [
+          762.0
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "TOI-500": {
+    "planets": [
+      {
+        "name": "TOI-500 b",
+        "radius": [
+          1.166
+        ],
+        "mass": [
+          1.42
+        ],
+        "orbital_period": [
+          0.548177
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-500 c",
+        "radius": [
+          2.09
+        ],
+        "mass": [
+          5.03
+        ],
+        "orbital_period": [
+          6.6356
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-500 d",
+        "radius": [
+          6.35
+        ],
+        "mass": [
+          33.12
+        ],
+        "orbital_period": [
+          26.233
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-500 e",
+        "radius": [
+          3.99
+        ],
+        "mass": [
+          15.05
+        ],
+        "orbital_period": [
+          61.3
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "TOI-561": {
+    "planets": [
+      {
+        "name": "TOI-561 b",
+        "radius": [
+          1.397
+        ],
+        "mass": [
+          2.02
+        ],
+        "orbital_period": [
+          0.4465697
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-561 c",
+        "radius": [
+          2.865
+        ],
+        "mass": [
+          5.93
+        ],
+        "orbital_period": [
+          10.778838
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-561 d",
+        "radius": [
+          2.615
+        ],
+        "mass": [
+          13.33
+        ],
+        "orbital_period": [
+          25.71268
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-561 e",
+        "radius": [
+          2.517
+        ],
+        "mass": [
+          12.4
+        ],
+        "orbital_period": [
+          77.144
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "TOI-700": {
+    "planets": [
+      {
+        "name": "TOI-700 b",
+        "radius": [
+          0.914
+        ],
+        "mass": [
+          0.704
+        ],
+        "orbital_period": [
+          9.977219
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TOI-700 c",
+        "radius": [
+          2.6
+        ],
+        "mass": [
+          7.27
+        ],
+        "orbital_period": [
+          16.051137
+        ],
+        "category": [
+          "sub-Neptune"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TOI-700 e",
+        "radius": [
+          0.953
+        ],
+        "mass": [
+          0.818
+        ],
+        "orbital_period": [
+          27.80978
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TOI-700 d",
+        "radius": [
+          1.073
+        ],
+        "mass": [
+          1.25
+        ],
+        "orbital_period": [
+          37.42396
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "TRAPPIST-1": {
+    "planets": [
+      {
+        "name": "TRAPPIST-1 b",
+        "radius": [
+          1.116
+        ],
+        "mass": [
+          1.374
+        ],
+        "orbital_period": [
+          1.510826
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "TRAPPIST-1 c",
+        "radius": [
+          1.097
+        ],
+        "mass": [
+          1.308
+        ],
+        "orbital_period": [
+          2.421937
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "TRAPPIST-1 d",
+        "radius": [
+          0.788
+        ],
+        "mass": [
+          0.388
+        ],
+        "orbital_period": [
+          4.049219
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "TRAPPIST-1 e",
+        "radius": [
+          0.92
+        ],
+        "mass": [
+          0.692
+        ],
+        "orbital_period": [
+          6.101013
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          4
+        ]
+      },
+      {
+        "name": "TRAPPIST-1 f",
+        "radius": [
+          1.045
+        ],
+        "mass": [
+          1.039
+        ],
+        "orbital_period": [
+          9.20754
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          5
+        ]
+      },
+      {
+        "name": "TRAPPIST-1 g",
+        "radius": [
+          1.129
+        ],
+        "mass": [
+          1.321
+        ],
+        "orbital_period": [
+          12.352446
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          6
+        ]
+      },
+      {
+        "name": "TRAPPIST-1 h",
+        "radius": [
+          0.755
+        ],
+        "mass": [
+          0.326
+        ],
+        "orbital_period": [
+          18.772866
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          7
+        ]
+      }
+    ]
+  },
+  "V1298 Tau": {
+    "planets": [
+      {
+        "name": "V1298 Tau c",
+        "radius": [
+          5.59
+        ],
+        "mass": [
+          76.27881768
+        ],
+        "orbital_period": [
+          8.24958
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "V1298 Tau d",
+        "radius": [
+          6.41
+        ],
+        "mass": [
+          98.52680617
+        ],
+        "orbital_period": [
+          12.4032
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "V1298 Tau b",
+        "radius": [
+          10.27
+        ],
+        "mass": [
+          203.41018048
+        ],
+        "orbital_period": [
+          24.1396
+        ],
+        "category": [
+          "Gas Giant"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "V1298 Tau e",
+        "radius": [
+          9.97599282
+        ],
+        "mass": [
+          321.00669107
+        ],
+        "orbital_period": [
+          53.5
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "WASP-47": {
+    "planets": [
+      {
+        "name": "WASP-47 e",
+        "radius": [
+          1.83
+        ],
+        "mass": [
+          9.0
+        ],
+        "orbital_period": [
+          0.78961
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "WASP-47 b",
+        "radius": [
+          12.86
+        ],
+        "mass": [
+          374.0
+        ],
+        "orbital_period": [
+          4.159151
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "WASP-47 d",
+        "radius": [
+          3.65
+        ],
+        "mass": [
+          15.5
+        ],
+        "orbital_period": [
+          9.030501
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "WASP-47 c",
+        "radius": [
+          0.0
+        ],
+        "mass": [
+          447.0
+        ],
+        "orbital_period": [
+          589.57
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "rho CrB": {
+    "planets": [
+      {
+        "name": "rho CrB e",
+        "radius": [
+          1.77
+        ],
+        "mass": [
+          3.79
+        ],
+        "orbital_period": [
+          12.949
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "rho CrB b",
+        "radius": [
+          13.7
+        ],
+        "mass": [
+          347.38644885
+        ],
+        "orbital_period": [
+          39.8438
+        ],
+        "category": [
+          "Brown Dwarf"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "rho CrB c",
+        "radius": [
+          5.78
+        ],
+        "mass": [
+          28.2
+        ],
+        "orbital_period": [
+          102.19
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "rho CrB d",
+        "radius": [
+          4.94
+        ],
+        "mass": [
+          21.6
+        ],
+        "orbital_period": [
+          282.2
+        ],
+        "category": [
+          "Neptune-like"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  },
+  "tau Cet": {
+    "planets": [
+      {
+        "name": "tau Cet g",
+        "radius": [
+          1.18
+        ],
+        "mass": [
+          1.75
+        ],
+        "orbital_period": [
+          20.0
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          1
+        ]
+      },
+      {
+        "name": "tau Cet h",
+        "radius": [
+          1.19
+        ],
+        "mass": [
+          1.83
+        ],
+        "orbital_period": [
+          49.41
+        ],
+        "category": [
+          "Terrestrial"
+        ],
+        "order": [
+          2
+        ]
+      },
+      {
+        "name": "tau Cet e",
+        "radius": [
+          1.81
+        ],
+        "mass": [
+          3.93
+        ],
+        "orbital_period": [
+          162.87
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          3
+        ]
+      },
+      {
+        "name": "tau Cet f",
+        "radius": [
+          1.81
+        ],
+        "mass": [
+          3.93
+        ],
+        "orbital_period": [
+          636.13
+        ],
+        "category": [
+          "Super-Earth"
+        ],
+        "order": [
+          4
+        ]
+      }
+    ]
+  }
+}
