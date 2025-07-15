@@ -357,7 +357,10 @@ function startSketches() {
       ];
 
       // Display first pattern
-      displayPattern(currentPattern);
+      //displayPattern(currentPattern);
+
+      // Display solar system
+      displaySolarSystem();
     };
 
     p.draw = () => {
