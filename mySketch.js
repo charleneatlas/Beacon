@@ -75,13 +75,6 @@ const OneHitWonders = [
   "TRAPPIST-1",
   "HD 110067",
 ];
-/*,
-  
-  "TOI-1136",
-  "TOI-178",
-  "TRAPPIST-1",
-  "HD110067",
-];*/
 
 const ScaleFactor = 900; // A way to scale down planets to fit in app window
 const EARTH_RADIUS_KM = 6371; // Source: https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html
@@ -282,6 +275,15 @@ function startSketches() {
       p.canvas = p.createCanvas(p.windowWidth, p.windowHeight / 1.8);
       p.canvas.parent("canvas2D");
 
+      if (p.windowWidth < 1000 || p.windowHeight < 600) {
+        let shouldReload = confirm(
+          "For best experience, please maximize your window, then click OK to reload."
+        );
+        if (shouldReload) {
+          location.reload();
+        }
+      }
+
       /*const container = select("#projects"); // or whatever container you have
   let w = container.width;
   let h = w / aspectRatio;
@@ -438,7 +440,7 @@ function startSketches() {
         p.pop();
 
         // Show how many other patterns there are
-        if (!isShowingOneHit) {
+        if (!isShowingOneHit && !isShowingSolarSystem) {
           p.text(
             "(" +
               (currentStarSystem + 1) +
@@ -511,6 +513,10 @@ function startSketches() {
           p.getAudioContext().resume();
         }
 
+        // Fullscreen the app
+        //let fs = p.fullscreen();
+        //p.fullscreen(!fs);
+
         // Play soundwave line and resulting audio as hits planets
         playAnimation = true;
 
@@ -576,6 +582,8 @@ function startSketches() {
       }
     };
   });
+
+  //window.addEventListener("resize", onWindowResize);
 }
 
 function euclideanDistance(point1, point2) {
@@ -725,20 +733,10 @@ function selectButton(btn) {
   console.log("YOOOOO");
 }
 
-function windowResized() {
-  const container = select("#projects");
-  let w = container.width;
-  let h = w / aspectRatio;
-
-  // Optionally clamp height:
-  /*let maxHeight = windowHeight * 0.7;
-  if (h > maxHeight) {
-    h = maxHeight;
-    w = h * aspectRatio;
-  }*/
-
-  //resizeCanvas(w, h);
-}
+// function onWindowResize() {
+//   p5_2D.resizeCanvas(p5_2D.windowWidth, p5_2D.windowHeight / 1.8);
+//   p5_3D.resizeCanvas(p5_3D.windowWidth, p5_3D.windowHeight / 1.8);
+// }
 
 class Planet {
   constructor(x, y, r, properties) {
