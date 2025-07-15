@@ -32,6 +32,7 @@ let myButton_OneHit;
 let myButton_SolarSystem;
 let myButton_Patterns;
 let selectedButton = null;
+let storyText;
 
 let sunX;
 let sunY;
@@ -231,7 +232,7 @@ function startSketches() {
     p5_3D = p;
 
     p.setup = () => {
-      p.createCanvas(p.windowWidth, p.windowHeight / 1.8, p.WEBGL).parent(
+      p.createCanvas(p.windowWidth, p.windowHeight / 1.5, p.WEBGL).parent(
         "canvas3D"
       );
       p.ortho(); // <-- no perspective distortion
@@ -272,7 +273,7 @@ function startSketches() {
     p5_2D = p;
 
     p.setup = () => {
-      p.canvas = p.createCanvas(p.windowWidth, p.windowHeight / 1.8);
+      p.canvas = p.createCanvas(p.windowWidth, p.windowHeight / 1.5);
       p.canvas.parent("canvas2D");
 
       if (p.windowWidth < 1000 || p.windowHeight < 600) {
@@ -296,13 +297,18 @@ function startSketches() {
 
       // UI for switching datasets
 
+      let xOffset = (p.windowWidth - p.width) / 2;
+      let txtCenterX = xOffset + p.width / 2;
+
       myButton_SolarSystem = p.createButton("Our Solar System");
       myButton_SolarSystem.parent("canvas2D");
       myButton_SolarSystem.style("width", "150px");
       myButton_SolarSystem.style("height", "40px");
       myButton_SolarSystem.style("background-color", "#bbb");
       myButton_SolarSystem.style("color", "#fff");
-      myButton_SolarSystem.position(30, 20);
+      //myButton_SolarSystem.position(30, 20);
+      myButton_SolarSystem.style("transform", "translate(-50%, -50%)"); // shifts origin to center
+      myButton_SolarSystem.position(txtCenterX - 170, 30);
       myButton_SolarSystem.hide();
 
       myButton_OneHit = p.createButton("One Hit Wonders");
@@ -311,7 +317,9 @@ function startSketches() {
       myButton_OneHit.style("height", "40px");
       myButton_OneHit.style("background-color", "#bbb");
       myButton_OneHit.style("color", "#fff");
-      myButton_OneHit.position(200, 20);
+      //myButton_OneHit.position(200, 20);
+      myButton_OneHit.style("transform", "translate(-50%, -50%)"); // shifts origin to center
+      myButton_OneHit.position(txtCenterX, 30);
       myButton_OneHit.hide();
 
       myButton_Patterns = p.createButton("Common Patterns");
@@ -320,7 +328,9 @@ function startSketches() {
       myButton_Patterns.style("height", "40px");
       myButton_Patterns.style("background-color", "#bbb");
       myButton_Patterns.style("color", "#fff");
-      myButton_Patterns.position(370, 20);
+      //myButton_Patterns.position(370, 20);
+      myButton_Patterns.style("transform", "translate(-50%, -50%)"); // shifts origin to center
+      myButton_Patterns.position(txtCenterX + 170, 30);
       myButton_Patterns.hide();
 
       // Add a callback function
@@ -364,6 +374,10 @@ function startSketches() {
     };
 
     p.draw = () => {
+      // Get a center point in X direction to use for aligning elements
+      let xOffset = (p.windowWidth - p.width) / 2;
+      let txtCenterX = xOffset + p.width / 2;
+
       if (!started) {
         // Start screen
         //p.background(0);
@@ -372,16 +386,17 @@ function startSketches() {
         p.push();
         p.textAlign(p.CENTER, p.CENTER);
         p.textSize(48); // Set text size to 32 pixels
-        p.text("BEACON", p.width / 2, 100);
+
+        p.text("BEACON", txtCenterX, 100);
         p.textSize(22); // Set text size to 32 pixels
         p.text(
           "Every star is a beacon. \nOur Sun lights our way—just as countless other stars warm and guide their own distant worlds. \nThough separated by vast space, these systems share melodies of formation. \nNo known system shares our song, yet among the stars, sister systems call to each other. \nLet’s explore their music—beacons reaching out to one another... and to us.",
-          p.width / 2,
+          txtCenterX,
           250
         );
         p.textSize(28);
         p.textStyle(p.ITALIC);
-        p.text("Click to Start", p.width / 2, 400);
+        p.text("Click to Start", txtCenterX, 400);
         //p.noFill();
         p.stroke("white");
         // p.rect(
@@ -408,6 +423,7 @@ function startSketches() {
 
         if (!isShowingSolarSystem) {
           if (!isShowingOneHit) {
+            // is showing Patterns
             patternLabel =
               sharedData.patternData[currentPattern][
                 "pattern_" + (currentPattern + 1)
@@ -422,24 +438,31 @@ function startSketches() {
               sharedData.patternData[currentPattern][
                 "pattern_" + (currentPattern + 1)
               ].hostname_count;
+
+            storyText =
+              "Planet patterns tell a story.\nThese beacons sent out their call—and received a reply.\nPress Left/Right keys to explore patterns.\nPress Up/Down keys to explore matching systems.";
           } else {
             // Showing One Hit Wonders
             // TEMP HACK: Put star name in pattern label since bigger and on top
             patternLabel = OneHitWonders[currentStarSystem];
             currentHostLabel = "";
+            storyText =
+              "Like us, these systems still wait,\nfor a beacon that mirrors their own.\nPress Up/Down keys to explore.";
           }
         } else {
           patternLabel = "Solar System";
           currentHostLabel = "The Sun";
           numSystemsWithPattern = 1; // as of 7-10-25
+          storyText =
+            'No one has answered our call yet.\nBut the first system in "One Hit Wonders" comes close,\nas the only other system with 8 planets!';
         }
-        p.text(patternLabel, p.width / 2, 30);
+        p.text(patternLabel, txtCenterX, 80);
         p.textSize(18);
 
         // Show star system name
         p.push();
         p.textStyle(p.BOLD);
-        p.text(currentHostLabel, p.width / 2, 60);
+        p.text(currentHostLabel, txtCenterX, 110);
         p.pop();
 
         // Show how many other patterns there are
@@ -450,10 +473,19 @@ function startSketches() {
               " of " +
               numSystemsWithPattern +
               " star systems)",
-            p.width / 2,
-            80
+            txtCenterX,
+            130
           );
         }
+
+        // Show story text
+        p.push();
+        p.textStyle(p.ITALIC);
+        //let xOffset = (p.windowWidth - p.width) / 2;
+        //let txtCenterX = xOffset + p.width / 2;
+        p.textAlign(p.LEFT);
+        p.text(storyText, 20, 20);
+        p.pop();
 
         p.push();
         // Star
@@ -791,7 +823,10 @@ class Planet {
     p5_2D.textSize(20);
     p5_2D.text(this.type, this.x, this.y + -120);
     p5_2D.pop();
+    p5_2D.push();
+    p5_2D.textStyle(p5_2D.BOLD);
     p5_2D.text(this.name, this.x, this.y + 120);
+    p5_2D.pop();
     p5_2D.text(
       parseFloat(this.radius).toFixed(2) + " R⊕",
       this.x,
