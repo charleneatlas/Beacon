@@ -27,6 +27,7 @@ let currentPattern = 0;
 let patternLabel;
 let currentPatternSystems = []; // Star system data for current pattern
 let isShowingSolarSystem = false;
+let isShowingOneHit = false;
 let myButton_OneHit;
 let myButton_SolarSystem;
 let myButton_Patterns;
@@ -61,6 +62,26 @@ const notes = {
 const starSystems = [];
 const planets = [];
 const patterns = [];
+const OneHitWonders = [
+  "KOI-351",
+  "Kepler-20",
+  "Kepler-238",
+  "Kepler-32",
+  "Kepler-444",
+  "Kepler-55",
+  "Kepler-80",
+  "TOI-1136",
+  "TOI-178",
+  "TRAPPIST-1",
+  "HD 110067",
+];
+/*,
+  
+  "TOI-1136",
+  "TOI-178",
+  "TRAPPIST-1",
+  "HD110067",
+];*/
 
 const ScaleFactor = 900; // A way to scale down planets to fit in app window
 const EARTH_RADIUS_KM = 6371; // Source: https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html
@@ -291,7 +312,7 @@ function startSketches() {
       myButton_OneHit.position(200, 20);
       myButton_OneHit.hide();
 
-      myButton_Patterns = p.createButton("Patterns");
+      myButton_Patterns = p.createButton("Common Patterns");
       myButton_Patterns.parent("canvas2D");
       myButton_Patterns.style("width", "150px");
       myButton_Patterns.style("height", "40px");
@@ -381,22 +402,29 @@ function startSketches() {
         let numSystemsWithPattern;
 
         if (!isShowingSolarSystem) {
-          patternLabel =
-            sharedData.patternData[currentPattern][
-              "pattern_" + (currentPattern + 1)
-            ].name;
+          if (!isShowingOneHit) {
+            patternLabel =
+              sharedData.patternData[currentPattern][
+                "pattern_" + (currentPattern + 1)
+              ].name;
 
-          currentHostLabel =
-            sharedData.patternData[currentPattern][
-              "pattern_" + (currentPattern + 1)
-            ].hostnames[currentStarSystem];
+            currentHostLabel =
+              sharedData.patternData[currentPattern][
+                "pattern_" + (currentPattern + 1)
+              ].hostnames[currentStarSystem];
 
-          numSystemsWithPattern =
-            sharedData.patternData[currentPattern][
-              "pattern_" + (currentPattern + 1)
-            ].hostname_count;
+            numSystemsWithPattern =
+              sharedData.patternData[currentPattern][
+                "pattern_" + (currentPattern + 1)
+              ].hostname_count;
+          } else {
+            // Showing One Hit Wonders
+            // TEMP HACK: Put star name in pattern label since bigger and on top
+            patternLabel = OneHitWonders[currentStarSystem];
+            currentHostLabel = "";
+          }
         } else {
-          patternLabel = "Pattern #0";
+          patternLabel = "Solar System";
           currentHostLabel = "The Sun";
           numSystemsWithPattern = 1; // as of 7-10-25
         }
@@ -410,11 +438,17 @@ function startSketches() {
         p.pop();
 
         // Show how many other patterns there are
-        p.text(
-          "(" + (currentStarSystem + 1) + " of " + numSystemsWithPattern + ")",
-          p.width / 2,
-          80
-        );
+        if (!isShowingOneHit) {
+          p.text(
+            "(" +
+              (currentStarSystem + 1) +
+              " of " +
+              numSystemsWithPattern +
+              " star systems)",
+            p.width / 2,
+            80
+          );
+        }
 
         p.push();
         // Star
@@ -498,15 +532,20 @@ function startSketches() {
       switch (p.keyCode) {
         // Navigate to next pattern.
         case p.RIGHT_ARROW:
-          currentPattern = (currentPattern + 1) % sharedData.patternData.length;
-          displayPattern(currentPattern);
+          if (!isShowingOneHit && !isShowingSolarSystem) {
+            currentPattern =
+              (currentPattern + 1) % sharedData.patternData.length;
+            displayPattern(currentPattern);
+          }
           return false; // prevent default browser behavior, which may scroll page on press of arrow
         // Navigate to previous pattern.
         case p.LEFT_ARROW:
-          currentPattern =
-            (currentPattern - 1 + sharedData.patternData.length) %
-            sharedData.patternData.length;
-          displayPattern(currentPattern);
+          if (!isShowingOneHit && !isShowingSolarSystem) {
+            currentPattern =
+              (currentPattern - 1 + sharedData.patternData.length) %
+              sharedData.patternData.length;
+            displayPattern(currentPattern);
+          }
           return false; // prevent default browser behavior, which may scroll page on press of arrow
         case p.DOWN_ARROW:
           // Navigate to next star system of current pattern.
@@ -527,13 +566,13 @@ function startSketches() {
           playAnimation = !playAnimation;
           resetSoundwave();
           return false; // prevent default browser behavior, which may scroll page on press of spacebar
-        case p.TAB:
-          if (!isShowingSolarSystem) {
-            displaySolarSystem();
-          } else {
-            displayPattern(currentPattern);
-          }
-          return false; // prevent default browser behavior, which may take action on press of TAB
+        // case p.TAB:
+        //   if (!isShowingSolarSystem) {
+        //     displaySolarSystem();
+        //   } else {
+        //     displayPattern(currentPattern);
+        //   }
+        //   return false; // prevent default browser behavior, which may take action on press of TAB
       }
     };
   });
@@ -594,6 +633,7 @@ function resetPattern() {
   planets.length = 0;
   planetProperties.length = 0;
   isShowingSolarSystem = false; // In case was showing solar system previously
+  isShowingOneHit = false;
 
   // Clear pattern and star systems
   currentPatternSystems.length = 0;
@@ -651,8 +691,23 @@ function displaySolarSystem() {
   displayStarSystemFromCurrentPattern();
 }
 
+function displayOneHitWonders() {
+  // Clear everything
+  resetPattern();
+
+  // Get the list of star systems and add each ones planet dictionaries to an array.
+  for (host of OneHitWonders) {
+    // For each host listed in a pattern, add their list of planet dictionaries to an array
+    currentPatternSystems.push(sharedData.starSysData[host]["planets"]);
+  }
+  isShowingOneHit = true;
+  // Get all the planet info for the first star system to display
+  displayStarSystemFromCurrentPattern();
+}
+
 function showOneHitWonders() {
   selectButton(myButton_OneHit);
+  displayOneHitWonders();
   console.log("One Hit Wonders!");
 }
 
