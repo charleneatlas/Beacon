@@ -232,9 +232,13 @@ function startSketches() {
     p5_3D = p;
 
     p.setup = () => {
-      p.createCanvas(p.windowWidth, p.windowHeight / 1.5, p.WEBGL).parent(
-        "canvas3D"
-      );
+      // p.createCanvas(p.windowWidth, p.windowHeight / 1.5, p.WEBGL).parent(
+      //   "canvas3D"
+      // );
+      let container = document.getElementById("container");
+      let w = container.offsetWidth;
+      let h = container.offsetHeight;
+      p.createCanvas(w, h, p.WEBGL).parent("canvas3D");
       p.ortho(); // <-- no perspective distortion
     };
 
@@ -266,6 +270,13 @@ function startSketches() {
         p.pop();
       }
     };
+    p.windowResized = () => {
+      let container = document.getElementById("container");
+      let w = container.offsetWidth;
+      let h = container.offsetHeight;
+      p.resizeCanvas(w, h);
+      p.ortho(); // to redo projection in WEBGL
+    };
   });
 
   new p5((p) => {
@@ -273,8 +284,13 @@ function startSketches() {
     p5_2D = p;
 
     p.setup = () => {
-      p.canvas = p.createCanvas(p.windowWidth, p.windowHeight / 1.5);
-      p.canvas.parent("canvas2D");
+      // p.canvas = p.createCanvas(p.windowWidth, p.windowHeight / 1.5);
+      // p.canvas.parent("canvas2D");
+
+      let container = document.getElementById("container");
+      let w = container.offsetWidth;
+      let h = container.offsetHeight;
+      p.canvas = p.createCanvas(w, h).parent("canvas2D");
 
       if (p.windowWidth < 1000 || p.windowHeight < 600) {
         let shouldReload = confirm(
@@ -536,6 +552,13 @@ function startSketches() {
           resetSoundwave();
         }
       }
+    };
+
+    p.windowResized = () => {
+      let container = document.getElementById("container");
+      let w = container.offsetWidth;
+      let h = container.offsetHeight;
+      p.resizeCanvas(w, h);
     };
 
     p.mouseClicked = () => {
