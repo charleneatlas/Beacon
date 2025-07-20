@@ -139,7 +139,7 @@ const Uranus = {
   radius: 4.01,
   mass: 14.54,
   orbital_period: 30685.4,
-  category: "Neptune-Like",
+  category: "Neptune-like",
   order: 7,
 };
 
@@ -148,7 +148,7 @@ const Neptune = {
   radius: 3.88,
   mass: 17.15,
   orbital_period: 60190,
-  category: "Neptune-Like",
+  category: "Neptune-like",
   order: 8,
 };
 
