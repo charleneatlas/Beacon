@@ -292,12 +292,23 @@ function startSketches() {
       let h = container.offsetHeight;
       p.canvas = p.createCanvas(w, h).parent("canvas2D");
 
-      if (p.windowWidth < 1000 || p.windowHeight < 600) {
-        let shouldReload = confirm(
-          "For best experience, please maximize your window, then click OK to reload."
+      if (isMobile()) {
+        // If on a phone, ask to go fullscreen
+        let shouldFullscreen = confirm(
+          "For best experience on mobile, please click OK to go fullscreen."
         );
-        if (shouldReload) {
-          location.reload();
+        if (shouldFullscreen) {
+          fullscreen();
+        }
+      } else {
+        // If on a desktop, ask them to maximize the window
+        if (p.windowWidth < 1000 || p.windowHeight < 600) {
+          let shouldReload = confirm(
+            "For best experience, please maximize your window, then click OK to reload."
+          );
+          if (shouldReload) {
+            location.reload();
+          }
         }
       }
 
@@ -792,10 +803,11 @@ function selectButton(btn) {
   console.log("YOOOOO");
 }
 
-// function onWindowResize() {
-//   p5_2D.resizeCanvas(p5_2D.windowWidth, p5_2D.windowHeight / 1.8);
-//   p5_3D.resizeCanvas(p5_3D.windowWidth, p5_3D.windowHeight / 1.8);
-// }
+function isMobile() {
+  return /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(
+    navigator.userAgent
+  );
+}
 
 class Planet {
   constructor(x, y, r, properties) {
