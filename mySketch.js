@@ -299,7 +299,7 @@ function startSketches() {
       if (isMobile()) {
         // If on a phone, ask to go landscape
         confirm(
-          "For best experience on mobile, turn to Landscape and refresh page."
+          "Not yet fully supported on mobile! Use Chrome browser for best results."
         );
       } else {
         // If on a desktop, ask them to maximize the window
