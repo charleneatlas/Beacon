@@ -294,12 +294,9 @@ function startSketches() {
 
       if (isMobile()) {
         // If on a phone, ask to go fullscreen
-        let shouldFullscreen = confirm(
-          "For best experience on mobile, please click OK to go fullscreen."
+        confirm(
+          "For best experience on mobile, please use Landscape orientation."
         );
-        if (shouldFullscreen) {
-          fullscreen();
-        }
       } else {
         // If on a desktop, ask them to maximize the window
         if (p.windowWidth < 1000 || p.windowHeight < 600) {
