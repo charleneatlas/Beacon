@@ -298,14 +298,9 @@ function startSketches() {
 
       if (isMobile()) {
         // If on a phone, ask to go landscape
-        //if (p.windowHeight > p.windowWidth) {
-        let refreshAfterLandscape = confirm(
-          "For best experience on mobile, turn to Landscape and then hit OK."
+        confirm(
+          "For best experience on mobile, turn to Landscape and refresh page."
         );
-        if (refreshAfterLandscape) {
-          location.reload();
-        }
-        //}
       } else {
         // If on a desktop, ask them to maximize the window
         if (p.windowWidth < 1000 || p.windowHeight < 600) {
