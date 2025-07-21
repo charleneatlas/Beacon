@@ -297,12 +297,14 @@ function startSketches() {
       p.canvas = p.createCanvas(w, h).parent("canvas2D").id("my2DCanvas");
 
       if (isMobile()) {
-        // If on a phone, ask to go fullscreen
-        let refreshAfterLandscape = confirm(
-          "For best experience on mobile, turn to Landscape and then hit OK."
-        );
-        if (refreshAfterLandscape) {
-          location.reload();
+        // If on a phone, ask to go landscape
+        if (windowHeight > windowWidth) {
+          let refreshAfterLandscape = confirm(
+            "For best experience on mobile, turn to Landscape and then hit OK."
+          );
+          if (refreshAfterLandscape) {
+            location.reload();
+          }
         }
       } else {
         // If on a desktop, ask them to maximize the window
@@ -373,7 +375,7 @@ function startSketches() {
 
       if (isMobile()) {
         // UI for navigating patterns and systems on mobiel devices
-        myMobileButton_LEFT = p.createButton("🡐");
+        myMobileButton_LEFT = p.createButton("<");
         myMobileButton_LEFT.parent("canvas2D");
         myMobileButton_LEFT.style("width", "50px");
         myMobileButton_LEFT.style("height", "50px");
@@ -387,7 +389,7 @@ function startSketches() {
         myMobileButton_LEFT.mousePressed(navigateLeft);
         myMobileButton_LEFT.hide();
 
-        myMobileButton_RIGHT = p.createButton("🡒");
+        myMobileButton_RIGHT = p.createButton(">");
         myMobileButton_RIGHT.parent("canvas2D");
         myMobileButton_RIGHT.style("width", "50px");
         myMobileButton_RIGHT.style("height", "50px");
@@ -400,7 +402,7 @@ function startSketches() {
         myMobileButton_RIGHT.mousePressed(navigateRight);
         myMobileButton_RIGHT.hide();
 
-        myMobileButton_DOWN = p.createButton("🡓");
+        myMobileButton_DOWN = p.createButton("v");
         myMobileButton_DOWN.parent("canvas2D");
         myMobileButton_DOWN.style("width", "50px");
         myMobileButton_DOWN.style("height", "50px");
@@ -413,7 +415,7 @@ function startSketches() {
         myMobileButton_DOWN.mousePressed(navigateDown);
         myMobileButton_DOWN.hide();
 
-        myMobileButton_UP = p.createButton("🡑");
+        myMobileButton_UP = p.createButton("^");
         myMobileButton_UP.parent("canvas2D");
         myMobileButton_UP.style("width", "50px");
         myMobileButton_UP.style("height", "50px");
