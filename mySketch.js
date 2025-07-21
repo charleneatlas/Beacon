@@ -298,7 +298,7 @@ function startSketches() {
 
       if (isMobile()) {
         // If on a phone, ask to go landscape
-        if (windowHeight > windowWidth) {
+        if (p.windowHeight > p.windowWidth) {
           let refreshAfterLandscape = confirm(
             "For best experience on mobile, turn to Landscape and then hit OK."
           );
