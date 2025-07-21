@@ -561,7 +561,8 @@ function startSketches() {
       p.resizeCanvas(w, h);
     };
 
-    p.mouseClicked = () => {
+    p.touchStarted = () => {
+      //Covers both click and tap on mobile
       if (!started) {
         // First click by user will start everything else. From this point clicking will have normal in-app use of play/pausing animation.
         started = true;
