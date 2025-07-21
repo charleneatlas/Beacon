@@ -294,13 +294,16 @@ function startSketches() {
       let container = document.getElementById("container");
       let w = container.offsetWidth;
       let h = container.offsetHeight;
-      p.canvas = p.createCanvas(w, h).parent("canvas2D");
+      p.canvas = p.createCanvas(w, h).parent("canvas2D").id("my2DCanvas");
 
       if (isMobile()) {
         // If on a phone, ask to go fullscreen
-        confirm(
-          "For best experience on mobile, please use Landscape orientation."
+        let refreshAfterLandscape = confirm(
+          "For best experience on mobile, turn to Landscape and then hit OK."
         );
+        if (refreshAfterLandscape) {
+          location.reload();
+        }
       } else {
         // If on a desktop, ask them to maximize the window
         if (p.windowWidth < 1000 || p.windowHeight < 600) {
@@ -666,9 +669,10 @@ function startSketches() {
         started = true;
 
         // Make sure audio context running due to new browser rules that block autoplaying audio
-        if (p.getAudioContext().state !== "running") {
-          p.getAudioContext().resume();
-        }
+        // if (p.getAudioContext().state !== "running") {
+        //   p.getAudioContext().resume();
+        // }
+        p.userStartAudio();
 
         // Fullscreen the app
         //let fs = p.fullscreen();

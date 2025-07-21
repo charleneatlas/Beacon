@@ -52,6 +52,10 @@ nav a:hover {
   background: transparent !important;
 }
 
+#my2DCanvas {
+  touch-action: manipulation;
+}
+
 section {
   padding: 2rem;
   margin: auto;
