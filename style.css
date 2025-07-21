@@ -30,8 +30,8 @@ nav a:hover {
   width: 100%;
   height: min(560px, 85vh);
   /* height must be set for absolute children to fill it */
-  overflow-x: auto;
-  overflow-y: hidden;
+  /*overflow-x: auto;
+  overflow-y: hidden;*/
 }
 
 #canvas3D, #canvas2D {
