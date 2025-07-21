@@ -33,6 +33,10 @@ let myButton_SolarSystem;
 let myButton_Patterns;
 let selectedButton = null;
 let storyText;
+let myMobileButton_LEFT;
+let myMobileButton_RIGHT;
+let myMobileButton_UP;
+let myMobileButton_DOWN;
 
 let sunX;
 let sunY;
@@ -364,6 +368,62 @@ function startSketches() {
         displayPattern(currentPattern);
       });
 
+      if (isMobile()) {
+        // UI for navigating patterns and systems on mobiel devices
+        myMobileButton_LEFT = p.createButton("🡐");
+        myMobileButton_LEFT.parent("canvas2D");
+        myMobileButton_LEFT.style("width", "50px");
+        myMobileButton_LEFT.style("height", "50px");
+        myMobileButton_LEFT.style("background-color", "#bbb");
+        myMobileButton_LEFT.style("color", "#000");
+        //myMobileButton_LEFT.style("transform", "translate(-50%, -50%)"); // shifts origin to center
+        myMobileButton_LEFT.position(
+          p.canvas.width - myMobileButton_LEFT.width - 200,
+          100
+        );
+        myMobileButton_LEFT.mousePressed(navigateLeft);
+        myMobileButton_LEFT.hide();
+
+        myMobileButton_RIGHT = p.createButton("🡒");
+        myMobileButton_RIGHT.parent("canvas2D");
+        myMobileButton_RIGHT.style("width", "50px");
+        myMobileButton_RIGHT.style("height", "50px");
+        myMobileButton_RIGHT.style("background-color", "#bbb");
+        myMobileButton_RIGHT.style("color", "#000");
+        myMobileButton_RIGHT.position(
+          p.canvas.width - myMobileButton_RIGHT.width - 100,
+          100
+        );
+        myMobileButton_RIGHT.mousePressed(navigateRight);
+        myMobileButton_RIGHT.hide();
+
+        myMobileButton_DOWN = p.createButton("🡓");
+        myMobileButton_DOWN.parent("canvas2D");
+        myMobileButton_DOWN.style("width", "50px");
+        myMobileButton_DOWN.style("height", "50px");
+        myMobileButton_DOWN.style("background-color", "#bbb");
+        myMobileButton_DOWN.style("color", "#000");
+        myMobileButton_DOWN.position(
+          p.canvas.width - myMobileButton_DOWN.width - 150,
+          150
+        );
+        myMobileButton_DOWN.mousePressed(navigateDown);
+        myMobileButton_DOWN.hide();
+
+        myMobileButton_UP = p.createButton("🡑");
+        myMobileButton_UP.parent("canvas2D");
+        myMobileButton_UP.style("width", "50px");
+        myMobileButton_UP.style("height", "50px");
+        myMobileButton_UP.style("background-color", "#bbb");
+        myMobileButton_UP.style("color", "#000");
+        myMobileButton_UP.position(
+          p.canvas.width - myMobileButton_DOWN.width - 150,
+          50
+        );
+        myMobileButton_UP.mousePressed(navigateUp);
+        myMobileButton_UP.hide();
+      }
+
       // Sun
       // TODO: Make Sun (star) to scale and correct color depending on star class
       //sunX = -1 * (1392000/1000)/3;
@@ -465,6 +525,16 @@ function startSketches() {
 
             storyText =
               "Planet patterns tell a story.\nThese beacons sent out their call—and received a reply.\nPress Left/Right keys to explore patterns.\nPress Up/Down keys to explore matching systems.";
+
+            if (isMobile()) {
+              // Pattern navigation buttons
+              myMobileButton_LEFT.show();
+              myMobileButton_RIGHT.show();
+
+              // Star system navigation buttons
+              myMobileButton_DOWN.show();
+              myMobileButton_UP.show();
+            }
           } else {
             // Showing One Hit Wonders
             // TEMP HACK: Put star name in pattern label since bigger and on top
@@ -472,6 +542,16 @@ function startSketches() {
             currentHostLabel = "";
             storyText =
               "Like us, these systems still wait,\nfor a beacon that mirrors their own.\nPress Up/Down keys to explore.";
+
+            if (isMobile()) {
+              // Show star system navigation buttons
+              myMobileButton_DOWN.show();
+              myMobileButton_UP.show();
+
+              // Hide pattern navigation buttons
+              myMobileButton_LEFT.hide();
+              myMobileButton_RIGHT.hide();
+            }
           }
         } else {
           patternLabel = "Solar System";
@@ -479,6 +559,16 @@ function startSketches() {
           numSystemsWithPattern = 1; // as of 7-10-25
           storyText =
             'No one has answered our call yet.\nBut the first system in "One Hit Wonders" comes close,\nas the only other system with 8 planets!';
+
+          if (isMobile()) {
+            // Hide star system navigation buttons
+            myMobileButton_DOWN.hide();
+            myMobileButton_UP.hide();
+
+            // Hide pattern navigation buttons
+            myMobileButton_LEFT.hide();
+            myMobileButton_RIGHT.hide();
+          }
         }
         p.text(patternLabel, txtCenterX, 80);
         p.textSize(18);
@@ -595,45 +685,20 @@ function startSketches() {
     };
 
     p.keyPressed = () => {
-      // let numStarSystems = parseInt(
-      //   patternData[currentPattern]["pattern_" + (currentPattern + 1)]
-      //     .hostname_count
-      // );
-
-      let numStarSystems = currentPatternSystems.length;
-
       switch (p.keyCode) {
         // Navigate to next pattern.
         case p.RIGHT_ARROW:
-          if (!isShowingOneHit && !isShowingSolarSystem) {
-            currentPattern =
-              (currentPattern + 1) % sharedData.patternData.length;
-            displayPattern(currentPattern);
-          }
+          navigateRight();
           return false; // prevent default browser behavior, which may scroll page on press of arrow
         // Navigate to previous pattern.
         case p.LEFT_ARROW:
-          if (!isShowingOneHit && !isShowingSolarSystem) {
-            currentPattern =
-              (currentPattern - 1 + sharedData.patternData.length) %
-              sharedData.patternData.length;
-            displayPattern(currentPattern);
-          }
+          navigateLeft();
           return false; // prevent default browser behavior, which may scroll page on press of arrow
         case p.DOWN_ARROW:
-          // Navigate to next star system of current pattern.
-          currentStarSystem = (currentStarSystem + 1) % numStarSystems;
-          resetStarSystem();
-          // Change to the new star systems content
-          displayStarSystemFromCurrentPattern();
+          navigateDown();
           return false; // prevent default browser behavior, which may scroll page on press of arrow
         case p.UP_ARROW:
-          // Navigate to previous star system of current pattern.
-          currentStarSystem =
-            (currentStarSystem - 1 + numStarSystems) % numStarSystems;
-          resetStarSystem();
-          // Change to the new star systems content
-          displayStarSystemFromCurrentPattern();
+          navigateUp();
           return false; // prevent default browser behavior, which may scroll page on press of arrow
         case 32: //KeyCode for spacebar, no system variable in p5.js for it
           playAnimation = !playAnimation;
@@ -651,6 +716,41 @@ function startSketches() {
   });
 
   //window.addEventListener("resize", onWindowResize);
+}
+
+function navigateLeft() {
+  if (!isShowingOneHit && !isShowingSolarSystem) {
+    currentPattern =
+      (currentPattern - 1 + sharedData.patternData.length) %
+      sharedData.patternData.length;
+    displayPattern(currentPattern);
+  }
+}
+
+function navigateRight() {
+  if (!isShowingOneHit && !isShowingSolarSystem) {
+    currentPattern = (currentPattern + 1) % sharedData.patternData.length;
+    displayPattern(currentPattern);
+  }
+}
+
+function navigateDown() {
+  let numStarSystems = currentPatternSystems.length;
+
+  // Navigate to next star system of current pattern.
+  currentStarSystem = (currentStarSystem + 1) % numStarSystems;
+  resetStarSystem();
+  // Change to the new star systems content
+  displayStarSystemFromCurrentPattern();
+}
+
+function navigateUp() {
+  let numStarSystems = currentPatternSystems.length;
+  // Navigate to previous star system of current pattern.
+  currentStarSystem = (currentStarSystem - 1 + numStarSystems) % numStarSystems;
+  resetStarSystem();
+  // Change to the new star systems content
+  displayStarSystemFromCurrentPattern();
 }
 
 function euclideanDistance(point1, point2) {
